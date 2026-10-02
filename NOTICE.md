@@ -12,5 +12,6 @@
 - [OP13HyperOSFix](https://github.com/Maga-King/OP13HyperOSFix)，波形来源提交 `9e0bb4eafcda3564de815778b55fce6cd99476e8`。
 - [AOSP Vibrator AIDL](https://android.googlesource.com/platform/hardware/interfaces/+/refs/heads/main/vibrator/aidl/)，版本2；仓库已包含实际生成代码和 `aidl/provenance.json`。
 - [Magisk 模块文档](https://topjohnwu.github.io/Magisk/guides.html)，recovery 安装入口使用 Magisk `v30.6` 的官方 `module_installer.sh`，保留其原始文件内容。
+- [Android NDK 官方下载](https://developer.android.com/ndk/downloads)，Action 直接获取固定的 r27d Linux 包，并按官方公布的 SHA1 `22105e410cf29afcf163760cc95522b9fb981121` 核对构建工具链；不依赖 runner 预装 Android SDK。
 
 正式模块包额外携带 NDK 的运行库及工具链 notice。开发时的摘要比较和边界测试只用于构建验证，不是手机上的安装或启动限制。

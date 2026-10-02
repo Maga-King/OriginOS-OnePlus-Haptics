@@ -26,12 +26,14 @@ jobs:
       NDK_VERSION: 27.3.13750724
       PYTHONHASHSEED: '0'
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
       - name: 安装固定版本 NDK
         shell: bash
         run: |
-          sdkmanager "ndk;$NDK_VERSION"
-          echo "ANDROID_NDK_HOME=$ANDROID_HOME/ndk/$NDK_VERSION" >> "$GITHUB_ENV"
+          curl --fail --location --retry 3 https://dl.google.com/android/repository/android-ndk-r27d-linux.zip --output "$RUNNER_TEMP/ndk.zip"
+          echo "22105e410cf29afcf163760cc95522b9fb981121  $RUNNER_TEMP/ndk.zip" | sha1sum -c -
+          unzip -q "$RUNNER_TEMP/ndk.zip" -d "$RUNNER_TEMP"
+          echo "ANDROID_NDK_HOME=$RUNNER_TEMP/android-ndk-r27d" >> "$GITHUB_ENV"
           python3 --version
       - name: 波形、HE、队列与驱动边界测试
         run: python3 tools/test_host.py
