@@ -1,0 +1,19 @@
+{
+  "version": "0.2.1",
+  "source_revision": "af4cc52895557eeae47118190b96e1641237f457",
+  "action": "https://github.com/Maga-King/OriginOS-OnePlus-Haptics/actions/runs/36987394140",
+  "release": "https://github.com/Maga-King/OriginOS-OnePlus-Haptics/releases/tag/v0.2.1",
+  "hal_sha256": "87872427cb7ac75cc1d90d929ac2c829d2b735da8a360757db737f83277b932a",
+  "artifacts": {
+    "Nyako-OriginOS-Haptics-v0.2.1.zip": "9908ce0fe9c76223083dd5828b32b34fb3557cbd32373df45e2d6f9d74681683",
+    "Nyako-OriginOS-Haptics-Builtin-v0.2.1.zip": "f8f5163bf4d36ffddd7e45bf82c80705af588deb36a9984aba1fcfdcf6c17770"
+  },
+  "release_matches_action_artifact": true,
+  "hal_identical_in_module_builtin_and_unpacked_rom": true,
+  "rom_files_read_back_identical": 627,
+  "isolated_binder_effects": 765,
+  "isolated_binder_callbacks": 801,
+  "native_rom_boot_tested": false,
+  "existing_policy_normal_and_debug_compile_pass": true,
+  "extra_selinux_allow_added": false
+}

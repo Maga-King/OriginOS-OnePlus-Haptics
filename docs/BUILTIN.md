@@ -113,6 +113,8 @@ odm/etc/nyako-vibrator/waves/def/effect_2.bin 0 0 0644
 
 本包不提供整套 SELinux 策略，不把其他 ROM 的策略覆盖进来。这次目标包已有 awinic 驱动读写、mmap、input 写入、波形读取等相关规则。别的移植包如果缺规则，需要按实际拒绝日志补齐。文件标签正确不等于整包策略一定能编译；若 ROM 自己已有策略缺失，先解决整包原来的问题。
 
+本次目标的普通／debug 策略已用正确的 system-as-root 路径编译通过，详细记录见仓库的 [SELinux 说明](SELINUX.md)。
+
 ## 6. 重新打包 ODM
 
 回到你原来用的 DNA 工具，选择重新打包 **odm**，使用刚修改的：
