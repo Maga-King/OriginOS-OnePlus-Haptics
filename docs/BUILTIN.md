@@ -8,11 +8,12 @@
 
 以下用 `ROM/` 代表你的 ROM 解包目录。它下面应有 `odm/`、`vendor/`、`system/`、`config/` 等目录。
 
-把这四个文件复制到 ROM 目录外的备份文件夹：
+把这五个文件复制到 ROM 目录外的备份文件夹：
 
 ```text
 ROM/odm/bin/hw/vendor.oplus.hardware.vibrator-service
 ROM/odm/etc/init/vibrator-default.rc
+ROM/odm/etc/ueventd.rc
 ROM/config/odm_fs_config
 ROM/config/odm_file_contexts
 ```
@@ -60,6 +61,14 @@ on post-fs-data
 
 **保留原文件中 `on boot` 下的 chown、chmod 等驱动权限动作。** 不要只留下 service。ZIP 附带的 `odm/etc/init/vibrator-default.rc` 是本次一加 ODM 修改后的完整示例；如果你的原文件权限动作一致，可以直接覆盖，否则按上面两段手动修改自己的原文件。
 
+还要打开 `ROM/odm/etc/ueventd.rc`，保留原有内容，加入或替换这条设备规则：
+
+```text
+/dev/awinic_haptic                 0666   root     root
+```
+
+设备节点由 ueventd 创建，权限必须在这里设置，不能只依赖 init 中的一次 chmod。这次原生启动实际出现了节点仍为 `root:root 0600`、HAL 以 system 用户运行无法打开、反复退出并导致卡二的情况；临时改成 0666 后 HAL 启动，系统完成开机。ZIP 中的 ueventd.rc 是本机示例，包含原有 oplusreserve1 规则；其他 ROM 原文件有额外条目时请合并，不要直接覆盖。目标系统的 `/system/etc/ueventd.rc` 已导入 `/odm/etc/ueventd.rc`。
+
 整个 ROM 只能有一个 `vendor.oplus.vibrator` 服务定义和一个 `android.hardware.vibrator.IVibrator/default` 实现。不要额外加入第二份同名 rc。`/dev/null` 用来接收程序的启动标记，内置方式不需要模块的 ready 文件或挂载脚本。
 
 原来的 `odm/etc/vintf/manifest/vibrator-default.xml` 保留 AIDL v2 声明：
@@ -87,6 +96,7 @@ on post-fs-data
 ```text
 odm/bin/hw/vendor.oplus.hardware.vibrator-service 0 0 0755
 odm/etc/init/vibrator-default.rc 0 0 0644
+odm/etc/ueventd.rc 0 0 0644
 odm/etc/nyako-vibrator 0 0 0755
 odm/etc/nyako-vibrator/waves 0 0 0755
 odm/etc/nyako-vibrator/waves/def 0 0 0755
@@ -104,6 +114,7 @@ odm/etc/nyako-vibrator/waves/def/effect_2.bin 0 0 0644
 ```text
 /odm/bin/hw/vendor\.oplus\.hardware\.vibrator-service u:object_r:hal_vibrator_default_exec:s0
 /odm/etc/init/vibrator-default\.rc u:object_r:vendor_configs_file:s0
+/odm/etc/ueventd\.rc u:object_r:vendor_configs_file:s0
 /odm/etc/nyako-vibrator/waves/def/effect_2\.bin u:object_r:vendor_configs_file:s0
 ```
 
@@ -153,6 +164,6 @@ su -c '/odm/bin/hw/vendor.oplus.hardware.vibrator-service --check-service'
 
 ## 回退
 
-恢复步骤 1 备份的四个文件；如果 `odm/etc/nyako-vibrator/` 是本次新加的，移除它。然后重新打包 ODM 并按原流程安装。不要恢复其他版本的整套 config。
+恢复步骤 1 备份的五个文件；如果 `odm/etc/nyako-vibrator/` 是本次新加的，移除它。然后重新打包 ODM 并按原流程安装。不要恢复其他版本的整套 config。
 
 765 个编号中，65、691、3066、3103、26007 仍有兼容或待确认部分。HE/FMQ 等未完成内容沿用仓库主 README 的说明。原生内置改变的是部署方式，不会自动补齐尚未实现的 HAL 功能。

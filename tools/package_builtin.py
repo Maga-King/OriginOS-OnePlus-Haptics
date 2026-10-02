@@ -10,7 +10,8 @@ def package_builtin(module,out):
     out=Path(out);out.mkdir(parents=True,exist_ok=True)
     with zipfile.ZipFile(module) as z:
         info=json.loads(z.read('build-info.json'))
-        entries=[(SERVICE,z.read('bin/nyako-vibrator'),True),(RC,(ROOT/'builtin/vibrator-default.rc').read_bytes(),False)]
+        entries=[(SERVICE,z.read('bin/nyako-vibrator'),True),(RC,(ROOT/'builtin/vibrator-default.rc').read_bytes(),False),
+                 ('odm/etc/ueventd.rc',(ROOT/'builtin/ueventd.rc').read_bytes(),False)]
         entries += [('odm/etc/nyako-vibrator/'+name,z.read(name),False) for name in sorted(z.namelist()) if name.startswith('waves/') and not name.endswith('/')]
         entries += [('odm/etc/nyako-vibrator/'+name,z.read(name),False) for name in ['build-info.json','scenes.json','NOTICE.md','wave_provenance.json']]
         entries += [('odm/etc/nyako-vibrator/'+name,z.read(name),False) for name in z.namelist() if name.startswith('licenses/')]
