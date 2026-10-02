@@ -21,7 +21,9 @@ def package_builtin(module,out):
         while parent.as_posix()!='.':
             p=parent.as_posix();paths.setdefault(p,('0755','vendor_configs_file' if '/etc' in p else 'vendor_file'));parent=parent.parent
     fs=''.join(f'{p} 0 0 {mode}\n' for p,(mode,label) in sorted(paths.items()))
-    fc=''.join('/'+re.escape(p)+f' u:object_r:{label}:s0\n' for p,(mode,label) in sorted(paths.items()))
+    # DNA's config reader expects its extracted spelling: escape dots,
+    # but leave hyphens literal. Python re.escape also escapes hyphens.
+    fc=''.join('/'+p.replace('.',r'\.')+f' u:object_r:{label}:s0\n' for p,(mode,label) in sorted(paths.items()))
     entries += [('metadata/odm_fs_config.additions',fs.encode(),False),('metadata/odm_file_contexts.additions',fc.encode(),False),
                 ('README_CN.md',(ROOT/'docs/BUILTIN.md').read_bytes(),False)]
     report={**info,'module_sha256':hashlib.sha256(Path(module).read_bytes()).hexdigest(),'layout':'odm','hal_unchanged_from_release':True}

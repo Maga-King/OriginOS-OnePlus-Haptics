@@ -102,12 +102,14 @@ odm/etc/nyako-vibrator/waves/def/effect_2.bin 0 0 0644
 这里的路径是正则表达式，点号前的反斜杠要保留。例如：
 
 ```text
-/odm/bin/hw/vendor\.oplus\.hardware\.vibrator\-service u:object_r:hal_vibrator_default_exec:s0
-/odm/etc/init/vibrator\-default\.rc u:object_r:vendor_configs_file:s0
-/odm/etc/nyako\-vibrator/waves/def/effect_2\.bin u:object_r:vendor_configs_file:s0
+/odm/bin/hw/vendor\.oplus\.hardware\.vibrator-service u:object_r:hal_vibrator_default_exec:s0
+/odm/etc/init/vibrator-default\.rc u:object_r:vendor_configs_file:s0
+/odm/etc/nyako-vibrator/waves/def/effect_2\.bin u:object_r:vendor_configs_file:s0
 ```
 
-`-` 写成 `\-` 或直接写 `-` 都能匹配同一个实际路径。合并时识别这种等价写法，不要留下两条冲突标签。
+按 DNA 原有配置的写法：点号写成 `\.`，连字符 `-` 直接写，不能写成 `\-`。虽然正则匹配可以认为两者等价，DNA 的配置处理不能依赖这种等价性。旧条目如含有 `\-`，要替换掉，不能把新条目追加后留下旧条目。
+
+已出现过内置后卡在启动画面的情况：HAL 文件正确，但打包后的标签变成了 `vendor_file`，init 拒绝启动，系统在初始化震动服务时一直等待。重新按上述格式合并本次所有文件和目录的标签，再打包 ODM；只修改解包配置不会改变已经生成的镜像。
 
 进程沿用原来的 `hal_vibrator_default` 域，不使用 `ksu` 或 `magisk` 域。保留运行时 vendor_file_contexts 中原有的 HAL 执行文件映射；目标一加 ODM 已有这个映射。打包后文件的标签由合并后的 odm_file_contexts 写入镜像。
 
