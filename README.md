@@ -10,6 +10,10 @@
 
 在 [Releases](https://github.com/Maga-King/OriginOS-OnePlus-Haptics/releases) 下载 `OriginOS-OnePlus-Haptics-v版本号.zip`，在 Magisk 或 KernelSU 管理器里安装。
 
+**从 OriginOS DSU 回一加主系统前，必须先停用这个 Magisk／KernelSU 模块，否则会卡在第二屏（卡二）。** KernelSU 使用过早期 initrc 注入时，停用后执行 `ksud initrc refresh` 刷新，再切回主系统。
+
+要放进解包 ROM，下载单独的 `OriginOS-OnePlus-Haptics-Builtin-v版本号.zip`，按 [手动内置步骤](docs/BUILTIN.md) 操作。它保留 `odm/` 相对路径和 DNA 打包配置增量，不含自动安装或配置合并脚本。
+
 模块自带挂载脚本，不依赖额外挂载模块，不直接修改 odm/vendor 分区文件。安装和启动没有机型、序列号、哈希或 Binder 自检门槛。进程异常退出会恢复原服务，不会自己把模块永久禁用。
 
 KernelSU 的早期注册路径已经在目标手机上验证。Magisk 的安装入口和运行脚本已经包含，早期能力缓存还没有完成同等实机验证。完整功能目前优先在 KernelSU 上测试。
@@ -64,6 +68,8 @@ Actions 页面的 **构建并发布 HAL** 可以手动运行；推送 `v*` 标�
 
 Release 和 Action artifact 是同一次构建的产物。手机部署直接使用下载下来的 Release ZIP，不再本地重新编译一份。`build-info.json` 记录源码提交和 HAL 摘要，`SHA256SUMS` 供人工核对；它们不参与手机安装或启动。
 
+复现 v0.2.0 时请检出 `v0.2.0` 标签，并给构建脚本传入 `--revision "$(git rev-parse HEAD)"`；打包元数据也需要相同提交号。独立的 **构建并发布内置包** Action 会从该标签完整重编译，确认整个模块与已有 Release 字节一致，再生成内置包并附加到同一 Release，不移动原标签。后续内置脚本和文档在 main 分支维护。
+
 ## 内置 ZIP 的目录
 
 `assets/waveforms.zip` 保留相对路径，不会把同名文件摊平：
@@ -80,4 +86,3 @@ waves/
 ## 来源和开发记录
 
 优先使用一加官方 ODM 的合适波形，再考虑我在 [OP13HyperOSFix](https://github.com/Maga-King/OP13HyperOSFix) 里调过的波形；没有接近的再保留或适配 vivo 数据。来源见 [assets/provenance.json](assets/provenance.json)，场景关系见 [docs/SCENES.json](docs/SCENES.json)。
-

@@ -45,7 +45,7 @@ def main():
         run([tools/('llvm-strip'+exe),'--strip-debug',out/name])
     # Generated AIDL is committed: no Android SDK generator or local ROM dump needed.
     source=[]
-    for folder in ['src','tests','tools','module','assets','aidl','generated','licenses','docs','.github']:
+    for folder in ['src','tests','tools','module','assets','aidl','generated','licenses','docs','.github','builtin']:
         for p in sorted((ROOT/folder).rglob('*')):
             if p.is_file() and '__pycache__' not in p.parts:
                 source.append((p.relative_to(ROOT).as_posix(),p.read_bytes(),p.suffix in ['.sh','.py']))

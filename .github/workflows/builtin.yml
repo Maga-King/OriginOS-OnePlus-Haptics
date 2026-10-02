@@ -1,0 +1,45 @@
+name: 构建并发布内置包
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  builtin:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+        with:
+          path: packaging
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+        with:
+          ref: v0.2.0
+          path: released-source
+      - name: 安装正式发布使用的 NDK
+        shell: bash
+        run: |
+          curl -fL --retry 3 https://dl.google.com/android/repository/android-ndk-r27d-linux.zip -o "$RUNNER_TEMP/ndk.zip"
+          echo "22105e410cf29afcf163760cc95522b9fb981121  $RUNNER_TEMP/ndk.zip" | sha1sum -c -
+          unzip -q "$RUNNER_TEMP/ndk.zip" -d "$RUNNER_TEMP"
+          echo "ANDROID_NDK_HOME=$RUNNER_TEMP/android-ndk-r27d" >> "$GITHUB_ENV"
+      - name: 从正式标签完整重编译并对比 Release
+        shell: bash
+        run: |
+          cd released-source
+          python3 tools/build.py --out out --revision "$(git rev-parse HEAD)"
+          curl -fL --retry 3 https://github.com/${{ github.repository }}/releases/download/v0.2.0/OriginOS-OnePlus-Haptics-v0.2.0.zip -o "$RUNNER_TEMP/released-module.zip"
+          cmp out/OriginOS-OnePlus-Haptics-v0.2.0.zip "$RUNNER_TEMP/released-module.zip"
+      - name: 生成相对目录内置包并重复比对
+        shell: bash
+        run: |
+          python3 packaging/tools/package_builtin.py --module released-source/out/OriginOS-OnePlus-Haptics-v0.2.0.zip --out out
+          python3 packaging/tools/package_builtin.py --module released-source/out/OriginOS-OnePlus-Haptics-v0.2.0.zip --out "$RUNNER_TEMP/builtin-again"
+          cmp out/OriginOS-OnePlus-Haptics-Builtin-v0.2.0.zip "$RUNNER_TEMP/builtin-again/OriginOS-OnePlus-Haptics-Builtin-v0.2.0.zip"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: OriginOS-OnePlus-Haptics-Builtin
+          path: out/*
+      - name: 将内置包补充到正式 Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 packaging/tools/publish_builtin.py
