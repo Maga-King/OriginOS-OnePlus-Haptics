@@ -1,16 +1,14 @@
 # OriginOS · 一加 0916T 震动 HAL
 
-这是给一加移植 OriginOS 做的震动适配。起因很简单：密码按一下能震好几秒，输入法像弹簧，有些效果在设置里能震，实际用起来却没反应。
+这是给一加移植 OriginOS 做的震动适配。
 
-现在用自己的 HAL 接收系统请求，再通过这台一加原有的驱动播放波形。输入法固定用一加 effect 2，AI 唤醒保留已经调好的反馈；连续点击会打断上一段，长波形也能取消。
+现在用自己的 HAL 接收系统请求，再通过这台一加原有的驱动播放波形。输入法固定用一加 effect 2；连续点击会打断上一段，长波形也能取消。
 
-主要适配对象是一加 13 / 0916T 马达、保留一加 vendor/odm 的 OriginOS 移植环境。当前实机验证以 KernelSU 的 DSU 为主。其他机型、马达和内核还没有验证。
+主要适配对象是一加 13 / 0916T 马达 。
 
 ## 下载和刷入
 
-在 [Releases](https://github.com/Maga-King/OriginOS-OnePlus-Haptics/releases) 下载 `OriginOS-OnePlus-Haptics-v版本号.zip`，在 Magisk 或 KernelSU 管理器里安装。包里也放了官方 Magisk recovery 安装入口；使用 recovery 安装时，需要原本就有可用的 Magisk 环境。
-
-**新增编号需要重启后生效。** Android 会缓存 HAL 的能力列表，只换文件无法让它立即认识新编号。
+在 [Releases](https://github.com/Maga-King/OriginOS-OnePlus-Haptics/releases) 下载 `OriginOS-OnePlus-Haptics-v版本号.zip`，在 Magisk 或 KernelSU 管理器里安装。
 
 模块自带挂载脚本，不依赖额外挂载模块，不直接修改 odm/vendor 分区文件。安装和启动没有机型、序列号、哈希或 Binder 自检门槛。进程异常退出会恢复原服务，不会自己把模块永久禁用。
 
@@ -38,11 +36,11 @@ KernelSU 的早期注册路径已经在目标手机上验证。Magisk 的安装�
 | 3103 | 原神原文件缺失，用一加官方 effect 42 补反馈，尾部留白到原配置的 2215ms |
 | 26007 | 具体事件和原波形未知，用官方 effect 103 提供约 554ms 的短节奏 |
 
-这些编号已经有输出，原厂节奏仍待拿到文件后再还原。单马达也无法复刻双马达的左右定位；337 当前使用 Major 主通道。
+这些编号已经有输出，原厂节奏仍待拿到文件。单马达也无法复刻双马达的左右定位；337 当前使用 Major 主通道。
 
 三首原始铃声音频没有包含在用户提供的文件里，本仓库只补对应的震动数据。没有把别的铃声改名顶替，也没有改动设置的选择界面。
 
-HE3、HE2 分包、无限循环、播放中参数更新、瞬态频率调制和生产环境 FMQ 还没做完。部分标准扩展能力仍明确返回不支持。性能调度也还没有接入。接口和编号能调用，不代表已经完整复刻 vivo HAL 的每一项功能。
+HE3、HE2 分包、无限循环、播放中参数更新、瞬态频率调制和生产环境 FMQ 还没做完。部分标准扩展能力仍明确返回不支持。
 
 ## 自己编译
 
@@ -83,6 +81,3 @@ waves/
 
 优先使用一加官方 ODM 的合适波形，再考虑我在 [OP13HyperOSFix](https://github.com/Maga-King/OP13HyperOSFix) 里调过的波形；没有接近的再保留或适配 vivo 数据。来源见 [assets/provenance.json](assets/provenance.json)，场景关系见 [docs/SCENES.json](docs/SCENES.json)。
 
-源码保留文件自身的 SPDX 标记，AOSP AIDL、参考项目和波形的说明见 [NOTICE.md](NOTICE.md)。波形资源不自动适用源码许可证。
-
-提交问题时，写清系统版本、触发动作、编号或相关日志，以及你实际感到的区别。仅仅“能震了”还不够：时机、长短、力度和连续操作都值得一起看。
