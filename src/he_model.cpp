@@ -4,7 +4,7 @@
 #include <cmath>
 #include <set>
 #include <stdexcept>
-namespace mio {
+namespace nyako {
 namespace {
 struct Point {int t,a,f;};
 struct Event {int type,start,intensity,frequency,duration;std::vector<Point> points;};

@@ -1,4 +1,11 @@
-这次把自制 HAL 和完整构建流程一起放出来。
+Nyako v0.2.1：统一 HAL 文件名、日志和源码前缀，保留已有震动调校。
+
+**回一加主系统前必须先停用 Magisk／KernelSU 模块，否则会卡在第二屏（卡二）。** KernelSU 使用早期 initrc 注入时，停用后执行 `ksud initrc refresh` 再切换。
+
+- `Nyako-OriginOS-Haptics-v0.2.1.zip`：Magisk／KernelSU 模块。
+- `Nyako-OriginOS-Haptics-Builtin-v0.2.1.zip`：手动配置包，保留 `odm/` 相对目录，不带自动安装脚本。详细操作见包内 `README_CN.md` 和仓库的 [手动内置步骤](https://github.com/Maga-King/OriginOS-OnePlus-Haptics/blob/main/docs/BUILTIN.md)。
+
+两种包和单独的 `nyako-vibrator` 使用同一次 Action 编译的 HAL。
 
 - 一加 0916T / OriginOS，765 个可调用编号，615 个波形文件。
 - 保留已调好的输入法 effect 2、AI 唤醒、密码短反馈和强度调节。

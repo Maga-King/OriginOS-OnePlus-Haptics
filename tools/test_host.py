@@ -20,7 +20,7 @@ with tempfile.TemporaryDirectory(prefix='haptics-tests-') as folder:
     exporter=tmp/'export.cpp'
     exporter.write_text('''#include "wave_model.h"
 #include <fstream>
-int main(int n,char**v){if(n!=3)return 2;mio::WaveModel m(v[1]);std::ofstream f(v[2],std::ios::binary);for(int32_t id:m.supportedEffects()){auto w=m.effect(id);int32_t count=w.size();f.write((char*)&id,4);f.write((char*)&count,4);f.write((char*)w.data(),count);}return !f.good();}
+int main(int n,char**v){if(n!=3)return 2;nyako::WaveModel m(v[1]);std::ofstream f(v[2],std::ios::binary);for(int32_t id:m.supportedEffects()){auto w=m.effect(id);int32_t count=w.size();f.write((char*)&id,4);f.write((char*)&count,4);f.write((char*)w.data(),count);}return !f.good();}
 ''')
     run(['g++','-std=c++17','-O2','-I'+str(ROOT/'src'),exporter,ROOT/'src/wave_model.cpp','-o',tmp/'export'])
     run([tmp/'export',tmp/'waves',tmp/'scenes.dat'])

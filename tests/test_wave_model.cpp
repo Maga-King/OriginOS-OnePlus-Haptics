@@ -5,7 +5,7 @@
 #include <iostream>
 #include <limits>
 #include <set>
-using namespace mio;
+using namespace nyako;
 int main(int argc,char **argv){
     assert(argc==2);WaveModel m(argv[1]);
     for(int id:{0,1,2,3,4,5,21,53,113,134,138,139}){

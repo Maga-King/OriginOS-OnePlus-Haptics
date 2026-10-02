@@ -37,7 +37,7 @@ jobs:
           python3 --version
       - name: 波形、HE、队列与驱动边界测试
         run: python3 tools/test_host.py
-      - name: 完整编译 HAL 与模块
+      - name: 完整编译 HAL、模块与手动内置包
         run: python3 tools/build.py --out out
       - name: 在不同路径重新构建
         shell: bash
@@ -53,15 +53,16 @@ jobs:
       - name: 保存这次真实构建的产物
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: OriginOS-OnePlus-Haptics
+          name: Nyako-OriginOS-Haptics
           if-no-files-found: error
           path: |
             out/*.zip
-            out/mio-vibrator
+            out/nyako-vibrator
             out/driver_query
             out/test_frontend
             out/build-info.json
             out/SHA256SUMS
+            out/BUILTIN-SHA256SUMS
       - name: 发布 GitHub Release
         if: github.event_name == 'push' || inputs.publish
         env:

@@ -11,7 +11,7 @@
 #include <cstring>
 #include <fstream>
 #include <stdexcept>
-using namespace mio;
+using namespace nyako;
 namespace {
 template<class T>T symbol(const char* name){auto p=reinterpret_cast<T>(dlsym(RTLD_DEFAULT,name));if(!p)throw std::runtime_error(name);return p;}
 std::shared_ptr<VibratorFrontend> frontend;
@@ -37,12 +37,12 @@ int extension(AIBinder*,transaction_code_t code,const AParcel* in,AParcel* out){
     case 9:{
         r=AParcel_readInt32(in,&a);if(r)return r;bool unsupported=false;
         try{WaveModel(waveRoot).effect(a);}catch(...){unsupported=true;}
-        std::fprintf(stderr,"MIO support_query effect=%d supported=%d\n",a,!unsupported);
+        std::fprintf(stderr,"NYAKO support_query effect=%d supported=%d\n",a,!unsupported);
         r=header(out);return r?r:AParcel_writeBool(out,unsupported);
     }
     case 12:
         r=AParcel_readInt32(in,&a);if(!r)r=AParcel_readInt32(in,&b);if(r)return r;
-        std::fprintf(stderr,"MIO info_query vibrator=%d feature=%d\n",a,b);
+        std::fprintf(stderr,"NYAKO info_query vibrator=%d feature=%d\n",a,b);
         // Return the opaque stock motor ID; do not report the temporary 1016
         // donor synthesis profile as physical hardware. No calibration/dual claims.
         r=header(out);return r?r:AParcel_writeInt32(out,b==3?9999:0);
@@ -53,10 +53,10 @@ int extension(AIBinder*,transaction_code_t code,const AParcel* in,AParcel* out){
     case 8:
         // These are oneway transactions: exceptions cannot reach the caller.
         // Reject with no output and make the missing feature explicit in logs.
-        std::fprintf(stderr,"MIO demo unsupported oneway extension=%u\n",code);
+        std::fprintf(stderr,"NYAKO demo unsupported oneway extension=%u\n",code);
         return STATUS_UNKNOWN_TRANSACTION;
     case 7:case 11:case 13:case 14:case 15:case 16:case 17:
-        std::fprintf(stderr,"MIO demo unsupported extension=%u\n",code);
+        std::fprintf(stderr,"NYAKO demo unsupported extension=%u\n",code);
         return header(out,EX_UNSUPPORTED_OPERATION);
     default:return STATUS_UNKNOWN_TRANSACTION;
     }
@@ -77,10 +77,10 @@ int main(int argc,char** argv){
     std::setvbuf(stderr,nullptr,_IOLBF,0);
     try{
         if(argc==2&&!std::strcmp(argv[1],"--check-service"))return inspect();
-        if(argc!=4||std::strcmp(argv[1],"--serve")){std::fprintf(stderr,"usage: mio-vibrator --serve WAVE_ROOT READY_FILE | --check-service\n");return 2;}
+        if(argc!=4||std::strcmp(argv[1],"--serve")){std::fprintf(stderr,"usage: nyako-vibrator --serve WAVE_ROOT READY_FILE | --check-service\n");return 2;}
         waveRoot=argv[2];
         auto backend=std::make_shared<PhoneBackend>(true);
-        std::fprintf(stderr,"MIO demo0.2.0 ready for hardware; frequency=%g source=%s; transport_scale=1.00 strength_range=0.20..1.00; donor previews experimental\n",backend->measuredHz(),backend->liveCalibration()?"live":"recorded-stock");
+        std::fprintf(stderr,"NYAKO demo0.2.1 ready for hardware; frequency=%g source=%s; transport_scale=1.00 strength_range=0.20..1.00; donor previews experimental\n",backend->measuredHz(),backend->liveCalibration()?"live":"recorded-stock");
         frontend=ndk::SharedRefBase::make<VibratorFrontend>(waveRoot,backend,backend->measuredHz(),backend->liveCalibration());
         ndk::SpAIBinder ext(AIBinder_new(AIBinder_Class_define("vendor.aac.hardware.richtap.vibrator.IRichtapVibrator",create,destroy,extension),nullptr));
         auto binder=frontend->asBinder();mark(binder.get());mark(ext.get());
@@ -89,7 +89,7 @@ int main(int argc,char** argv){
         int r=symbol<int(*)(AIBinder*,const char*)>("AServiceManager_addService")(binder.get(),"android.hardware.vibrator.IVibrator/default");
         if(r)throw std::runtime_error("cannot register IVibrator/default");
         {std::ofstream f(argv[3]);f<<getpid()<<'\n';if(!f)throw std::runtime_error("cannot write ready marker");}
-        std::fprintf(stderr,"MIO default Binder registered; demo0.2.0\n");
+        std::fprintf(stderr,"NYAKO default Binder registered; demo0.2.1\n");
         symbol<void(*)()>("ABinderProcess_joinThreadPool")();return 1;
-    }catch(const std::exception& e){std::fprintf(stderr,"MIO demo stopped: %s\n",e.what());return 1;}
+    }catch(const std::exception& e){std::fprintf(stderr,"NYAKO demo stopped: %s\n",e.what());return 1;}
 }

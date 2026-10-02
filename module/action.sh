@@ -14,9 +14,9 @@ OUT="$STATE/diagnostic.txt"
   cat /sys/class/qcom-haptics/t_lra_us
   grep '/dev/originos_0916t_demo/payload' /proc/1/mountinfo
   cat "$MODDIR/sepolicy.rule"
-  "$MODDIR/bin/mio-vibrator" --check-service
+  "$MODDIR/bin/nyako-vibrator" --check-service
   timeout 10 dumpsys vibrator_manager
-  logcat -d -t 300 -b all | grep -E 'avc: denied|MIO|vibrator|Richtap'
+  logcat -d -t 300 -b all | grep -E 'avc: denied|NYAKO|vibrator|Richtap'
 } > "$OUT" 2>&1
 echo "Diagnostics saved: $OUT"
 tail -n 15 "$STATE/service.log" 2>/dev/null

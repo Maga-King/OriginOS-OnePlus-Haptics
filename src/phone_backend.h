@@ -2,7 +2,7 @@
 #pragma once
 #include "playback_queue.h"
 #include "rtp_backend.h"
-namespace mio {
+namespace nyako {
 // Isolated diagnostic backend: <=500ms and <=20% PCM. No service registration.
 class PhoneBackend final:public PlaybackBackend {
 public:

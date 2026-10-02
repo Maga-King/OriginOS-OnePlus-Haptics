@@ -2,7 +2,7 @@
 #pragma once
 #include "playback_queue.h"
 #include <aidl/android/hardware/vibrator/BnVibrator.h>
-namespace mio {
+namespace nyako {
 namespace av=aidl::android::hardware::vibrator;
 using Status=ndk::ScopedAStatus;
 using Callback=std::shared_ptr<av::IVibratorCallback>;

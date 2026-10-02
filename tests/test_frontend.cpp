@@ -7,7 +7,7 @@
 #include <chrono>
 #include <iostream>
 #include <limits>
-using namespace mio;
+using namespace nyako;
 using namespace std::chrono_literals;
 class DryBackend final:public PlaybackBackend {
 public:

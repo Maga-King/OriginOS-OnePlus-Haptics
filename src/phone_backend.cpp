@@ -13,7 +13,7 @@
 #include <sys/mman.h>
 #include <time.h>
 #include <unistd.h>
-namespace mio {
+namespace nyako {
 static float readProfile(int fd,bool allowRecordedProfile,bool& liveCalibration){
     uint32_t hz=0,hw=0;
     int rf=ioctl(fd,0x5211,&hz),rh=ioctl(fd,0x5203,&hw);
@@ -22,10 +22,10 @@ static float readProfile(int fd,bool allowRecordedProfile,bool& liveCalibration)
     const int motor=readInt("/sys/class/qcom-haptics/vibrator_type");
     const int period=readInt("/sys/class/qcom-haptics/t_lra_us");
     const int impedance=readInt("/sys/class/qcom-haptics/lra_impedance");
-    std::fprintf(stderr,"MIO hardware hw=%u status=%d f0=%u status=%d motor=%d period=%d impedance=%d\n",hw,rh,hz,rf,motor,period,impedance);
+    std::fprintf(stderr,"NYAKO hardware hw=%u status=%d f0=%u status=%d motor=%d period=%d impedance=%d\n",hw,rh,hz,rf,motor,period,impedance);
     if((rf||hz==0)&&allowRecordedProfile){
         hz=1320;liveCalibration=false;
-        std::fprintf(stderr,"MIO using recorded stock 132 Hz profile; live F0 unavailable; no calibration write\n");
+        std::fprintf(stderr,"NYAKO using recorded stock 132 Hz profile; live F0 unavailable; no calibration write\n");
     }
     return hz/10.f;
 }
@@ -77,14 +77,14 @@ int PhoneBackend::play(const Wave& wave,PlaybackState& state){
     if(wave.size()>static_cast<size_t>(WaveModel::maxMs)*24)return -E2BIG;
     state_=&state;gainError_=0;applied_=-1;
     RtpTransport t{this,command,now,sleep,cancelled,slots_};
-#ifdef MIO_DEMO
+#ifdef NYAKO_DEMO
     int64_t began=now(this);
 #endif
     // perform()/compose() already applied the requested strength. Preserve the
     // resulting PCM amplitude; the old demo multiplier made maximum equal 20%.
     int r=rtp_play(&t,wave.data(),wave.size(),1.f);
-#ifdef MIO_DEMO
-    std::fprintf(stderr,"MIO output samples=%zu elapsed_us=%lld result=%d\n",wave.size(),static_cast<long long>(now(this)-began),r);
+#ifdef NYAKO_DEMO
+    std::fprintf(stderr,"NYAKO output samples=%zu elapsed_us=%lld result=%d\n",wave.size(),static_cast<long long>(now(this)-began),r);
 #endif
     // Restore stock gain after stopping, without modifying the caller's state.
     PlaybackState restore;state_=&restore;applied_=-1;int reset=updateGain();

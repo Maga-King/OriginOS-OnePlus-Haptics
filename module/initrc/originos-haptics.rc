@@ -2,17 +2,17 @@
 # register our HAL before system_server snapshots supported effects.
 on post-fs-data
     stop vendor.oplus.vibrator
-    start mio_0916t_supervisor
-    exec_start mio_0916t_ready
+    start nyako_0916t_supervisor
+    exec_start nyako_0916t_ready
 
-service mio_0916t_supervisor /system/bin/sh /data/adb/modules/originos_0916t_demo/service.sh --init-early
+service nyako_0916t_supervisor /system/bin/sh /data/adb/modules/originos_0916t_demo/service.sh --init-early
     user root
     group root system input
     seclabel u:r:ksu:s0
     disabled
     oneshot
 
-service mio_0916t_ready /system/bin/sh /data/adb/modules/originos_0916t_demo/wait-early.sh
+service nyako_0916t_ready /system/bin/sh /data/adb/modules/originos_0916t_demo/wait-early.sh
     user root
     group root
     seclabel u:r:ksu:s0

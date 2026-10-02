@@ -1,4 +1,4 @@
-# OriginOS · 一加 0916T 震动 HAL
+# Nyako · OriginOS 一加 0916T 震动 HAL
 
 这是给一加移植 OriginOS 做的震动适配。
 
@@ -8,11 +8,11 @@
 
 ## 下载和刷入
 
-在 [Releases](https://github.com/Maga-King/OriginOS-OnePlus-Haptics/releases) 下载 `OriginOS-OnePlus-Haptics-v版本号.zip`，在 Magisk 或 KernelSU 管理器里安装。
+在 [Releases](https://github.com/Maga-King/OriginOS-OnePlus-Haptics/releases) 下载 `Nyako-OriginOS-Haptics-v版本号.zip`，在 Magisk 或 KernelSU 管理器里安装。
 
 **从 OriginOS DSU 回一加主系统前，必须先停用这个 Magisk／KernelSU 模块，否则会卡在第二屏（卡二）。** KernelSU 使用过早期 initrc 注入时，停用后执行 `ksud initrc refresh` 刷新，再切回主系统。
 
-要放进解包 ROM，下载单独的 `OriginOS-OnePlus-Haptics-Builtin-v版本号.zip`，按 [手动内置步骤](docs/BUILTIN.md) 操作。它保留 `odm/` 相对路径和 DNA 打包配置增量，不含自动安装或配置合并脚本。
+要放进解包 ROM，下载单独的 `Nyako-OriginOS-Haptics-Builtin-v版本号.zip`，按 [手动内置步骤](docs/BUILTIN.md) 操作。它保留 `odm/` 相对路径和 DNA 打包配置增量，不含自动安装或配置合并脚本。
 
 模块自带挂载脚本，不依赖额外挂载模块，不直接修改 odm/vendor 分区文件。安装和启动没有机型、序列号、哈希或 Binder 自检门槛。进程异常退出会恢复原服务，不会自己把模块永久禁用。
 
@@ -58,7 +58,7 @@ python3 tools/build.py --ndk /你的/Android/ndk/27.3.13750724 --out out
 
 Windows 也可以运行这个脚本，把 `--ndk` 换成 Windows NDK 路径即可。正式发布使用 GitHub Actions 的 Linux 工具链；跨操作系统的本地编译不保证字节完全一致。
 
-产物包括 HAL `mio-vibrator`、`driver_query`、完整模块 ZIP、`source.zip`、`waveforms.zip`、`build-info.json` 和 `SHA256SUMS`。不会把预编译 HAL 当作构建输入。
+产物包括 HAL `nyako-vibrator`、`driver_query`、完整 Magisk／KernelSU 模块 ZIP、独立的手动内置 ZIP、`source.zip`、`waveforms.zip`、`build-info.json` 和 `SHA256SUMS`。不会把预编译 HAL 当作构建输入。
 
 ### GitHub Actions 和 Release
 
@@ -68,7 +68,7 @@ Actions 页面的 **构建并发布 HAL** 可以手动运行；推送 `v*` 标�
 
 Release 和 Action artifact 是同一次构建的产物。手机部署直接使用下载下来的 Release ZIP，不再本地重新编译一份。`build-info.json` 记录源码提交和 HAL 摘要，`SHA256SUMS` 供人工核对；它们不参与手机安装或启动。
 
-复现 v0.2.0 时请检出 `v0.2.0` 标签，并给构建脚本传入 `--revision "$(git rev-parse HEAD)"`；打包元数据也需要相同提交号。独立的 **构建并发布内置包** Action 会从该标签完整重编译，确认整个模块与已有 Release 字节一致，再生成内置包并附加到同一 Release，不移动原标签。后续内置脚本和文档在 main 分支维护。
+复现正式发布时请检出对应的版本标签，并给构建脚本传入 `--revision "$(git rev-parse HEAD)"`；打包元数据也需要相同提交号。同一次 Action 会完整编译，并发布模块包和手动内置包，两者使用字节完全一致的 HAL。
 
 ## 内置 ZIP 的目录
 

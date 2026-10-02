@@ -3,7 +3,7 @@
 #include <cassert>
 #include <algorithm>
 #include <iostream>
-using namespace mio;
+using namespace nyako;
 int main(int argc,char** argv){
     assert(argc==2);HeModel model(argv[1]);
     // Exact packet captured while long-pressing the navigation bar to invoke Copilot.

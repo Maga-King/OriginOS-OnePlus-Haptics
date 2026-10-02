@@ -1,6 +1,6 @@
 # 手动内置：从文件替换到重新打包
 
-这份包就是本项目这次原生内置使用的布局，面向一加 13 / 0916T、保留一加 vendor/odm 的 OriginOS 移植 ROM。HAL 与 v0.2.0 Action 发布的 `mio-vibrator` 字节一致，765 个编号、615 个波形。
+这份包就是本项目这次原生内置使用的布局，面向一加 13 / 0916T、保留一加 vendor/odm 的 OriginOS 移植 ROM。HAL 与 v0.2.1 Action 发布的 `nyako-vibrator` 字节一致，765 个编号、615 个波形。
 
 **这不是 Magisk 模块，也不是 recovery 卡刷包。** ZIP 没有自动安装脚本。先解压到单独的目录，再按下面的步骤操作 ROM 解包文件。不要往正在使用的一加官方系统分区里覆盖。
 
@@ -17,7 +17,7 @@ ROM/config/odm_fs_config
 ROM/config/odm_file_contexts
 ```
 
-原来如果已经有 `odm/etc/mio-vibrator/`，也一起备份。备份不要塞回 odm 目录里，否则会被一起打进镜像。
+原来如果已经有 `odm/etc/nyako-vibrator/`，也一起备份。备份不要塞回 odm 目录里，否则会被一起打进镜像。
 
 ## 2. 复制 HAL 和波形
 
@@ -26,12 +26,12 @@ ROM/config/odm_file_contexts
 | ZIP 内文件 | 放到 ROM 中的位置 |
 | --- | --- |
 | `odm/bin/hw/vendor.oplus.hardware.vibrator-service` | 同路径，替换旧 HAL |
-| `odm/etc/mio-vibrator/` 整个目录 | 同路径，包含波形、场景、构建信息和来源说明 |
+| `odm/etc/nyako-vibrator/` 整个目录 | 同路径，包含波形、场景、构建信息和来源说明 |
 
 波形目录必须保留下面的层级，不要把同名 effect 文件混到一个目录：
 
 ```text
-odm/etc/mio-vibrator/waves/
+odm/etc/nyako-vibrator/waves/
 ├── def/effect_2.bin
 ├── soft/effect_109.bin
 └── donor/effect_337.bin
@@ -42,7 +42,7 @@ odm/etc/mio-vibrator/waves/
 打开 `ROM/odm/etc/init/vibrator-default.rc`，找到 `service vendor.oplus.vibrator` 开头的整段服务定义，换成：
 
 ```text
-service vendor.oplus.vibrator /odm/bin/hw/vendor.oplus.hardware.vibrator-service --serve /odm/etc/mio-vibrator/waves /dev/null
+service vendor.oplus.vibrator /odm/bin/hw/vendor.oplus.hardware.vibrator-service --serve /odm/etc/nyako-vibrator/waves /dev/null
     class hal
     user system
     group system input
@@ -87,10 +87,10 @@ on post-fs-data
 ```text
 odm/bin/hw/vendor.oplus.hardware.vibrator-service 0 0 0755
 odm/etc/init/vibrator-default.rc 0 0 0644
-odm/etc/mio-vibrator 0 0 0755
-odm/etc/mio-vibrator/waves 0 0 0755
-odm/etc/mio-vibrator/waves/def 0 0 0755
-odm/etc/mio-vibrator/waves/def/effect_2.bin 0 0 0644
+odm/etc/nyako-vibrator 0 0 0755
+odm/etc/nyako-vibrator/waves 0 0 0755
+odm/etc/nyako-vibrator/waves/def 0 0 0755
+odm/etc/nyako-vibrator/waves/def/effect_2.bin 0 0 0644
 ```
 
 所有新增目录用 `0 0 0755`，波形和说明文件用 `0 0 0644`，HAL 用 `0 0 0755`。Windows 文件属性不能代替这份打包权限配置。
@@ -104,7 +104,7 @@ odm/etc/mio-vibrator/waves/def/effect_2.bin 0 0 0644
 ```text
 /odm/bin/hw/vendor\.oplus\.hardware\.vibrator\-service u:object_r:hal_vibrator_default_exec:s0
 /odm/etc/init/vibrator\-default\.rc u:object_r:vendor_configs_file:s0
-/odm/etc/mio\-vibrator/waves/def/effect_2\.bin u:object_r:vendor_configs_file:s0
+/odm/etc/nyako\-vibrator/waves/def/effect_2\.bin u:object_r:vendor_configs_file:s0
 ```
 
 `-` 写成 `\-` 或直接写 `-` 都能匹配同一个实际路径。合并时识别这种等价写法，不要留下两条冲突标签。
@@ -149,6 +149,6 @@ su -c '/odm/bin/hw/vendor.oplus.hardware.vibrator-service --check-service'
 
 ## 回退
 
-恢复步骤 1 备份的四个文件；如果 `odm/etc/mio-vibrator/` 是本次新加的，移除它。然后重新打包 ODM 并按原流程安装。不要恢复其他版本的整套 config。
+恢复步骤 1 备份的四个文件；如果 `odm/etc/nyako-vibrator/` 是本次新加的，移除它。然后重新打包 ODM 并按原流程安装。不要恢复其他版本的整套 config。
 
 765 个编号中，65、691、3066、3103、26007 仍有兼容或待确认部分。HE/FMQ 等未完成内容沿用仓库主 README 的说明。原生内置改变的是部署方式，不会自动补齐尚未实现的 HAL 功能。

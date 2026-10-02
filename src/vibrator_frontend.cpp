@@ -3,7 +3,7 @@
 #include <cmath>
 #include <cstdio>
 #include <stdexcept>
-namespace mio {
+namespace nyako {
 static Status unsupported(){return Status::fromExceptionCode(EX_UNSUPPORTED_OPERATION);}
 static Status invalid(){return Status::fromExceptionCode(EX_ILLEGAL_ARGUMENT);}
 static Status failure(){return Status::fromExceptionCode(EX_ILLEGAL_STATE);}
@@ -14,8 +14,8 @@ Status VibratorFrontend::start(Wave w,const Callback& cb,bool adjustable){
     std::unique_lock<std::recursive_mutex> command;
     if(commandMutex_)command=std::unique_lock<std::recursive_mutex>(*commandMutex_);
     try{if(beforeStandard_)beforeStandard_();int result=queue_.submit(std::move(w),[cb](int result){
-        if(result&&result!=-ECANCELED)std::fprintf(stderr,"MIO playback failed: %d\n",result);
-        if(cb){auto status=cb->onComplete();if(!status.isOk())std::fprintf(stderr,"MIO callback failed: %s\n",status.getDescription().c_str());}
+        if(result&&result!=-ECANCELED)std::fprintf(stderr,"NYAKO playback failed: %d\n",result);
+        if(cb){auto status=cb->onComplete();if(!status.isOk())std::fprintf(stderr,"NYAKO callback failed: %s\n",status.getDescription().c_str());}
     },adjustable,true);
     return result&&result!=-ECANCELED?Status::fromServiceSpecificError(-result):Status::ok();}catch(...){return failure();}
 }
@@ -49,11 +49,11 @@ Status VibratorFrontend::perform(av::Effect effect,av::EffectStrength strength,c
     try{Wave w;WaveModel::append(w,model_.effect(static_cast<int>(effect)),gain);
         int ms=WaveModel::duration(w);auto status=start(std::move(w),cb);
         if(status.isOk())*duration=ms;
-#ifdef MIO_DEMO
-        std::fprintf(stderr,"MIO perform effect=%d strength=%d gain=%.5f duration=%d status=%s\n",static_cast<int>(effect),static_cast<int>(strength),gain,*duration,status.isOk()?"OK":"FAILED");
+#ifdef NYAKO_DEMO
+        std::fprintf(stderr,"NYAKO perform effect=%d strength=%d gain=%.5f duration=%d status=%s\n",static_cast<int>(effect),static_cast<int>(strength),gain,*duration,status.isOk()?"OK":"FAILED");
 #endif
         return status;
-    }catch(const std::out_of_range&){std::fprintf(stderr,"MIO unmapped effect=%d strength=%d gain=%.5f\n",static_cast<int>(effect),static_cast<int>(strength),gain);return unsupported();}catch(...){return failure();}
+    }catch(const std::out_of_range&){std::fprintf(stderr,"NYAKO unmapped effect=%d strength=%d gain=%.5f\n",static_cast<int>(effect),static_cast<int>(strength),gain);return unsupported();}catch(...){return failure();}
 }
 Status VibratorFrontend::getSupportedEffects(std::vector<av::Effect>* out){
     out->clear();for(int id:model_.supportedEffects())out->push_back(static_cast<av::Effect>(id));
@@ -62,8 +62,8 @@ Status VibratorFrontend::getSupportedEffects(std::vector<av::Effect>* out){
 Status VibratorFrontend::setAmplitude(float a){
     if(!std::isfinite(a)||a<=0||a>1)return invalid();
     if(!queue_.amplitudeControl())return unsupported();queue_.amplitude(a);
-#ifdef MIO_DEMO
-    std::fprintf(stderr,"MIO setAmplitude value=%.5f\n",a);
+#ifdef NYAKO_DEMO
+    std::fprintf(stderr,"NYAKO setAmplitude value=%.5f\n",a);
 #endif
     return Status::ok();
 }

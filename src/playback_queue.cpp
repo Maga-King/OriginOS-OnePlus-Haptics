@@ -4,7 +4,7 @@
 #include <cmath>
 #include <chrono>
 #include <stdexcept>
-namespace mio {
+namespace nyako {
 void PlaybackState::started(int result){
     {std::lock_guard<std::mutex> l(readyMutex_);if(ready_)return;result_=result;ready_=true;}
     readyCv_.notify_all();

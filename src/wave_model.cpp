@@ -6,7 +6,7 @@
 #include <dirent.h>
 #include <cstdio>
 #include <stdexcept>
-namespace mio {
+namespace nyako {
 static constexpr double pi=3.14159265358979323846;
 struct DonorScene {int scene;int effect;float gain;};
 #include "donor_scenes.inc"

@@ -3,7 +3,7 @@
 #include <cstdint>
 #include <string>
 #include <vector>
-namespace mio {
+namespace nyako {
 using Wave=std::vector<int8_t>;
 struct Ramp {float a0,hz0,a1,hz1;int ms;};
 class WaveModel {

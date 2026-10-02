@@ -11,7 +11,7 @@ if own_pid "$previous"; then echo 'Demo already running.'; exit 0; fi
 # Keep one previous log, with bounded total storage across reboots.
 [ ! -f "$STATE/service.log" ] || mv -f "$STATE/service.log" "$STATE/service.previous.log"
 exec >> "$STATE/service.log" 2>&1
-echo 'Starting OriginOS 0916T demo 0.2.0 self-mount'
+echo 'Starting OriginOS 0916T demo 0.2.1 self-mount'
 date
 if [ -f "$MODDIR/disable" ] || [ -f "$MODDIR/remove" ]; then
   # A crash can create disable before ksud regenerates its cached initrc.
@@ -56,7 +56,7 @@ if [ "${1:-}" != --init-early ]; then
 fi
 # In early mode init.rc already stopped the old service. Do not issue a
 # synchronous property request while init is waiting for our registration.
-"$RUNROOT/bin/mio-vibrator" --serve "$RUNROOT/waves" "$ready" &
+"$RUNROOT/bin/nyako-vibrator" --serve "$RUNROOT/waves" "$ready" &
 child=$!
 echo "$child" > "$STATE/pid"
 echo "Demo process launched: $child"

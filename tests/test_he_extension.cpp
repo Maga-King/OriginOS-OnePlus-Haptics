@@ -5,7 +5,7 @@
 #include <atomic>
 #include <chrono>
 #include <iostream>
-using namespace mio;
+using namespace nyako;
 class Dry final:public PlaybackBackend {
 public:bool amplitudeControl()const override{return true;}
 int play(const Wave& w,PlaybackState& state)override{state.started();for(int i=0;i<WaveModel::duration(w);i++){if(state.cancel)return -ECANCELED;std::this_thread::sleep_for(std::chrono::milliseconds(1));}return 0;}

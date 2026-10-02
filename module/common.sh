@@ -18,6 +18,6 @@ own_pid() {
   case "$1" in ''|*[!0-9]*) return 1 ;; esac
   [ -r "/proc/$1/cmdline" ] || return 1
   executable=$(tr '\000' '\n' < "/proc/$1/cmdline" | head -n 1)
-  case "$executable" in "$RUNROOT/bin/mio-vibrator"|"$MODDIR/bin/mio-vibrator") return 0 ;; esac
+  case "$executable" in "$RUNROOT/bin/nyako-vibrator"|"$MODDIR/bin/nyako-vibrator") return 0 ;; esac
   return 1
 }

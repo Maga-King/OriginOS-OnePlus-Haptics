@@ -8,7 +8,7 @@
 #include <memory>
 #include <mutex>
 #include <thread>
-namespace mio {
+namespace nyako {
 struct PlaybackState {
     std::atomic<bool> cancel{false};std::atomic<float> amplitude{1};
     // Backend acknowledges driver start, so Binder duration does not include an

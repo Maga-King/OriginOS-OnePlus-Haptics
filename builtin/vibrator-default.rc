@@ -44,7 +44,7 @@ on boot
     chown system system /sys/class/leds/vibrator/f0_data
     chown system system /sys/class/leds/vibrator/rtp_going
 #endif /* OPLUS_FEATURE_CHG_BASIC */
-service vendor.oplus.vibrator /odm/bin/hw/vendor.oplus.hardware.vibrator-service --serve /odm/etc/mio-vibrator/waves /dev/null
+service vendor.oplus.vibrator /odm/bin/hw/vendor.oplus.hardware.vibrator-service --serve /odm/etc/nyako-vibrator/waves /dev/null
     class hal
     user system
     group system input

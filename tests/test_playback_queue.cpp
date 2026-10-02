@@ -5,7 +5,7 @@
 #include <cerrno>
 #include <iostream>
 #include <vector>
-using namespace mio;
+using namespace nyako;
 using namespace std::chrono_literals;
 class Fake final:public PlaybackBackend {
 public:

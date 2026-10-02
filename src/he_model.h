@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: Apache-2.0
 #pragma once
 #include "wave_model.h"
-namespace mio {
+namespace nyako {
 // Wire layout recovered from donor HeParse.java and parse_he_1_0/2_0_new.
 // The renderer is a target-motor adaptation, not the proprietary AAC algorithm.
 class HeModel {
