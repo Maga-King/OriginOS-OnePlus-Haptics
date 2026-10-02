@@ -1,0 +1,3 @@
+allow system_server ksu binder { call transfer }
+allow ksu system_server binder { call transfer }
+allow ksu hal_vibrator_service service_manager { add find }

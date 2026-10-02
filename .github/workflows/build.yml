@@ -1,0 +1,67 @@
+name: 构建并发布 HAL
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: 测试通过后发布 Release
+        type: boolean
+        default: true
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: haptics-release
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    env:
+      NDK_VERSION: 27.3.13750724
+      PYTHONHASHSEED: '0'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: 安装固定版本 NDK
+        shell: bash
+        run: |
+          sdkmanager "ndk;$NDK_VERSION"
+          echo "ANDROID_NDK_HOME=$ANDROID_HOME/ndk/$NDK_VERSION" >> "$GITHUB_ENV"
+          python3 --version
+      - name: 波形、HE、队列与驱动边界测试
+        run: python3 tools/test_host.py
+      - name: 完整编译 HAL 与模块
+        run: python3 tools/build.py --out out
+      - name: 在不同路径重新构建
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os,shutil
+          from pathlib import Path
+          target=Path(os.environ['RUNNER_TEMP'])/'haptics-second-checkout'
+          shutil.copytree('.',target,ignore=shutil.ignore_patterns('.git','out','prebuilt','__pycache__'))
+          PY
+          python3 "$RUNNER_TEMP/haptics-second-checkout/tools/build.py" --out "$RUNNER_TEMP/haptics-second-out"
+          python3 tools/check_reproducible.py out "$RUNNER_TEMP/haptics-second-out"
+      - name: 保存这次真实构建的产物
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: OriginOS-OnePlus-Haptics
+          if-no-files-found: error
+          path: |
+            out/*.zip
+            out/mio-vibrator
+            out/driver_query
+            out/test_frontend
+            out/build-info.json
+            out/SHA256SUMS
+      - name: 发布 GitHub Release
+        if: github.event_name == 'push' || inputs.publish
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/release.py

@@ -1,0 +1,3695 @@
+[
+  {
+    "path": "waves/def/effect_0.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_0.bin",
+    "sha256": "b2b2ceaaf3816eac565faa349d26f605ac51965080a07f1f1dfedc868132ff36"
+  },
+  {
+    "path": "waves/def/effect_1.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_1.bin",
+    "sha256": "b1adb15f3d0e6dff77c0ab8c60276040c4bb7b986cb34a9ed6d241a7d31158ad"
+  },
+  {
+    "path": "waves/def/effect_10.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_10.bin",
+    "sha256": "f6c1933323b4480871629b4e1e54fb1b702dca6cb05c88bc410a5d7bb939cb08"
+  },
+  {
+    "path": "waves/def/effect_100.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_100.bin",
+    "sha256": "f3d09d3908da0af7a3b9356b60249aa7840e24e6342939c828fdfde4c255309f"
+  },
+  {
+    "path": "waves/def/effect_101.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_101.bin",
+    "sha256": "351eee4ba58bffaf2cfbc41877c4b55532cca66972631f54701aedae6db1ffdb"
+  },
+  {
+    "path": "waves/def/effect_102.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_102.bin",
+    "sha256": "e647f9378ddea745bc6f7a48c47504d5ff6b0285c9e8c27567e3468eacffdb12"
+  },
+  {
+    "path": "waves/def/effect_103.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_103.bin",
+    "sha256": "8d842bc3d0bd1d2519aed2968cab45ada68f68765056f5618cddd4c8ae2f7e66"
+  },
+  {
+    "path": "waves/def/effect_104.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_104.bin",
+    "sha256": "1b1d7590be7ae1e14d45ca1defa30919c8424b1731b04f1c5b0a415d296b0919"
+  },
+  {
+    "path": "waves/def/effect_105.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_105.bin",
+    "sha256": "9742c2b2dc82258ca4791b5e590bac1bdaa3ab013969eba5feb45e2a71fc2354"
+  },
+  {
+    "path": "waves/def/effect_106.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_106.bin",
+    "sha256": "cc66c0987132f50e29ead9a9e9aeab6c81a7d5e3a62fff52776eb7bfeeb00188"
+  },
+  {
+    "path": "waves/def/effect_107.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_107.bin",
+    "sha256": "96fd510ca8ec994743d49a16a599f656dbe9970d0f5b6f3071a4feeef5e2bf7e"
+  },
+  {
+    "path": "waves/def/effect_108.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_108.bin",
+    "sha256": "0865ad827926f11030aea577510c3fde104bc44d967aea3c92212dfd2fd34174"
+  },
+  {
+    "path": "waves/def/effect_109.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_109.bin",
+    "sha256": "fd6636c03c1308fbd07943d3b6a09eae00953ac7fe1a4df296cbae814bd725a1"
+  },
+  {
+    "path": "waves/def/effect_11.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_11.bin",
+    "sha256": "b992ba3646a1cebe8424d4c4501e8b2ec0c01070ff4973be2f2e6eafb9c864e4"
+  },
+  {
+    "path": "waves/def/effect_110.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_110.bin",
+    "sha256": "4eb6bf9e5460f27870905fd05bb2983322eaaf8d809536ed5dcd4f9ce43a9624"
+  },
+  {
+    "path": "waves/def/effect_111.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_111.bin",
+    "sha256": "090e53a82d04abdb1c2ac4ed98212bb0e1e1a1eeeb319ee90840dfa6eed9bead"
+  },
+  {
+    "path": "waves/def/effect_112.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_112.bin",
+    "sha256": "aa2d5af7502618d8c1fc7a75b63add39d4c3ff2d7228676db87708e680f70920"
+  },
+  {
+    "path": "waves/def/effect_118.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_118.bin",
+    "sha256": "c0dc509e169a5f34534926447ca83d5a82983e5149bc68a124c6caa91e5b0d41"
+  },
+  {
+    "path": "waves/def/effect_12.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_12.bin",
+    "sha256": "aecffba5d981931b97338db93ca708bc59aee586e0127af8dea356d549d97492"
+  },
+  {
+    "path": "waves/def/effect_122.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_122.bin",
+    "sha256": "e33225d858477707cb826a73fdb1f599518f5913fca297236e544741fc29326b"
+  },
+  {
+    "path": "waves/def/effect_170.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_170.bin",
+    "sha256": "9ffa84f4cdff39c169273f621623c7cfe9940ecde91633b862d812a937f7ddfb"
+  },
+  {
+    "path": "waves/def/effect_2.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_2.bin",
+    "sha256": "f4e721bb4d7ee42eb7c6b8f1c997c5dbfb39dee2315ecf05223d7fd8905f5da5"
+  },
+  {
+    "path": "waves/def/effect_3.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_3.bin",
+    "sha256": "19282eb50be5f52d5a9937c4e8e0e1ed2662b82ab309f52c0cd286c15620beb9"
+  },
+  {
+    "path": "waves/def/effect_302.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_302.bin",
+    "sha256": "067f2d8104c4609c15cb558d50bc17be700ced5f2758ea1a33229ebc72e01bc5"
+  },
+  {
+    "path": "waves/def/effect_303.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_303.bin",
+    "sha256": "66313e183bd79bf09f5cb9d1d53a3a5bc2a45ef176c6a26efd910ec9783f7ce0"
+  },
+  {
+    "path": "waves/def/effect_304.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_304.bin",
+    "sha256": "d743e6a623f1719e0e09c72d97e765e8fa8a6c741e98136754ba64ff65bb5cfe"
+  },
+  {
+    "path": "waves/def/effect_305.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_305.bin",
+    "sha256": "f8fd095e9e6dbe4074802d5d1310c0aaf3643bbfe9b29d432e26af130e1b7991"
+  },
+  {
+    "path": "waves/def/effect_308.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_308.bin",
+    "sha256": "96695ef8304b32c4faed374c86c1686ff283d7e911ecb60a23d37674b58c1d79"
+  },
+  {
+    "path": "waves/def/effect_309.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_309.bin",
+    "sha256": "f4e721bb4d7ee42eb7c6b8f1c997c5dbfb39dee2315ecf05223d7fd8905f5da5"
+  },
+  {
+    "path": "waves/def/effect_310.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_310.bin",
+    "sha256": "c7ca436e0a710352caedc6f6a72a67f8a89489aee6d9db565ee793360ff5f309"
+  },
+  {
+    "path": "waves/def/effect_315.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_315.bin",
+    "sha256": "b4e34384a3eff9b3bea34fa705382725156fb7d68ed8d463f1f71e93d3176f93"
+  },
+  {
+    "path": "waves/def/effect_316.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_316.bin",
+    "sha256": "aee29edc90bc3cd8e7e5e7f6150244d23d2f5747e5164d5121bb232d29fb0493"
+  },
+  {
+    "path": "waves/def/effect_318.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_318.bin",
+    "sha256": "5109b2c867e4fd841e42536d8f03d036f53e4ee2d716fdf6b2d3a292b88b4bb2"
+  },
+  {
+    "path": "waves/def/effect_362.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_362.bin",
+    "sha256": "bae4faf87bef64ac3942d814f18a2916d45acc1feda83d46170669f9c2dd1bc9"
+  },
+  {
+    "path": "waves/def/effect_363.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_363.bin",
+    "sha256": "01d2ddbed989db08af9092641a8a3bc73c1f3c23d21c007670f7929a567b3f33"
+  },
+  {
+    "path": "waves/def/effect_364.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_364.bin",
+    "sha256": "edd70d2540e91f2f6f10cb6cd71a2624f62a20ec01e31d8710538597bfbf91f0"
+  },
+  {
+    "path": "waves/def/effect_365.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_365.bin",
+    "sha256": "cae9586396bf6342b93b39fa70ef9d072c50fd26dfc924adc3cabbdf1a1b6656"
+  },
+  {
+    "path": "waves/def/effect_366.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_366.bin",
+    "sha256": "fa21cba756e3ed707dacb0b9a67beaa34d40e74e2ec844dae7c327e4b7f30136"
+  },
+  {
+    "path": "waves/def/effect_367.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_367.bin",
+    "sha256": "400322cef6f0b2bc1d9ea9c1e94bd39fc68fd07cb054822ce365732ed301eefb"
+  },
+  {
+    "path": "waves/def/effect_368.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_368.bin",
+    "sha256": "2ae3ef5d65979be28ca4d207e75c3534b1492f4f0cdf8d061368d139a5145e22"
+  },
+  {
+    "path": "waves/def/effect_369.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_369.bin",
+    "sha256": "4bfdc22de2a81a4dadec9760108af2676888e945ae610814e24ebe998ca3dad8"
+  },
+  {
+    "path": "waves/def/effect_370.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_370.bin",
+    "sha256": "1f13bc8c8ad4837e64536424370370c55498ef746b7f23e1325e2d838dbda552"
+  },
+  {
+    "path": "waves/def/effect_4.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_4.bin",
+    "sha256": "f4e721bb4d7ee42eb7c6b8f1c997c5dbfb39dee2315ecf05223d7fd8905f5da5"
+  },
+  {
+    "path": "waves/def/effect_41.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_41.bin",
+    "sha256": "f5dc72e892432c2c0a355c29f890f3e3e707823d82a1117a48575e35d24851e2"
+  },
+  {
+    "path": "waves/def/effect_42.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_42.bin",
+    "sha256": "3d048c4e35fe6011047c1135ee0b5ad5b9c92bdb9415d1306daa484972055256"
+  },
+  {
+    "path": "waves/def/effect_43.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_43.bin",
+    "sha256": "2278595213ff970b65a2f2fa32cd3d6f97a10b0d93eff6b67c51ff334e8bcbf2"
+  },
+  {
+    "path": "waves/def/effect_44.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_44.bin",
+    "sha256": "06bcc712d56d7ee9fb20d34409700afbb3661c89af1baa7b82441c1afb8ff91e"
+  },
+  {
+    "path": "waves/def/effect_45.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_45.bin",
+    "sha256": "f80a3c1e0e1f26edec6a43e0d6154517d1f56ff4d02d1a8376e3efb35550bdb2"
+  },
+  {
+    "path": "waves/def/effect_46.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_46.bin",
+    "sha256": "a90f52544ee2a1d68fe104302c0f5e7dac1dae485dd1a615fbd16a8dfd3fc6f9"
+  },
+  {
+    "path": "waves/def/effect_47.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_47.bin",
+    "sha256": "45f14a8b85c3ddad53dc8a481f79558a95dd3fb5da55645d5467459f981a7d82"
+  },
+  {
+    "path": "waves/def/effect_5.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_5.bin",
+    "sha256": "fb196ed30a1a6908186181c98298f2e26af281edc777184ec2d87a0ff9ff418e"
+  },
+  {
+    "path": "waves/def/effect_51.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_51.bin",
+    "sha256": "7089e69dcd5a2da4cc4934eb573a2cee0ad588ccafcb5bbc8a6706b4f6841d34"
+  },
+  {
+    "path": "waves/def/effect_52.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_52.bin",
+    "sha256": "7089e69dcd5a2da4cc4934eb573a2cee0ad588ccafcb5bbc8a6706b4f6841d34"
+  },
+  {
+    "path": "waves/def/effect_53.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_53.bin",
+    "sha256": "7089e69dcd5a2da4cc4934eb573a2cee0ad588ccafcb5bbc8a6706b4f6841d34"
+  },
+  {
+    "path": "waves/def/effect_54.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_54.bin",
+    "sha256": "5e012b9fcb4850da7973d86d408d20c1bfc9cd4057f20c60ff25c1a8ced3a58e"
+  },
+  {
+    "path": "waves/def/effect_55.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_55.bin",
+    "sha256": "e937ee8b452a07d3947ab60c5cab892deb6888f8a3409dd9f1be39318a7df96d"
+  },
+  {
+    "path": "waves/def/effect_56.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_56.bin",
+    "sha256": "8fc458241b337e3aa58e99de3a0671f9f5fb451a2f718f0d024ddbc8ae33cd6c"
+  },
+  {
+    "path": "waves/def/effect_59.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_59.bin",
+    "sha256": "03c9d6d5c689915c947c60c9d4aa65cf08f234e8a9f8a060cebf4992113f5eb0"
+  },
+  {
+    "path": "waves/def/effect_6.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_6.bin",
+    "sha256": "fd6636c03c1308fbd07943d3b6a09eae00953ac7fe1a4df296cbae814bd725a1"
+  },
+  {
+    "path": "waves/def/effect_60.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_60.bin",
+    "sha256": "43d56d1671c61d99a0da1f8b0584072df77fcfbac54a127a1fce3badd96129e6"
+  },
+  {
+    "path": "waves/def/effect_61.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_61.bin",
+    "sha256": "941b9088deffcf1ff40b43f25d435b5ceb555f8daf58608e780c9df9d2f528fb"
+  },
+  {
+    "path": "waves/def/effect_62.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_62.bin",
+    "sha256": "2cc82b77b3ec2a6a7ba7249746d4608388101a38cf2775e89281311cfbec3344"
+  },
+  {
+    "path": "waves/def/effect_63.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_63.bin",
+    "sha256": "5dd909afae058a3c428ed3f1accf237d9e1489b19c93952e7d21777fab061a27"
+  },
+  {
+    "path": "waves/def/effect_64.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_64.bin",
+    "sha256": "4344ec1811ff97da78a1a9748fdda77b79ad085d2c5e89d453a0ffcdab15be94"
+  },
+  {
+    "path": "waves/def/effect_65.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_65.bin",
+    "sha256": "e0275a3becac53fb19f4576bdf4e393af9eeaa9803386f041a54cdf99706e0ae"
+  },
+  {
+    "path": "waves/def/effect_66.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_66.bin",
+    "sha256": "9402e18d3fa663fbfebf893ff256240dbc994611df0551ae86c10938e00d7539"
+  },
+  {
+    "path": "waves/def/effect_67.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_67.bin",
+    "sha256": "d76cb51eb5d7ab8cddf0990d98c45fc0ade60aead80b50f77812dadce921d877"
+  },
+  {
+    "path": "waves/def/effect_68.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_68.bin",
+    "sha256": "245b3e8a25cf90b99099a03d9fea7dc26c67741e2d4301c3234ccfa4e5b10857"
+  },
+  {
+    "path": "waves/def/effect_69.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_69.bin",
+    "sha256": "f5c871bc09cf0e14d1cda7d877862984d7ce62b65607c7b8b73aa1f88434e149"
+  },
+  {
+    "path": "waves/def/effect_7.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_7.bin",
+    "sha256": "8ebc243f14c4419e2d154f00a00b1c832f61ebeb6284dc86951257bc86db4c7d"
+  },
+  {
+    "path": "waves/def/effect_8.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_8.bin",
+    "sha256": "fd6636c03c1308fbd07943d3b6a09eae00953ac7fe1a4df296cbae814bd725a1"
+  },
+  {
+    "path": "waves/def/effect_9.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "def/effect_9.bin",
+    "sha256": "907afb32294d1209de085c555e2d2b4891a376b8a2fb0b2710bd0d5fee1b0f8f"
+  },
+  {
+    "path": "waves/soft/effect_0.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_0.bin",
+    "sha256": "fbb2897ae52dd4900e786e96a6fef83ab192219d8793a901a3fedfb896d4ff4b"
+  },
+  {
+    "path": "waves/soft/effect_1.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_1.bin",
+    "sha256": "034a3b46342505f37020de05de6afb84d30795aec3e7363e1774905d4cc84106"
+  },
+  {
+    "path": "waves/soft/effect_105.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_105.bin",
+    "sha256": "b09c1e8240f9b2f52b4b9e61ad347c161cccd1c13671d4a04732beb3dd4c9e09"
+  },
+  {
+    "path": "waves/soft/effect_106.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_106.bin",
+    "sha256": "736b58ec478d4f14a8c0ce3900bd6023e49ead28b8eb0d538fd85dced5f485df"
+  },
+  {
+    "path": "waves/soft/effect_107.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_107.bin",
+    "sha256": "db3e818ad2185a5385b97a4ec049ff211ff2d6c4b94f19b4bf8ae8f96b5dd105"
+  },
+  {
+    "path": "waves/soft/effect_109.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_109.bin",
+    "sha256": "68037812ed8e3b2b16760419f710348feea2ea67551c73726eb259742c13ae39"
+  },
+  {
+    "path": "waves/soft/effect_2.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_2.bin",
+    "sha256": "b97ec86689785b37ff64ad75c8d93ba1579f4dbc8c55978f1fc562ca17b2e44a"
+  },
+  {
+    "path": "waves/soft/effect_3.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_3.bin",
+    "sha256": "5206f22e2b8b7dfb532997f8d96241f8670f2be3a78fd3c2e050f82891dd727b"
+  },
+  {
+    "path": "waves/soft/effect_309.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_309.bin",
+    "sha256": "989708372781f6a9f0472cbd269f5a28915f43ed766d4c76ce57067c2f5517ce"
+  },
+  {
+    "path": "waves/soft/effect_310.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_310.bin",
+    "sha256": "b97ec86689785b37ff64ad75c8d93ba1579f4dbc8c55978f1fc562ca17b2e44a"
+  },
+  {
+    "path": "waves/soft/effect_315.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_315.bin",
+    "sha256": "7c8b0fef37f46b2897c969091f571a66405afbf163ccb48444d7b56f5bb982fa"
+  },
+  {
+    "path": "waves/soft/effect_316.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_316.bin",
+    "sha256": "0d55b8c6b17084c2227950e68b3294afcc4a2173cffeb2b4ea2c29a370feb494"
+  },
+  {
+    "path": "waves/soft/effect_318.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_318.bin",
+    "sha256": "2d85fbef565e34465a43df887217fb321609efde97efdfcb63dc9d6deb3d1901"
+  },
+  {
+    "path": "waves/soft/effect_362.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_362.bin",
+    "sha256": "91eb7c4915ddacecac16df82b600c3303b184faf7845b2b5ab43cbb35d9e8ad4"
+  },
+  {
+    "path": "waves/soft/effect_363.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_363.bin",
+    "sha256": "c0fb5b7c2266e0b07abf6c5acd6538bb323b8c6266940616207bbd78ffe3ff02"
+  },
+  {
+    "path": "waves/soft/effect_364.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_364.bin",
+    "sha256": "c0fb5b7c2266e0b07abf6c5acd6538bb323b8c6266940616207bbd78ffe3ff02"
+  },
+  {
+    "path": "waves/soft/effect_4.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_4.bin",
+    "sha256": "8f3f1adb48278d0205911c608546933cc9414173ea419ad04d6e23f41bd51aad"
+  },
+  {
+    "path": "waves/soft/effect_46.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_46.bin",
+    "sha256": "497475c1b636a9886e6baa6d512aa9ff40d3708cc1e2029b2a05596534e68b5e"
+  },
+  {
+    "path": "waves/soft/effect_47.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_47.bin",
+    "sha256": "947e9fa4fc3baa3912b8ce216f5cc323e78608a6c947d22ef45761b14ec0133e"
+  },
+  {
+    "path": "waves/soft/effect_54.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_54.bin",
+    "sha256": "cd6b546333db0d15c36a61a9dd269439d07ea1898287be6837cf7b3f13db22b1"
+  },
+  {
+    "path": "waves/soft/effect_6.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_6.bin",
+    "sha256": "b992ba3646a1cebe8424d4c4501e8b2ec0c01070ff4973be2f2e6eafb9c864e4"
+  },
+  {
+    "path": "waves/soft/effect_7.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_7.bin",
+    "sha256": "9e8111d9f4de35ae8397ad6cefc3c031947e9f6c507cb97b372c5f258381f736"
+  },
+  {
+    "path": "waves/soft/effect_8.bin",
+    "source_group": "OnePlus official ODM",
+    "original_filename": "soft/effect_8.bin",
+    "sha256": "f08fdcfa5d8ff7da1a3100b10653ef069071e43866db9f78fdb83f7697e23178"
+  },
+  {
+    "path": "waves/donor/effect_1.bin",
+    "source_group": "matched stock ODM",
+    "original_filename": "effect_303.bin",
+    "sha256": "e5248d24692100cf50b28d98d500d2c6707a4c0a0f227f266cfc40e6e8bb2bc9"
+  },
+  {
+    "path": "waves/donor/effect_2.bin",
+    "source_group": "matched stock ODM",
+    "original_filename": "effect_11.bin",
+    "sha256": "b992ba3646a1cebe8424d4c4501e8b2ec0c01070ff4973be2f2e6eafb9c864e4"
+  },
+  {
+    "path": "waves/donor/effect_3.bin",
+    "source_group": "matched stock ODM",
+    "original_filename": "effect_0.bin",
+    "sha256": "1581a723f30c80c3e98af50a7ee99a27a14fd45e18a76a702b4b850abe35e468"
+  },
+  {
+    "path": "waves/donor/effect_4.bin",
+    "source_group": "matched stock ODM",
+    "original_filename": "effect_4.bin",
+    "sha256": "6bd5222a005df62b59dc33d48355fb0b2dbd689774438def19107b6b2d727d3b"
+  },
+  {
+    "path": "waves/donor/effect_5.bin",
+    "source_group": "matched stock ODM",
+    "original_filename": "effect_105.bin",
+    "sha256": "6197920a8b3d6d47f37c668265d9e359e62f03e73c0544cf02753d8153e3ab5d"
+  },
+  {
+    "path": "waves/donor/effect_6.bin",
+    "source_group": "matched stock ODM",
+    "original_filename": "effect_1.bin",
+    "sha256": "b1adb15f3d0e6dff77c0ab8c60276040c4bb7b986cb34a9ed6d241a7d31158ad"
+  },
+  {
+    "path": "waves/donor/effect_7.bin",
+    "source_group": "matched stock ODM",
+    "original_filename": "effect_1.bin",
+    "sha256": "b1adb15f3d0e6dff77c0ab8c60276040c4bb7b986cb34a9ed6d241a7d31158ad"
+  },
+  {
+    "path": "waves/donor/effect_301.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Array_Mbira.bin",
+    "sha256": "3c0b9c3dbd7edddfd08d845ab6b6a80f5d657dd23a6898daccc28c0864161a35"
+  },
+  {
+    "path": "waves/donor/effect_302.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Blue_Meteor_Showers.bin",
+    "sha256": "12140b876594ddf7e05466ef282abf80fb9ea7191d62ee99123a5c19856922a5"
+  },
+  {
+    "path": "waves/donor/effect_303.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Elec_Synth.bin",
+    "sha256": "638291098395c35a1ffda5d48182d5b546a313126ad58475823d1ce3ec15cad5"
+  },
+  {
+    "path": "waves/donor/effect_304.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Harp_Bell.bin",
+    "sha256": "6b026793aeb1abe07b2e606ad9ec0035bb04556cf8253b41d84d22c3995706a1"
+  },
+  {
+    "path": "waves/donor/effect_305.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_High_Didi.bin",
+    "sha256": "c30f8002203542dba8d431ced0d3a419ad839dad193e67c53fe8e1096d019c44"
+  },
+  {
+    "path": "waves/donor/effect_306.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Labyrinth.bin",
+    "sha256": "ba49aca186e4f92f6e554d1d870f64de0def07ff8c18ec651d2d1f335b8ad7c0"
+  },
+  {
+    "path": "waves/donor/effect_307.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Limpid_Drop.bin",
+    "sha256": "15c081e98889c1143cc9334ace9853ff42717f61cd70e225e8cf6a4a1bfaf682"
+  },
+  {
+    "path": "waves/donor/effect_308.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Lovely_Xylophone.bin",
+    "sha256": "bdd6547e903a4a3605cabec4aac2c99f444b22f043fb095cb1cfbf358ea91439"
+  },
+  {
+    "path": "waves/donor/effect_309.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Marimba.bin",
+    "sha256": "1465c533e7789bef5b412725208c42e7817e8c4ee89d9ab1e37b0e33c1c51795"
+  },
+  {
+    "path": "waves/donor/effect_310.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Occarina.bin",
+    "sha256": "de644768f4fd59dd1f7bdd0b96a719ff03f35531ab24e9b1fb7bd39f0b4cc2e5"
+  },
+  {
+    "path": "waves/donor/effect_311.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Resound.bin",
+    "sha256": "961189d103c5497386a3db3dde20e932ccf6fb8b525cec27e5f343cbc03a86c6"
+  },
+  {
+    "path": "waves/donor/effect_312.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Rhythm.bin",
+    "sha256": "7a49fbd377c4fd9f4ca621f94a9471e252acd336e0ebbefd1641deeba797a260"
+  },
+  {
+    "path": "waves/donor/effect_313.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Ripples.bin",
+    "sha256": "6ef8e98053d1f35930fc7c4b1d43b03787f47e03d25d68ef14cf9a09459f8a04"
+  },
+  {
+    "path": "waves/donor/effect_314.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Scene_Play.bin",
+    "sha256": "05f8efbee00430374259ad73bf2729ba2a33eadaee9dc82f92f3ec38253fd934"
+  },
+  {
+    "path": "waves/donor/effect_315.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Set_Out.bin",
+    "sha256": "ac160ad0597252d785702ee3bcf6b0f5c5104c0b4f884b261896900cc978b068"
+  },
+  {
+    "path": "waves/donor/effect_316.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Spacious.bin",
+    "sha256": "0f3d8eaddca8476cff7b2456d7864f695e5627b00766954a862d02b32fe46e1f"
+  },
+  {
+    "path": "waves/donor/effect_317.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Spring_Charm.bin",
+    "sha256": "4696c675b6f0c0ca575dcd85fec466c21ca7976d6e3deb77801f891b9888e4f0"
+  },
+  {
+    "path": "waves/donor/effect_318.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Sunrise_View.bin",
+    "sha256": "afbd6601fde8fc7aa3fdb13caa94df403c6d67e22bf2d779659647e8acb3ad6e"
+  },
+  {
+    "path": "waves/donor/effect_319.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Sunrise_View_Dubstep.bin",
+    "sha256": "36f88352facc34d553c3ffd71ddc5086be38185ad38b37a7c9baaf4765535761"
+  },
+  {
+    "path": "waves/donor/effect_320.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Sunrise_View_Harp.bin",
+    "sha256": "4ae675327be4f5e14329bfed34c62aa4c9252aaad484e16ba104cedaa0c22c46"
+  },
+  {
+    "path": "waves/donor/effect_321.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Sunrise_View_Lyric.bin",
+    "sha256": "9435f2a3bdf336b85bc7e6daf33fd0268c2632f7834a9fce5ef96789937992bd"
+  },
+  {
+    "path": "waves/donor/effect_322.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Sunrise_View_Piano.bin",
+    "sha256": "97287642ebd77b38022d65c8a06b4717e91570d9480af73bf6788f2fdd0ca967"
+  },
+  {
+    "path": "waves/donor/effect_323.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Sunrise_View_Relax.bin",
+    "sha256": "fd0141af60bc41ad58290bfde0faebb1580d6b3368c0b0c3562d984e88a78753"
+  },
+  {
+    "path": "waves/donor/effect_324.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Tunk.bin",
+    "sha256": "6e0769bf219a9a72029e21c6f4bdabf69d402525fcd6afe99c783c2882505769"
+  },
+  {
+    "path": "waves/donor/effect_325.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Vintage_Ring.bin",
+    "sha256": "15504c17223daef1446064924ccd9ac21971b46ed859db87cd67c2dbb7b9ea84"
+  },
+  {
+    "path": "waves/donor/effect_326.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Xtreme_Tone.bin",
+    "sha256": "324c8012591c43a190c2d8ea5c64f20ebc68bf04e08f00e099010e396e844f37"
+  },
+  {
+    "path": "waves/donor/effect_327.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Xyl_Roll.bin",
+    "sha256": "c89a2cceb715af8cb053044e144f8ea336e6bdd51b5b4fcee1307d4de2b75a4d"
+  },
+  {
+    "path": "waves/donor/effect_328.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Fantasy_Blue.bin",
+    "sha256": "5e1d4a9d9a4fae88e6f66efdd953e4543fc1094ba131abb83b9e645ce07a900e"
+  },
+  {
+    "path": "waves/donor/effect_329.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Indomitable_Will.bin",
+    "sha256": "41692fb5ae7c7c35e49f9f005b89401b73e4112be5eeae775c7cc0fad63fdcad"
+  },
+  {
+    "path": "waves/donor/effect_330.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Jovi_Lifestyle.bin",
+    "sha256": "6043e7543d16448e82591116215f76d84a2d7d6125979964d6e61226f58469b7"
+  },
+  {
+    "path": "waves/donor/effect_331.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Jovi_Lifestyle_Full.bin",
+    "sha256": "5d9aba6f7569b37f2d48b44eb12dbd60b8e53b9399953943673c83bc0fd26aa6"
+  },
+  {
+    "path": "waves/donor/effect_332.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Newborn.bin",
+    "sha256": "8671dfe41aee445d963df905f38b20c7b02c1103f4a70f74066a716a53a2aeaf"
+  },
+  {
+    "path": "waves/donor/effect_333.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Gamelan.bin",
+    "sha256": "bada4b0b8f3c41ef0963c27a27015575626988848fa791af90e28b18a0827f1e"
+  },
+  {
+    "path": "waves/donor/effect_334.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Infinite.bin",
+    "sha256": "6c9e69b85be38ee75c25f0b1938c6a38974700a9143b0995ed2daeb74b106201"
+  },
+  {
+    "path": "waves/donor/effect_335.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Fleeting_Moments.bin",
+    "sha256": "6c4358cce2b88fb364a9ed47b1fb4a16126f3ae51444f4c9f9bc7e2c9f5f513e"
+  },
+  {
+    "path": "waves/donor/effect_336.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "R_Bliss_by_vivo.bin",
+    "sha256": "19df1d5fb87a71dcf6434515e9c709b03dc9857cfae7594946587d2b6df970c8"
+  },
+  {
+    "path": "waves/donor/effect_401.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Andes.bin",
+    "sha256": "fcd01df3e62b796a6d62e7a2a1c1e24b082cff61748fa95ab6f098c2b304b9f8"
+  },
+  {
+    "path": "waves/donor/effect_402.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Bell.bin",
+    "sha256": "51e5a7208f490603397150ccf8114dc83e8804fbba2146e94c365674ccbfd414"
+  },
+  {
+    "path": "waves/donor/effect_403.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Bird.bin",
+    "sha256": "d0c1e98e0c1f49dd7dd4bfaa843c7f6fe7c535e28a8223b32b5047d5b64e8340"
+  },
+  {
+    "path": "waves/donor/effect_404.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Bubble.bin",
+    "sha256": "698bc7d481f9466e365ad62abfe2a7f0ea6fb10820ba49408a4eab1d9785d275"
+  },
+  {
+    "path": "waves/donor/effect_405.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Childlike.bin",
+    "sha256": "352f67ecc696f848d65b708528c2e58551320c39595a51ca282d6087ab5134aa"
+  },
+  {
+    "path": "waves/donor/effect_406.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Circle.bin",
+    "sha256": "54ebd4ce2743af20564f906864384b112469dab1c9093ab063ea0406c1fc35e8"
+  },
+  {
+    "path": "waves/donor/effect_407.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Cuckoo.bin",
+    "sha256": "d917983c68b947bcc90c23b3543cf908d8770a56338440ff094a91d9f52c31ba"
+  },
+  {
+    "path": "waves/donor/effect_408.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Default.bin",
+    "sha256": "4325e778e6235fe650b7d417da4e4f6d4cd9d06065a5ec15dd6baf80d6b1ce14"
+  },
+  {
+    "path": "waves/donor/effect_409.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Dita.bin",
+    "sha256": "4715b501515f1626b2bc6b18419698ed0d48740be6b0e85ed0413c6fb2cca88d"
+  },
+  {
+    "path": "waves/donor/effect_410.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Dobe.bin",
+    "sha256": "11ceac5d821d0bf1c4d0d6ff6d29054a36afac8be64be3d9243ba39bfe8940a5"
+  },
+  {
+    "path": "waves/donor/effect_411.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Doda.bin",
+    "sha256": "37b1bbf18dfd4da517e5d850cf4e7d8e68668fe1d8022fa45300f560cdf6de5f"
+  },
+  {
+    "path": "waves/donor/effect_412.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_DoReMi.bin",
+    "sha256": "36e08b20bda8a513f03b41c227eb14e4e78b80dedd82a1c5f4e1efb576a8e33c"
+  },
+  {
+    "path": "waves/donor/effect_413.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Dust.bin",
+    "sha256": "9dccc990b649e641182004ec910802e299bcce2cf7e137b5d54720a13f755e6a"
+  },
+  {
+    "path": "waves/donor/effect_414.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Echo.bin",
+    "sha256": "340ef6319405c047417f358c7f7db35a42b2287b6747c3a7eeaa496dcd349ba3"
+  },
+  {
+    "path": "waves/donor/effect_415.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Grain.bin",
+    "sha256": "514cbbfabe81d1360a97025f05dae04576e6ecb1b5da787be4e0ac6e4627c162"
+  },
+  {
+    "path": "waves/donor/effect_416.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Harmonic.bin",
+    "sha256": "33ccb2eb1aadb990621e347342bc280961ed007dc057274e1219f155ff6dba25"
+  },
+  {
+    "path": "waves/donor/effect_417.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Klock.bin",
+    "sha256": "cab44c354d049d667523cb71593f321860135540b682447d7c7be67e0a7b1efa"
+  },
+  {
+    "path": "waves/donor/effect_418.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Little.bin",
+    "sha256": "ad5976b390b6479e431a372edcb977976039cec1a808895cf4c6f6bc8cbe6bf1"
+  },
+  {
+    "path": "waves/donor/effect_419.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Money.bin",
+    "sha256": "b549f2bde47b7959c7a998c50f693c689256142039152885f8a3a9c1bcce527c"
+  },
+  {
+    "path": "waves/donor/effect_420.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_MusicBox.bin",
+    "sha256": "ea2853d371cfaf1d047fe44b47fc8b4049324d67d4b8a7abf8af2954b4a6fadd"
+  },
+  {
+    "path": "waves/donor/effect_421.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Naughty.bin",
+    "sha256": "b0eb5dc3bec0b8e229d8791d4ef0b5e4bbf9711b7a04e48e25987dbebf20fa72"
+  },
+  {
+    "path": "waves/donor/effect_422.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Peristalsis.bin",
+    "sha256": "b5d4fd58aeade79174de67c1071b008d120015688f7c41e977f0e90f83697908"
+  },
+  {
+    "path": "waves/donor/effect_423.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Promote.bin",
+    "sha256": "95a764cf5882f75ef1634d7a47a2353e39f67d2bb562f4210337b3a10dbb8b86"
+  },
+  {
+    "path": "waves/donor/effect_424.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Scale.bin",
+    "sha256": "df8f45338a1e158ecae6b7ea876bcbba53efdfc6b19ac706fc520a1ee9c13253"
+  },
+  {
+    "path": "waves/donor/effect_425.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Simple.bin",
+    "sha256": "87e5493c3483d77c7b828bd5fa549a2af5f1a6814f13f445af04effd28fcd654"
+  },
+  {
+    "path": "waves/donor/effect_426.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Surprised.bin",
+    "sha256": "0c0001d2971853096bb1dd35bc7b91f3b3ea034848b21a3838a3e48ffab76198"
+  },
+  {
+    "path": "waves/donor/effect_427.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Theme.bin",
+    "sha256": "e70ec142764171ad8ed9570e22b96437aa7dffd4e8e5091850ffabecc51c4088"
+  },
+  {
+    "path": "waves/donor/effect_428.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Twist.bin",
+    "sha256": "e008da24c622565f46d6bd7f137f8c7ea67523059e16380994f6cb110ed9b47c"
+  },
+  {
+    "path": "waves/donor/effect_429.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Unobtrusive.bin",
+    "sha256": "6c4dff573a6a83ae09b858618e67d9238414f39944352a8a55391fae1595a6e5"
+  },
+  {
+    "path": "waves/donor/effect_430.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Whisper.bin",
+    "sha256": "b6cab7f9fe330f037c242bb1d798e632622e46d33b49d2eb1794b2bddaddceb8"
+  },
+  {
+    "path": "waves/donor/effect_431.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Whistle.bin",
+    "sha256": "d71954284a80d9d8f931867740bcd7ec56d8bcb36766edfd8d8c55c6bfab8ec0"
+  },
+  {
+    "path": "waves/donor/effect_432.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Arrival.bin",
+    "sha256": "f3c3c1e4ba741db10eb422a0d95596b5fdeb10ceeef8f6d42dfc8206299b0975"
+  },
+  {
+    "path": "waves/donor/effect_433.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Emergence.bin",
+    "sha256": "9c2f732a82de7bbb5541484c5ddc4575256c1e792d951cd6583980e7c5e23be6"
+  },
+  {
+    "path": "waves/donor/effect_434.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Transformation.bin",
+    "sha256": "e3bbf2a168139e85799b9686568ab191603e3816cacc950d0521a615ac84dfc7"
+  },
+  {
+    "path": "waves/donor/effect_435.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Happy.bin",
+    "sha256": "b441357e6e72b9abf285218add805fb6b607e91d5b0c60ae3d0430b79c6aa95e"
+  },
+  {
+    "path": "waves/donor/effect_436.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Arrangement.bin",
+    "sha256": "8b1f7858359be6bee37acb63c8c83ea9172ecad82ca881f8f64e82962409065c"
+  },
+  {
+    "path": "waves/donor/effect_437.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Encounter.bin",
+    "sha256": "6f0e23dc1b57dea7642ab3baebfe9873644cdc0553c3a1ea670aa261e40194f6"
+  },
+  {
+    "path": "waves/donor/effect_438.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Fresh.bin",
+    "sha256": "157310f9a7da7829d9f1dd3e5248ac3eca26e495755b53bca498ff7daee924b7"
+  },
+  {
+    "path": "waves/donor/effect_439.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Ding.bin",
+    "sha256": "a091879cd8a0f78b20ba03073e8485ac20bcab91449d3783cbd46799a87d21f0"
+  },
+  {
+    "path": "waves/donor/effect_440.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_SleepWell.bin",
+    "sha256": "3e1c09a33c1444df16c394481527797282c7856b6836561c214a6c0673d3b0da"
+  },
+  {
+    "path": "waves/donor/effect_441.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Timer.bin",
+    "sha256": "f8bbda3ec8eb281af39fc63d32515d1ed418177985b77f944913f66876897460"
+  },
+  {
+    "path": "waves/donor/effect_442.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Pervading_Light.bin",
+    "sha256": "4ba31cb2a28e6c86fafba330f12ed6dda24d19d4bc986aa69119f615047c198f"
+  },
+  {
+    "path": "waves/donor/effect_443.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Fleeting_Time.bin",
+    "sha256": "e7bdf3243054ce71a2985a7c19a3a60683c7415db12d4124d82b84e4838eb89f"
+  },
+  {
+    "path": "waves/donor/effect_444.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Today.bin",
+    "sha256": "f8bc41d1cea5662d1ecce83255e39db237c00209b352da65151118084c17c1b5"
+  },
+  {
+    "path": "waves/donor/effect_445.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Like_the_Wind.bin",
+    "sha256": "429a621aa41dd356f00c86258a52391a6630dcc5098aa14c9fb14a55771ba884"
+  },
+  {
+    "path": "waves/donor/effect_446.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Whirlwind.bin",
+    "sha256": "6d4cfe38892c4b457b1edc15624b552b739d2a92a36211f2de85e60cd5796bf0"
+  },
+  {
+    "path": "waves/donor/effect_447.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Discover.bin",
+    "sha256": "7119320d3fbf9ca904b2d248f76d99dc9cf968a8dad6b95c0dc770e90caff887"
+  },
+  {
+    "path": "waves/donor/effect_448.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "N_Bliss_by_vivo.bin",
+    "sha256": "3ce4f6cb1c6d597ddae067e789bb549ae8f786e1f7d677442917004386a0e05a"
+  },
+  {
+    "path": "waves/donor/effect_501.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "A_Beautiful_Touching.bin",
+    "sha256": "ea4d675b622f3e90207dfd8bc210cfcee5aa5a6ad3d61e411d9f733359049c05"
+  },
+  {
+    "path": "waves/donor/effect_502.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "A_Clock_Alert.bin",
+    "sha256": "69d84a7344fd20f1d52ce8e8e3c1cfb516550841662cebfce0e28455a29e7ea9"
+  },
+  {
+    "path": "waves/donor/effect_503.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "A_Crisp_Ring.bin",
+    "sha256": "82568bb4556cb90fd143ca9c5550b6480b4e32f90ea8fb7d0bffc13b9b2d7e81"
+  },
+  {
+    "path": "waves/donor/effect_504.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "A_Cycle_Oscillation.bin",
+    "sha256": "5995ed4647a814f499b12bcb029c84fc244bebd302591faa5381b6b75670d9c1"
+  },
+  {
+    "path": "waves/donor/effect_505.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "A_Early_In_The_Morning.bin",
+    "sha256": "15bbffa32a1e54eeb064cc5287b9c8927376a023b48a7eb51dc8d905a5a86f68"
+  },
+  {
+    "path": "waves/donor/effect_506.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "A_Fine_Day.bin",
+    "sha256": "f4f7bf37fdd87e63457c9a8d3c5e70ba170f7249942065ebe225bc24f4b8a0bd"
+  },
+  {
+    "path": "waves/donor/effect_507.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "A_Flush_Of_Dawn.bin",
+    "sha256": "97ac0df7b034176e18c27aeef898bdd1a681c4725a70a5d7098e8d4a9f169c4a"
+  },
+  {
+    "path": "waves/donor/effect_508.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "A_Get_Up_Action.bin",
+    "sha256": "890cb22fede614889513861cfb7bbdbcf618dea52c61ee53f8b72429cbec4366"
+  },
+  {
+    "path": "waves/donor/effect_509.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "A_Glassy_Lustre.bin",
+    "sha256": "f7f3a3c2451c7fd8dbd0d29db9499672907d2641f7814ffc1271fc59c3306bb0"
+  },
+  {
+    "path": "waves/donor/effect_510.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "A_Lights.bin",
+    "sha256": "2e9441dbbb6a9a93fee299b77599c051af90910c2ab738da59d3c96c95d5b0ac"
+  },
+  {
+    "path": "waves/donor/effect_511.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "A_Moonlight.bin",
+    "sha256": "56389882162bab5e78e522ff409cf201edb8483634d31dfb4801dbef66996e18"
+  },
+  {
+    "path": "waves/donor/effect_512.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "A_Morning_Scene.bin",
+    "sha256": "6ee23313d6a675ad2950de5ccfd980acd918abd8e14fa975655bd54745d6222d"
+  },
+  {
+    "path": "waves/donor/effect_513.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "A_Sound_Of_The_Sea.bin",
+    "sha256": "2db0f7225b1834f14482c64ab66c3ad537e4b0388da0c75aa0400c41a14598ee"
+  },
+  {
+    "path": "waves/donor/effect_514.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "A_Thump.bin",
+    "sha256": "393e557469d743a4604436dd7f7c0ab71da57a8a799bafa6376c742239dbfabd"
+  },
+  {
+    "path": "waves/donor/effect_515.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "A_New_World.bin",
+    "sha256": "7517ce148164fcb884b595f7b0d44613497994b08950bd22688c73672c0fe27e"
+  },
+  {
+    "path": "waves/donor/effect_516.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "A_Intense.bin",
+    "sha256": "95c7e8cad15bf92b9f56b4f40b979b1d6d43c847fdc668c5e862d4e63b5f5cda"
+  },
+  {
+    "path": "waves/donor/effect_517.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "A_Spring_Is_Everywhere.bin",
+    "sha256": "b867988a270923841a2203a4366a7ba734daa46b15d5953fe00983a01dfc70cc"
+  },
+  {
+    "path": "waves/donor/effect_518.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "A_Sunny_and_Cloudless.bin",
+    "sha256": "bc596d0e675afd1d0572a57aafd5c5d2a2887592540c437efa24d89be50ebd38"
+  },
+  {
+    "path": "waves/donor/effect_601.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_109.bin",
+    "sha256": "19425a0b6d5c73e4523d6b07324b06d1e17335da0d9e6bf4a9985dc3c65e3237"
+  },
+  {
+    "path": "waves/donor/effect_602.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_109.bin",
+    "sha256": "19425a0b6d5c73e4523d6b07324b06d1e17335da0d9e6bf4a9985dc3c65e3237"
+  },
+  {
+    "path": "waves/donor/effect_603.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_303.bin",
+    "sha256": "c6b70f030430c9644b949cbc79b663c2c64e6522043c38d2661c92572f80df5c"
+  },
+  {
+    "path": "waves/donor/effect_604.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_303.bin",
+    "sha256": "c6b70f030430c9644b949cbc79b663c2c64e6522043c38d2661c92572f80df5c"
+  },
+  {
+    "path": "waves/donor/effect_605.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_109.bin",
+    "sha256": "19425a0b6d5c73e4523d6b07324b06d1e17335da0d9e6bf4a9985dc3c65e3237"
+  },
+  {
+    "path": "waves/donor/effect_606.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_109.bin",
+    "sha256": "19425a0b6d5c73e4523d6b07324b06d1e17335da0d9e6bf4a9985dc3c65e3237"
+  },
+  {
+    "path": "waves/donor/effect_607.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_109.bin",
+    "sha256": "19425a0b6d5c73e4523d6b07324b06d1e17335da0d9e6bf4a9985dc3c65e3237"
+  },
+  {
+    "path": "waves/donor/effect_608.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_109.bin",
+    "sha256": "19425a0b6d5c73e4523d6b07324b06d1e17335da0d9e6bf4a9985dc3c65e3237"
+  },
+  {
+    "path": "waves/donor/effect_609.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_XD_X_609.bin",
+    "sha256": "69d90decf5090343c7c4f7d845110eee40a254d50e72e0e18f92d5a6fbe8afa7"
+  },
+  {
+    "path": "waves/donor/effect_610.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_XD_W_610.bin",
+    "sha256": "a5711e46624bf15dbd51a5c9a567d50391d537843cb3b91dad7e855ea822ae62"
+  },
+  {
+    "path": "waves/donor/effect_611.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_105.bin",
+    "sha256": "640282741948143cb4ffde9c996c3b033ba90bfd286ef9ed8e327d32a22c1d86"
+  },
+  {
+    "path": "waves/donor/effect_641.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_109.bin",
+    "sha256": "ba6e76056bdaa0119b84e987f89d96ccb4b653dd66872918d8f29926984e0389"
+  },
+  {
+    "path": "waves/donor/effect_642.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_109.bin",
+    "sha256": "19425a0b6d5c73e4523d6b07324b06d1e17335da0d9e6bf4a9985dc3c65e3237"
+  },
+  {
+    "path": "waves/donor/effect_643.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Drift_643.bin",
+    "sha256": "086f8abb25dcd2d29cfd42f5c73cd434dd6e6904dc401761253953df30177dc9"
+  },
+  {
+    "path": "waves/donor/effect_644.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Acceleration_644.bin",
+    "sha256": "223866dee35d338ca7d0f6dbe9fe8a06b83bbc289eddec6261810637afe53bde"
+  },
+  {
+    "path": "waves/donor/effect_645.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Acceleration_Small_645.bin",
+    "sha256": "0376c8190f1fbe6a208541e7d6c634cca6d72aba99d4e4804c21f0782d52263f"
+  },
+  {
+    "path": "waves/donor/effect_690.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "T_Rtp_long_vibrate.bin",
+    "sha256": "112dd3e4c9fb836ef4d27712e0f13f2970a73925b6604fa1ebd7de1f6a0c16bf"
+  },
+  {
+    "path": "waves/donor/effect_901.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_sgame_901.bin",
+    "sha256": "17408b465e2ff06fcc0ee4b7a941061bfdcb37957d95cc5f2a84d6241f8429c7"
+  },
+  {
+    "path": "waves/donor/effect_902.bin",
+    "source_group": "matched user_repo",
+    "original_filename": "effect_190.bin",
+    "sha256": "8b9519a420cb65de782b341f95a53dd8529dd10f84c2a96864993a1b439a3e66"
+  },
+  {
+    "path": "waves/donor/effect_903.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_sgame_903.bin",
+    "sha256": "2b7fc6c6488ce7268ff65b406c4e819534a2843ac7f0b3b179003ddf81a8dd14"
+  },
+  {
+    "path": "waves/donor/effect_904.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_sgame_904.bin",
+    "sha256": "b3c789c5aabf8b8c087f685f17441b8ea53cf6d77004c11cd9d3e34a5f1854a5"
+  },
+  {
+    "path": "waves/donor/effect_905.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_sgame_905.bin",
+    "sha256": "4ebaa9efce9a481fe22250c1df7d5621e860c6c7c370ef492e15dc153eeb3641"
+  },
+  {
+    "path": "waves/donor/effect_906.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_sgame_906.bin",
+    "sha256": "995d9ae5c550f98989644a5a6d670a1586e8945192e8bf46766ba82b8220e9c7"
+  },
+  {
+    "path": "waves/donor/effect_907.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_sgame_907.bin",
+    "sha256": "31a57be0354a93b96a97993117ef4a3582f96d2bf76edb0516e7496cebef252a"
+  },
+  {
+    "path": "waves/donor/effect_908.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_sgame_908.bin",
+    "sha256": "5224bff39a80039ba01f9380d9d28df39a6a62115810c29e2a3d3c1f0ae99548"
+  },
+  {
+    "path": "waves/donor/effect_909.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_sgame_909.bin",
+    "sha256": "fe9b2e16fcbba9d90ff0262f1b6c90c2a0ddd3515c56444ab19d4c25506211c7"
+  },
+  {
+    "path": "waves/donor/effect_910.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_sgame_910.bin",
+    "sha256": "2c7d2b68565468927155384a13921ca7406d2ca6372efc93b5f06194268dcb51"
+  },
+  {
+    "path": "waves/donor/effect_911.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_sgame_911.bin",
+    "sha256": "2239bdc7a02c0ae2e92960b3cedee7f01344e5ffcad8601dd454c9cead2ee076"
+  },
+  {
+    "path": "waves/donor/effect_912.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_sgame_912.bin",
+    "sha256": "09670290859c26f514474898b5a9f2f3e2b2688fd71146fb8723cc148839ecdd"
+  },
+  {
+    "path": "waves/donor/effect_913.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_sgame_913.bin",
+    "sha256": "04927b2c2a3306be17d1401184a8290f78723d5c4dd5055e62d5fbb5fdb17f71"
+  },
+  {
+    "path": "waves/donor/effect_914.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_sgame_914.bin",
+    "sha256": "5fe5409a49dc441c4abf9558ff429cf02237bc9906a3f725777cf88ac9427fde"
+  },
+  {
+    "path": "waves/donor/effect_915.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_sgame_915.bin",
+    "sha256": "1812910d3cc489ad8dfc7916f7325e698d23c29e7fe2cd84b12ddfaa5b8339a0"
+  },
+  {
+    "path": "waves/donor/effect_1001.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1001.bin",
+    "sha256": "572a5ded67c169a401fa6ba16362f829863fc45e7bc17503bd6e13edcd36215d"
+  },
+  {
+    "path": "waves/donor/effect_1002.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1002.bin",
+    "sha256": "cb2405b6908f84f4872811e300daab2dd7a5b973cb13d49304cc7c34997ce82b"
+  },
+  {
+    "path": "waves/donor/effect_1003.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1003.bin",
+    "sha256": "6a18f8d093d1d851ac6340d7e5a9d8b19161bb133d36a57c9f1aabaca6dce738"
+  },
+  {
+    "path": "waves/donor/effect_1004.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1004.bin",
+    "sha256": "70cb6fc2118ec0b2083c611616d39bf8dc8c85885645fe10d471e07707565dd9"
+  },
+  {
+    "path": "waves/donor/effect_1005.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1005.bin",
+    "sha256": "1f81092a206cbbea7a91d3f742d1c383e0f5a19d0e43728b25a4e87a887aa4ff"
+  },
+  {
+    "path": "waves/donor/effect_1006.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_8.bin",
+    "sha256": "2f951c6d663cb3db079db93a0180a8b851208476469b4ccd3399109397d0f4e4"
+  },
+  {
+    "path": "waves/donor/effect_1007.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_105.bin",
+    "sha256": "f00e336603afa41e38845e88e0c2ec5ecec05f82dc824154db639b7ece5927ab"
+  },
+  {
+    "path": "waves/donor/effect_1008.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1008.bin",
+    "sha256": "49ce30bdc6b9b8646bed9b2492df0d7cc26fc2743b61d58a1da5cd041b274e26"
+  },
+  {
+    "path": "waves/donor/effect_1009.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1009.bin",
+    "sha256": "c9ff236ceeb5af70e960bcd31d6ba0178925a1dfff7d374ec3d07b8e45830548"
+  },
+  {
+    "path": "waves/donor/effect_1010.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_100.bin",
+    "sha256": "3942266415c602fdd8cdd144fdb0a4bb6269dc0cf0f72fbebb94b45daaf1a17b"
+  },
+  {
+    "path": "waves/donor/effect_1011.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1011.bin",
+    "sha256": "420002223a31502449f15b819590f01d3bb027a4267a529fa55d0c78b3c7e849"
+  },
+  {
+    "path": "waves/donor/effect_1012.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1012.bin",
+    "sha256": "02f2d3056a0948e6121bed9167d792120f1e3060f83c0c7574a83c5ee38689b4"
+  },
+  {
+    "path": "waves/donor/effect_1013.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1013.bin",
+    "sha256": "9be7fb15425f4a1c041112f18efdc74f006bdb5ee1600f8131accb6698f66630"
+  },
+  {
+    "path": "waves/donor/effect_1014.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_8.bin",
+    "sha256": "2f951c6d663cb3db079db93a0180a8b851208476469b4ccd3399109397d0f4e4"
+  },
+  {
+    "path": "waves/donor/effect_1015.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1015.bin",
+    "sha256": "e68ad34457c86af457af16756d7ec674023acd6d673a25d3a698ff665a83b6c8"
+  },
+  {
+    "path": "waves/donor/effect_1016.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1016.bin",
+    "sha256": "65a754e13e2560362d004b80e260a466c5bd9f3c029dc0a328c83cb9c3ff27af"
+  },
+  {
+    "path": "waves/donor/effect_1017.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1017.bin",
+    "sha256": "b94cc6da0f9a5d009cd0c53166475a3bc24556c180d9d2b67db931f9252d3d24"
+  },
+  {
+    "path": "waves/donor/effect_1018.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1018.bin",
+    "sha256": "da23753f25b64d22617af534d0aaed0bcce1a93b10b5a35426461729ca52280b"
+  },
+  {
+    "path": "waves/donor/effect_1020.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1020.bin",
+    "sha256": "a30700de45e94851677f6ab5bc89dee312fff7990728037ad6ffa1483f2942ba"
+  },
+  {
+    "path": "waves/donor/effect_1021.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1021.bin",
+    "sha256": "01c435fa1022317ce42f1e9555a903299f6b577fcc7d57b50c00a53e412e7ed1"
+  },
+  {
+    "path": "waves/donor/effect_1022.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1022.bin",
+    "sha256": "40874e6bd38ebd9bc32381ad93be4a53855952b6d3c79b41f45302bdb40c7cbd"
+  },
+  {
+    "path": "waves/donor/effect_1024.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1024.bin",
+    "sha256": "fa19d945d7117b116b42302b45d065836743131db085c07a045b86f5588f86ef"
+  },
+  {
+    "path": "waves/donor/effect_1025.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1025.bin",
+    "sha256": "02d62f25a21cf95dcd225c44f3186f2cb9f18c83798e05b6bd18d809924c2da8"
+  },
+  {
+    "path": "waves/donor/effect_1026.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1026.bin",
+    "sha256": "cbf62e85c4c9f0a86d45d74ff6a78239171347aa7148fe48fbdff24d22697e9d"
+  },
+  {
+    "path": "waves/donor/effect_1027.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1027.bin",
+    "sha256": "a46d689665647bfcc50ce974f7e7c0487ba4f7212aa62718c5749a4dab74c350"
+  },
+  {
+    "path": "waves/donor/effect_1028.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1028.bin",
+    "sha256": "de1b44de23cda4349334442ac01363957ebeb9d20929f3c49ca60b7f426049e6"
+  },
+  {
+    "path": "waves/donor/effect_1029.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1029.bin",
+    "sha256": "a07dbe56d75ccf213810908a4eb8909735f5325d9bd9011463e5062bfbed9d27"
+  },
+  {
+    "path": "waves/donor/effect_1030.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1030.bin",
+    "sha256": "675259665e592fe4e3421f4cbc007c974cf3826108a943e074db231556524483"
+  },
+  {
+    "path": "waves/donor/effect_1031.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1031.bin",
+    "sha256": "cf1d4dc3b735799c89efcaaed93a9e2c84b639662dd52f51c09774d8eddb42f2"
+  },
+  {
+    "path": "waves/donor/effect_1032.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1032.bin",
+    "sha256": "1ecb7b8f095d143f332f4bf167f370610f71eb302d2f9e12f07ae6172bdd5d1b"
+  },
+  {
+    "path": "waves/donor/effect_1033.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1033.bin",
+    "sha256": "9639f64d17579eb24cb961b2cde72cad250db1e12dacfe9e50e66634d5c0c9b7"
+  },
+  {
+    "path": "waves/donor/effect_1038.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1038.bin",
+    "sha256": "11f053abfd83c316de8ce8679d45ec577ed82b02902815e5627d7d156f080554"
+  },
+  {
+    "path": "waves/donor/effect_1039.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1039.bin",
+    "sha256": "4046078ca1b47a4f1c743a4cb95fd2545b181be1c32a535afa763395fc66bd05"
+  },
+  {
+    "path": "waves/donor/effect_1044.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1044.bin",
+    "sha256": "7302fc281ca44ad0b1092dd1053594066a23ddd2dfc4aa131e978ea5849d6431"
+  },
+  {
+    "path": "waves/donor/effect_1045.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1045.bin",
+    "sha256": "958ac7f6eab9ed716c0a3951a1484541f542de72f1781898c405f8864f05f984"
+  },
+  {
+    "path": "waves/donor/effect_1046.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1046.bin",
+    "sha256": "95fc979c8ab6462f5946b0f953be781ebf338a6aa163e47f4bacb3e11a1abcd8"
+  },
+  {
+    "path": "waves/donor/effect_1047.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1047.bin",
+    "sha256": "746f7ed2eae2b4c790ffa08ed9b369791f9247b511228d4a5e395eea2e275ccc"
+  },
+  {
+    "path": "waves/donor/effect_1048.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1048.bin",
+    "sha256": "e786d67868459688cd726c2690a422049b55d01b721863cd66c884a6e606b639"
+  },
+  {
+    "path": "waves/donor/effect_1052.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1052.bin",
+    "sha256": "19f3444cafdd764c3ddbf08001e29aae3c607c33eb7602e69649f6c5c75b7b44"
+  },
+  {
+    "path": "waves/donor/effect_1053.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1053.bin",
+    "sha256": "7b4918874f2867baa8d027d3eab21a5fa6da0943f8d071fcc698f0214643405a"
+  },
+  {
+    "path": "waves/donor/effect_1054.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1054.bin",
+    "sha256": "29ef38853dfe5035b9907b513fbcfca4ee04f66d5d4cdad5b5616883036e999f"
+  },
+  {
+    "path": "waves/donor/effect_1055.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1055.bin",
+    "sha256": "e772eec80912a4ced568794462f5e98c51c01608ddc79776e21410682af7f867"
+  },
+  {
+    "path": "waves/donor/effect_1056.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1056.bin",
+    "sha256": "1d36116c6af34ccea8e23d687f3fad53a69711ac3c18c291a5bfef6efb874b5f"
+  },
+  {
+    "path": "waves/donor/effect_1057.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1057.bin",
+    "sha256": "9d915f7649e4ccd4120fd118caedec81a3d004d81a483e6b884485d87f22a960"
+  },
+  {
+    "path": "waves/donor/effect_1058.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1058.bin",
+    "sha256": "9736b4e51ee6dec70e49172b882edce5638a1957eb69d3c107e4f1501f2c61ec"
+  },
+  {
+    "path": "waves/donor/effect_1059.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1059.bin",
+    "sha256": "1980339839903687cdc822b0613473c004d8ab7aa736668ad483aed55a6cbad4"
+  },
+  {
+    "path": "waves/donor/effect_1060.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1060.bin",
+    "sha256": "90034b767ccf480e814186f2ae8990d8b69ce804f9ef20292187d9913fd064b8"
+  },
+  {
+    "path": "waves/donor/effect_1061.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1061.bin",
+    "sha256": "36f76e9a71ee69f70b94832b2534632263e58db91a8d9de9bf187857db947b1e"
+  },
+  {
+    "path": "waves/donor/effect_1062.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1062.bin",
+    "sha256": "671cafe8af6f9d25408e02ab41fbcf588c39ead585f2db09639cf7b002769a45"
+  },
+  {
+    "path": "waves/donor/effect_1066.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1066.bin",
+    "sha256": "9d2d7f03ddcf9641e7a9acd347ebeafb6b1884a395b08457f6952c93b2b47c15"
+  },
+  {
+    "path": "waves/donor/effect_1067.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_4.bin",
+    "sha256": "57baa9e3a4d3afdbbd1c2afdfd963c4dc91be6061e5a265fb6251627dea6a927"
+  },
+  {
+    "path": "waves/donor/effect_1068.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1068.bin",
+    "sha256": "e9e79898a644e9100343c756aa679d6671c2d4012bde5a24ef411e680294855c"
+  },
+  {
+    "path": "waves/donor/effect_1069.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1069.bin",
+    "sha256": "fa32c08568718d4b59dc5ee32147e00ff62a8e0fa098cbc39124de69df62472c"
+  },
+  {
+    "path": "waves/donor/effect_1070.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1070.bin",
+    "sha256": "80104d08f6442c42999029cf63932118778ad6496e1a9de7b990cb7408ffbe70"
+  },
+  {
+    "path": "waves/donor/effect_1071.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1071.bin",
+    "sha256": "8cfe5d0aced198849c900ad7e40409e822f5d23a9c54c09d2015461b2bea3f95"
+  },
+  {
+    "path": "waves/donor/effect_1076.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1076.bin",
+    "sha256": "2f2af81f929aadad990442bb29af5f55f20c35673b163be149494aaa9ad6780c"
+  },
+  {
+    "path": "waves/donor/effect_1077.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1077.bin",
+    "sha256": "b0ae7d4f7b989072da722e81e7c2c7edd71dfb7e4dc42f5bfd9a1d5c05f9d0d1"
+  },
+  {
+    "path": "waves/donor/effect_1078.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1078.bin",
+    "sha256": "d313d234f471669a3131f6ec93d9dbe469e844d1cec9c2e65345d68cac66bfb2"
+  },
+  {
+    "path": "waves/donor/effect_1079.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1079.bin",
+    "sha256": "65a9b122aa6a62919eed06b8da07d86112738fb6120b720c08a7a01a5347b859"
+  },
+  {
+    "path": "waves/donor/effect_1080.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_lolm_1080.bin",
+    "sha256": "d78e3f20250e267748a78885b0fd3e60f5c7bd3161b20506ad539b2219971d6f"
+  },
+  {
+    "path": "waves/donor/effect_1201.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1201.bin",
+    "sha256": "0cf4443cfde9344d259ecc6a1136802ad1bfd0e8ce47943a968bc20821c5e6c4"
+  },
+  {
+    "path": "waves/donor/effect_1202.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1202.bin",
+    "sha256": "9d2afb8d6e0c15bae52ab66d86946325d2ee02d8f7c59f8a2ee76b09d30d1838"
+  },
+  {
+    "path": "waves/donor/effect_1203.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1203.bin",
+    "sha256": "a1f698995efc8baf539dc6aea71163197ca09a5ec1ec9ca789c3b9764038b140"
+  },
+  {
+    "path": "waves/donor/effect_1204.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1204.bin",
+    "sha256": "21c426ae124df8c68afa3e17ecd8094a1ee1bf5b4626e17fb0f6ffb65456a0b8"
+  },
+  {
+    "path": "waves/donor/effect_1205.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1205.bin",
+    "sha256": "bfe8a39ad15b5247733ddc998ffed815ecabca1700bf2249e64c7f5589b10057"
+  },
+  {
+    "path": "waves/donor/effect_1206.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1206.bin",
+    "sha256": "d7b8d3d4a1b86ccee8f711237f13de65547142292b68fea350a35385374f25f6"
+  },
+  {
+    "path": "waves/donor/effect_1207.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1207.bin",
+    "sha256": "72e01e437703ece3c9fc3671f2f16ed1103fe035c573edf9456082749d036ac1"
+  },
+  {
+    "path": "waves/donor/effect_1208.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1208.bin",
+    "sha256": "d694f97aff381c60c61617c57b46241556b44852d90aaf110bd922c0c3447ea8"
+  },
+  {
+    "path": "waves/donor/effect_1209.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1209.bin",
+    "sha256": "38b608d66a6d32262a5bf953a166ce053ff5b5902e35c410849ed74dd40460bc"
+  },
+  {
+    "path": "waves/donor/effect_1210.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1210.bin",
+    "sha256": "cff99b84d9a377642b9892e2924dc2c7be00655a284fb25b79837c8e1e898274"
+  },
+  {
+    "path": "waves/donor/effect_1211.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1211.bin",
+    "sha256": "165270752f7b9047004ca182d1fa9571abed49c4e28088db9fa369f0984e91f7"
+  },
+  {
+    "path": "waves/donor/effect_1212.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1212.bin",
+    "sha256": "bc34a6e7404932f7b31d4598124949f5bcf014b0b8d2d69c59485828fcae674b"
+  },
+  {
+    "path": "waves/donor/effect_1213.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1213.bin",
+    "sha256": "a5e44ae884b28b1f883f44940d6a3e80ae26a3cd8b385f1a86ea1396b1225701"
+  },
+  {
+    "path": "waves/donor/effect_1214.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1214.bin",
+    "sha256": "2bddadf47ff9973d757ddbeefd38376553a72c4c809977394c401068c54ea215"
+  },
+  {
+    "path": "waves/donor/effect_1215.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1215.bin",
+    "sha256": "e602b492a45a9a2549d889b463e993c084b80b9a465c723d4825add737d85c25"
+  },
+  {
+    "path": "waves/donor/effect_1216.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1216.bin",
+    "sha256": "1f37b58cb6b79c63e375958a0c3f12f34820970c4c3397ae4be7e74ee0dd5b47"
+  },
+  {
+    "path": "waves/donor/effect_1217.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1217.bin",
+    "sha256": "a9ecb809630f518234057aa8c5afcf776e2281d2e155ac66b37f750a67b2e901"
+  },
+  {
+    "path": "waves/donor/effect_1218.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1218.bin",
+    "sha256": "9b3dd163aacd6e5b5e091caa42a85b5c07d58c7ae0e5b718b95c3d605843787f"
+  },
+  {
+    "path": "waves/donor/effect_1219.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1219.bin",
+    "sha256": "9b3dd163aacd6e5b5e091caa42a85b5c07d58c7ae0e5b718b95c3d605843787f"
+  },
+  {
+    "path": "waves/donor/effect_1220.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1220.bin",
+    "sha256": "2bfbc72f62cdfb1ec8d1b41950e41143d78eabab88ea027446aca984bbaedc6f"
+  },
+  {
+    "path": "waves/donor/effect_1221.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1221.bin",
+    "sha256": "33cd8c8c340bc2d76c076d514ecce2634cc1fec347814941fd689c9e4dea7c1d"
+  },
+  {
+    "path": "waves/donor/effect_1222.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1222.bin",
+    "sha256": "a1dc02cf9c07aa7c31826a5c35ff8b2329e01cb1e21ecd77c012e2a2a782d896"
+  },
+  {
+    "path": "waves/donor/effect_1223.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1223.bin",
+    "sha256": "11efdc0089a94cc6832430b5b3bf1ad9c194eb3394d1955b3c6cbf46eab179db"
+  },
+  {
+    "path": "waves/donor/effect_1224.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_3.bin",
+    "sha256": "782eb439cd253fd47df206e0181e1a9ee0f6543d38e237d3347062676949c6ee"
+  },
+  {
+    "path": "waves/donor/effect_1225.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1225.bin",
+    "sha256": "45d8d7fec7699289446e0ca9665149e7c993003877a4444af0cb94e0a308bfe5"
+  },
+  {
+    "path": "waves/donor/effect_1226.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1226.bin",
+    "sha256": "d978f212691488536e4603606be9747c57dd16d7faa45a8f6d73d6a4782046a4"
+  },
+  {
+    "path": "waves/donor/effect_1227.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1227.bin",
+    "sha256": "052d0da4fbb172fbd960fe58a4f6c88b8a38ea9e1d566133f764c235862a8914"
+  },
+  {
+    "path": "waves/donor/effect_1228.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1228.bin",
+    "sha256": "43617c390e42c2531e2d771f6c70dccfe221e95a6d4ea0970e1923b9d92dd8dd"
+  },
+  {
+    "path": "waves/donor/effect_1230.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1230.bin",
+    "sha256": "c1c398247b5e59d77ff66ac926261b0a685170806dfe6ca6ec7cb3679c02fe01"
+  },
+  {
+    "path": "waves/donor/effect_1231.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1231.bin",
+    "sha256": "8f81bacf2bd47baa1ff52d1b784ba4960befdd1c4ec217c5eca9d0647fda7117"
+  },
+  {
+    "path": "waves/donor/effect_1232.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1232.bin",
+    "sha256": "cdf851808fdf562927a420af4bfe7106119b546b13e917c1b5a9cc2ab76e55dc"
+  },
+  {
+    "path": "waves/donor/effect_1233.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1233.bin",
+    "sha256": "9626f98bd59d83a40d66e725310ec03915d7d9d80e5fc19d5d077115da6f394e"
+  },
+  {
+    "path": "waves/donor/effect_1234.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1234.bin",
+    "sha256": "e1f5ef90d46606b0b5f98f91180ef1b3e3dcb7fcfaddc6507f296f39032154b2"
+  },
+  {
+    "path": "waves/donor/effect_1235.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1235.bin",
+    "sha256": "afd155de3ec40c4a69a65d7cce5ba5d4e2480c2be566589e7e2065d846bd2634"
+  },
+  {
+    "path": "waves/donor/effect_1236.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1236.bin",
+    "sha256": "b379376057d349273373027297011604a9112ed0fadf0b9dd1f35ced8b511017"
+  },
+  {
+    "path": "waves/donor/effect_1237.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1237.bin",
+    "sha256": "215b6ab9fc010fdb6dacc5cf6cef1f50f1c2396be2b2045ec3c1ab57e3ad12bb"
+  },
+  {
+    "path": "waves/donor/effect_1238.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1238.bin",
+    "sha256": "1588664f4ab92eb7737ed68c5c9a9629e1aa011fd0ce76bc597448c69bdaf541"
+  },
+  {
+    "path": "waves/donor/effect_1239.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1239.bin",
+    "sha256": "df97a66ee1581e510c6c806446e302ec0e3b8e8cabbca1d7d855cdec4328f0e0"
+  },
+  {
+    "path": "waves/donor/effect_1240.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1240.bin",
+    "sha256": "2ed7eb5c8ae4ae9d7bf579d30e1822e915ba8d10e7e13f9cf775d6d6c978f517"
+  },
+  {
+    "path": "waves/donor/effect_1241.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1241.bin",
+    "sha256": "7663440a3f742a88cbb5faaee744fa742c056b153986e67b9434d5901700d5cc"
+  },
+  {
+    "path": "waves/donor/effect_1242.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1242.bin",
+    "sha256": "5ee3f0072b5aeaaae5f3c0badbf97910030182560b6181aa80a02108ba68d8ff"
+  },
+  {
+    "path": "waves/donor/effect_1243.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1243.bin",
+    "sha256": "37e550a75f25f5d8fbe4a72b89ac213b1cdeda82ffc3286be8495c6c4e68cecd"
+  },
+  {
+    "path": "waves/donor/effect_1244.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1244.bin",
+    "sha256": "9eae806d40d7c48df9c8b4256b04fc5554c62fb1796c386399aef65f6526b509"
+  },
+  {
+    "path": "waves/donor/effect_1245.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1245.bin",
+    "sha256": "b70536b947b82509696bcd972381d89df835e917d136174c595edf1211989860"
+  },
+  {
+    "path": "waves/donor/effect_1246.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1246.bin",
+    "sha256": "0af5b591f8eacd0fe90d2d8a0ae8a2192a070c89ce6456022f194547d1226b21"
+  },
+  {
+    "path": "waves/donor/effect_1248.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1248.bin",
+    "sha256": "bbc592fa6d60f54ce809a3b3982988961b72282647729af623cdf2e96394b816"
+  },
+  {
+    "path": "waves/donor/effect_1249.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1249.bin",
+    "sha256": "06fd5ec4cb4da32982ddb44ccc6d1d71afb46b7481e6ce99c2dfb8a7a0ed0a6b"
+  },
+  {
+    "path": "waves/donor/effect_1250.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1250.bin",
+    "sha256": "ca6c7d6e08fb3980763363b13f5d971308ab602a264c54426bf299d22750e3c0"
+  },
+  {
+    "path": "waves/donor/effect_1251.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1251.bin",
+    "sha256": "8ffb8858e23a3fc3e07c4453032518b383be88f111babdffd3037c125f9056a6"
+  },
+  {
+    "path": "waves/donor/effect_1252.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1252.bin",
+    "sha256": "8ffb8858e23a3fc3e07c4453032518b383be88f111babdffd3037c125f9056a6"
+  },
+  {
+    "path": "waves/donor/effect_1253.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1253.bin",
+    "sha256": "2643f5229d01624d4edb96d4229a7d3afeb71149e953963d3b9f12cd2fb4a220"
+  },
+  {
+    "path": "waves/donor/effect_1254.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1254.bin",
+    "sha256": "449945b08493de62b2ccfafee78f2035298efc2524ae63dfe31acc39e24023f5"
+  },
+  {
+    "path": "waves/donor/effect_1255.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1255.bin",
+    "sha256": "ab9cda60300407e149867aa7d702095cffb975de9d162e805fdd0726405f4068"
+  },
+  {
+    "path": "waves/donor/effect_1256.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1256.bin",
+    "sha256": "5ec72c2e4c41c963b45370b59624ed9e4e0ce78011e89d7a9f07d9f06fdfa9b4"
+  },
+  {
+    "path": "waves/donor/effect_1257.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1257.bin",
+    "sha256": "0c29eb9e186c2805db511bb5e42f776352687cda87c7d401bdfb42ea369518a9"
+  },
+  {
+    "path": "waves/donor/effect_1258.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1258.bin",
+    "sha256": "ecac3b22cb9f3c6fbb8c15eb202b5fbf89636b0a4890bb663acca0fafbb94556"
+  },
+  {
+    "path": "waves/donor/effect_1259.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1259.bin",
+    "sha256": "4fea85a2561610e17ebb3b43aea42166dd0d778ea7f3a1bac52b69e8b2048e5b"
+  },
+  {
+    "path": "waves/donor/effect_1260.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1260.bin",
+    "sha256": "2eb5f4f2410fb130e462012b200ed5c2e04b7ca122957207718247751a84e346"
+  },
+  {
+    "path": "waves/donor/effect_1261.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1261.bin",
+    "sha256": "775641da876d4f628812a35e3847e21fd0904328da9d8504587b2860dd70dd63"
+  },
+  {
+    "path": "waves/donor/effect_1262.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1262.bin",
+    "sha256": "6b6031a4e08b6107f1dae9b6f58f4c8bc8726a5ddba8f89cbb324efda788a27a"
+  },
+  {
+    "path": "waves/donor/effect_1263.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1263.bin",
+    "sha256": "447b561acb92c9f7481e9155dd6b72cb685b6c28a0d25b1ed2a541c62a4e1320"
+  },
+  {
+    "path": "waves/donor/effect_1264.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1264.bin",
+    "sha256": "dcc390defd2f373350de644344ad31e17e8b60494fe90023f88274d418cde681"
+  },
+  {
+    "path": "waves/donor/effect_1265.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1265.bin",
+    "sha256": "e61baf6464ac0631c69a74ced3b676067eebaf3076240e387cc9209c3516053f"
+  },
+  {
+    "path": "waves/donor/effect_1266.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1266.bin",
+    "sha256": "19f1179eb24bdf76db7dcfa756b5b63c4e2385fa0f03aee5536d570b83d8e7e9"
+  },
+  {
+    "path": "waves/donor/effect_1267.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1267.bin",
+    "sha256": "5f9f613c40debbc339f3f0af96b67978919b1e7d3e50b5ea04c44ba5908a8169"
+  },
+  {
+    "path": "waves/donor/effect_1268.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1268.bin",
+    "sha256": "26ded63dde35d4a63065a62506eeab756bc2685db8b47470f0672ca40e6d95c9"
+  },
+  {
+    "path": "waves/donor/effect_1272.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1272.bin",
+    "sha256": "49f7a310d92a29a45f58b662059a6e9d69fba478dba2f150f721eb9dfafb1cfa"
+  },
+  {
+    "path": "waves/donor/effect_1273.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1273.bin",
+    "sha256": "979a3357124e1bdc5da283ff52a21d5ce540ec487f95842535fe72e4c00170dd"
+  },
+  {
+    "path": "waves/donor/effect_1274.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1274.bin",
+    "sha256": "df4fcf7d093a8400d28eb7a781a0d64a306afbd02570cf9f5e7e9dffa2e5e64a"
+  },
+  {
+    "path": "waves/donor/effect_1275.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1275.bin",
+    "sha256": "c50a7c3caec8b1f4339e17ca481ef91b368b3103ad624425565298995a12dfd8"
+  },
+  {
+    "path": "waves/donor/effect_1276.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1276.bin",
+    "sha256": "327ebe962a4793a70e160a63ab31fa388b700ce85f0051b31e6a253f27f56c2d"
+  },
+  {
+    "path": "waves/donor/effect_1277.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1277.bin",
+    "sha256": "15608339349ffd98823c6396faa1b5ca0a357a305783a3512b83d9a69c1e3039"
+  },
+  {
+    "path": "waves/donor/effect_1278.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1278.bin",
+    "sha256": "1d1a45cdd2598111cc9aae008afbbc2a7a3363cce76978b282aac26cf7da2be4"
+  },
+  {
+    "path": "waves/donor/effect_1279.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1279.bin",
+    "sha256": "2a5365784c89b040e1605085937441f199f70e4cb64cf73a1507e274a2b8a784"
+  },
+  {
+    "path": "waves/donor/effect_1280.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1280.bin",
+    "sha256": "21e0a8a5834cfadd0c3de2aa80eff3b51eb165a5d1cc6ee68451b82f50f0d532"
+  },
+  {
+    "path": "waves/donor/effect_1281.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1281.bin",
+    "sha256": "b52f078e92c48b99081157f33256923e90b022d5a55867610ad2faf82b702dfd"
+  },
+  {
+    "path": "waves/donor/effect_1282.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1282.bin",
+    "sha256": "8347421bad87ad38d6e95a1d29414dafefcb20efbdf65ffa538e77b83626d19d"
+  },
+  {
+    "path": "waves/donor/effect_1283.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1283.bin",
+    "sha256": "b65e25d4c1dfe9f092a245caed08da3fa1f86ebcca5120b860139feafd9d5482"
+  },
+  {
+    "path": "waves/donor/effect_1284.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_naruto_1284.bin",
+    "sha256": "4cd6370a7f787278a58cb293693528bff7583ea26274065b606dc832a1f46bc0"
+  },
+  {
+    "path": "waves/donor/effect_1400.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1400.bin",
+    "sha256": "0f4d4a825827deb76b6ec5d683e7ff22cdc6543c00b948a06f9b39b42a16c4d4"
+  },
+  {
+    "path": "waves/donor/effect_1401.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1401.bin",
+    "sha256": "2644316421546521dd208a8f65b4f8582c2efdc2305a3d5b8e432405473d57c8"
+  },
+  {
+    "path": "waves/donor/effect_1402.bin",
+    "source_group": "matched user_repo",
+    "original_filename": "effect_190.bin",
+    "sha256": "493ded29f3b556d14f86a6c3e3f9cf7f5c6f7c957831a06f0bfea0ddc0a55d62"
+  },
+  {
+    "path": "waves/donor/effect_1403.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1403.bin",
+    "sha256": "10458fb5ed4e8c8bbdd0a8d2792e5f61d5dae6e0da2e5c3528050b8c0a06364b"
+  },
+  {
+    "path": "waves/donor/effect_1404.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1404.bin",
+    "sha256": "d245437245441b42cd2a5486cc57ef70ded236e6d250c8501c75eddee5951384"
+  },
+  {
+    "path": "waves/donor/effect_1405.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1405.bin",
+    "sha256": "5eb92a83541667776c9bd1685c45951ceea45218242ad1902ea987c0967c134d"
+  },
+  {
+    "path": "waves/donor/effect_1406.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1406.bin",
+    "sha256": "2a8422f5b14c76baef28d98af8564ace3f2fe45ea77c9c849b7ac7d3158de983"
+  },
+  {
+    "path": "waves/donor/effect_1407.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1407.bin",
+    "sha256": "3cfc57fcbe8bfb7a53e369711b8556c041d8cc550ad129e490864d3d7f16892a"
+  },
+  {
+    "path": "waves/donor/effect_1408.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1408.bin",
+    "sha256": "e0218765065925d67c51d9b0419a6b6f03a88b838b610dae1d7de07de7f492f8"
+  },
+  {
+    "path": "waves/donor/effect_1409.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1409.bin",
+    "sha256": "60271fc6a84fdbedd0ab4d2f0b15b0a44027b61f35d5c3fe326a42ce351c9d73"
+  },
+  {
+    "path": "waves/donor/effect_1410.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1410.bin",
+    "sha256": "9e7463f93a4a045e0fcd8aac35cdc442eee7cfa671f7b061e6440d7c9212c206"
+  },
+  {
+    "path": "waves/donor/effect_1411.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1411.bin",
+    "sha256": "f21186a14317cd1302f9c78cb0eaab84d1a4769f24d3d5294d7b654327a61aa6"
+  },
+  {
+    "path": "waves/donor/effect_1412.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1412.bin",
+    "sha256": "71074ca3e955b39fb7a1846f82c938ad439d37e2f2a6269db736588461c46306"
+  },
+  {
+    "path": "waves/donor/effect_1413.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1413.bin",
+    "sha256": "ca970e6046c704e83ec5bc9f0859b330c37efebbcc8c3d0d3ffc22e26bfd8c84"
+  },
+  {
+    "path": "waves/donor/effect_1414.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1414.bin",
+    "sha256": "24d3158396e8c077cee12d9a1af255e30de8c60ec47c8c898bcb44fe6ea74e16"
+  },
+  {
+    "path": "waves/donor/effect_1415.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1415.bin",
+    "sha256": "572abdff7870a61cc205f7e0728f2add50505e7e41f11404e77ed9787bd9bd11"
+  },
+  {
+    "path": "waves/donor/effect_1416.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1416.bin",
+    "sha256": "63a3b1e41a9035f2b18b95ec082ac5b18606483ab1fb635605c7a915d72eee12"
+  },
+  {
+    "path": "waves/donor/effect_1417.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1417.bin",
+    "sha256": "e5a1d7078cf56fcf4d240e01dbb1ec9a117b682583369c19480dfb52f90e5aa4"
+  },
+  {
+    "path": "waves/donor/effect_1418.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1418.bin",
+    "sha256": "5b6b17d1f5659553ad441d79b612588387d49c3edb72305bf7d1a23398f06209"
+  },
+  {
+    "path": "waves/donor/effect_1419.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1419.bin",
+    "sha256": "57a11d199020b82aa9ddcdb27f8659727a4af6dcbc6d87a6be96bcf17372192d"
+  },
+  {
+    "path": "waves/donor/effect_1420.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1420.bin",
+    "sha256": "af04016e8bf8c8e54920cc5ebad05e05e751e0b354c5d1afbc4d19b63040496a"
+  },
+  {
+    "path": "waves/donor/effect_1421.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1421.bin",
+    "sha256": "c82eedbd74a59d9632fe7304cff7b14482f031f58a731ce758eacf4161881e2c"
+  },
+  {
+    "path": "waves/donor/effect_1422.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1422.bin",
+    "sha256": "10ec71c0902e93f10d50671db8b504a5b91cfeb5a0a640c444d193ba7285e833"
+  },
+  {
+    "path": "waves/donor/effect_1423.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_ZenlessZoneZero_1423.bin",
+    "sha256": "4ecd7c2451db8d860cd6b996de0fec0263c1aeaa4b82b70c4ba36940ee1dc7cd"
+  },
+  {
+    "path": "waves/donor/effect_3001.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3001.bin",
+    "sha256": "d817848ee8a014769a0e5b3a1426aac80badd82286774a05c35f8c2bc0514a98"
+  },
+  {
+    "path": "waves/donor/effect_3002.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3002.bin",
+    "sha256": "851dcd69b48e80f3ad7b2ce91b27287b3f75fd6cf870b09cb370538f85afa5ad"
+  },
+  {
+    "path": "waves/donor/effect_3003.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3003.bin",
+    "sha256": "6e74cd43f03880efa56e39d55744a230fde9f9b51238a7836e1e290d6d129d19"
+  },
+  {
+    "path": "waves/donor/effect_3004.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3004.bin",
+    "sha256": "8077663b12bc8b51a942fc85b3721be988efc80a3e0491268a40b7184aed05fa"
+  },
+  {
+    "path": "waves/donor/effect_3005.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3005.bin",
+    "sha256": "43b0471d4af0cf411328e3bb8b780aa9039b4760b1728c178f5c1457adee9e3b"
+  },
+  {
+    "path": "waves/donor/effect_3006.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_2.bin",
+    "sha256": "ddaacb13b3ad692485b155052d0dead79c9dde6cf0aba12edf2679fa1f28c917"
+  },
+  {
+    "path": "waves/donor/effect_3007.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3007.bin",
+    "sha256": "5790b3216fd7b31ed7b9e40f9c93cce5c70e7192de3950757ad3980aa76a5cd2"
+  },
+  {
+    "path": "waves/donor/effect_3008.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3008.bin",
+    "sha256": "865cf135207fb44bef1eb159b89e89a9c0c744df7de325457ab595324068382b"
+  },
+  {
+    "path": "waves/donor/effect_3009.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3009.bin",
+    "sha256": "7c01343823a5f2c9f64a0da40ebb6d0884d87dd1716e81d50a1db73aad8faa61"
+  },
+  {
+    "path": "waves/donor/effect_3010.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3010.bin",
+    "sha256": "c04b6db1eccf0c290a266e99c4b39aba8e0e61b5af081a663be94f7df27b8868"
+  },
+  {
+    "path": "waves/donor/effect_3011.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3011.bin",
+    "sha256": "82f221784cd0ca5630e909b57254fa6999c06892357cd88683de860a6108d5de"
+  },
+  {
+    "path": "waves/donor/effect_3012.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3012.bin",
+    "sha256": "1dc9a22c4ee1ce491b469429c8203bc0b83b8ac2eb07f1e4e324098656ea790d"
+  },
+  {
+    "path": "waves/donor/effect_3013.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3013.bin",
+    "sha256": "d975341c2e77462952589b4fe6d5e506d2a5155d239a1912d6a99e3f456d4f52"
+  },
+  {
+    "path": "waves/donor/effect_3014.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3014.bin",
+    "sha256": "3d25278aed2152001632407df48a2fa104d5c0dbb20fab01a211915c3e1a16ab"
+  },
+  {
+    "path": "waves/donor/effect_3015.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3015.bin",
+    "sha256": "38f99281a11ed1d51dd1a5fe123e266efdb3f8101990db487892fc46cc5129f5"
+  },
+  {
+    "path": "waves/donor/effect_3016.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3016.bin",
+    "sha256": "629bd618dbe1bea0c255939f3957030d1de2598a5c9cafd9e205b56dfff839ef"
+  },
+  {
+    "path": "waves/donor/effect_3017.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3017.bin",
+    "sha256": "52aaa22a5824fca3b42d5e39817560dc2c8d237c72e4680811a27e985f2917cb"
+  },
+  {
+    "path": "waves/donor/effect_3018.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3018.bin",
+    "sha256": "9b46d3671214075d32c94029786cc79d669c74af48cd80cc5c49b1968580061b"
+  },
+  {
+    "path": "waves/donor/effect_3019.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3019.bin",
+    "sha256": "99a64197c3868e7d554af81dc7c8d67600d39a258d66181f0b9aa54c41d99efb"
+  },
+  {
+    "path": "waves/donor/effect_3020.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3020.bin",
+    "sha256": "99a64197c3868e7d554af81dc7c8d67600d39a258d66181f0b9aa54c41d99efb"
+  },
+  {
+    "path": "waves/donor/effect_3021.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3021.bin",
+    "sha256": "ecc1553cdf66ae16442f56c6cc62cd9b707bff010bbf778fc6ea13dcc91a47e4"
+  },
+  {
+    "path": "waves/donor/effect_3022.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3022.bin",
+    "sha256": "92606b94de2e296ba16fc57213e85fbdf5d390ef2b39304a476f0c3a35e7b6c6"
+  },
+  {
+    "path": "waves/donor/effect_3023.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3023.bin",
+    "sha256": "a9cf0b80a553ba31dcabea6a7662f659f6ed936e8401ca34267791ef9cb49b60"
+  },
+  {
+    "path": "waves/donor/effect_3024.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3024.bin",
+    "sha256": "d3566363c519409283e8eb243b07c3ffa41658fbced74700b1940e5b10119081"
+  },
+  {
+    "path": "waves/donor/effect_3025.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3025.bin",
+    "sha256": "942c2cc8f5cdf7e137ce746f79f59cc85108045c6313e7262203ba1b4c72c12f"
+  },
+  {
+    "path": "waves/donor/effect_3026.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3026.bin",
+    "sha256": "618088d02aa8599a0116e3eb75c4306e3f687ec92566b10321dbba9eec6b0eec"
+  },
+  {
+    "path": "waves/donor/effect_3027.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3027.bin",
+    "sha256": "b2a6081229b18b096de30bebe130b15436cf522ee5aae7748e1ff4781e7092a9"
+  },
+  {
+    "path": "waves/donor/effect_3028.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3028.bin",
+    "sha256": "877e9d3ac63d9d042abbcda9e1eb6c43a8e170d0dd1bb87d2daa1185f3761b88"
+  },
+  {
+    "path": "waves/donor/effect_3029.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3029.bin",
+    "sha256": "e1e47700870e97247fede4ff8c373f9ce55e186981c9af0ad31dc68118665a41"
+  },
+  {
+    "path": "waves/donor/effect_3030.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3030.bin",
+    "sha256": "0de4caa0ef3500ddfbcd55ab99949054ff9964db1c0d09bee2fa4c1e89e974b7"
+  },
+  {
+    "path": "waves/donor/effect_3031.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3031.bin",
+    "sha256": "69bfb12a19f261a15f9e86e02b082c2d36281c3e23aa7a3a189972cfa01675bb"
+  },
+  {
+    "path": "waves/donor/effect_3032.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3032.bin",
+    "sha256": "544e8e5fc5370682c328ce9f5a4a727aa8ce3a24c013be69d5e4e3e40849d90e"
+  },
+  {
+    "path": "waves/donor/effect_3033.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3033.bin",
+    "sha256": "cf22d24e705bc9d092a48939df55be1d5e1fd21a29218d192033752ce89c505f"
+  },
+  {
+    "path": "waves/donor/effect_3034.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3034.bin",
+    "sha256": "007883a11aa1cc4b00d2fa12ad8da6a02d1389f707b95689601c6cdda8f9cabb"
+  },
+  {
+    "path": "waves/donor/effect_3035.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3035.bin",
+    "sha256": "a4f5f601adb8e433284c89bf8acb1cf7ad8b6c18fb1d782d76142a606d4fbd37"
+  },
+  {
+    "path": "waves/donor/effect_3036.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3036.bin",
+    "sha256": "a1406ad22844bf95098c4f097d7c633866135ffcbb2f915c9a0b87b15d485773"
+  },
+  {
+    "path": "waves/donor/effect_3037.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3037.bin",
+    "sha256": "785036a8b5c5b70105702cff6c5a9ad21a4770763c3c0d5fdfd5d31d368ad9a3"
+  },
+  {
+    "path": "waves/donor/effect_3038.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3038.bin",
+    "sha256": "110cf96646fcbd29ca3ac33c99b27c35d837d962790070b685420a5c8a7ced3f"
+  },
+  {
+    "path": "waves/donor/effect_3039.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3039.bin",
+    "sha256": "06afc55f6e88bf0d57fe6cdd0a275a7693dd0997f4701fa7ce7a4b17532b8431"
+  },
+  {
+    "path": "waves/donor/effect_3040.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3040.bin",
+    "sha256": "d85fa5aa1f205b39b7268e28a4745f228f6b2503dc6768807b27c454d7d5d9ab"
+  },
+  {
+    "path": "waves/donor/effect_3041.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3041.bin",
+    "sha256": "7e7f4461b2a938827d3d594fa2dad4c2d6e4af73a426f833ac5b23e1a2965bf1"
+  },
+  {
+    "path": "waves/donor/effect_3042.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3042.bin",
+    "sha256": "383a6c54b0a9f111797d1955325f4959ecdf0a94a72871f2ed9ad3689d4e0b00"
+  },
+  {
+    "path": "waves/donor/effect_3043.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_369.bin",
+    "sha256": "4f27db27b71092daaca68542d0281ccfdc6fc6859873cbfe1dc8bb9f2ba2a53e"
+  },
+  {
+    "path": "waves/donor/effect_3044.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3044.bin",
+    "sha256": "72b8d8feef946df3b06b9a402ec2cd4db0d0b36c8d6d092757adaa5e2fc1463d"
+  },
+  {
+    "path": "waves/donor/effect_3045.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3045.bin",
+    "sha256": "7ed48af38648afdc7bd1bb7fd1f4d5ae273a6339ac49abc44fdbb47086af0895"
+  },
+  {
+    "path": "waves/donor/effect_3046.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3046.bin",
+    "sha256": "db89649682732cb485672230f0752bb0562de73a6923071642c6acbfec4289ff"
+  },
+  {
+    "path": "waves/donor/effect_3047.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3047.bin",
+    "sha256": "e4f23b2d8c1408291d96e06e05d1635cf5afe3a21bdd6307e9ad68774d953452"
+  },
+  {
+    "path": "waves/donor/effect_3048.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3048.bin",
+    "sha256": "73ebf1d5a9693f163a4727020a9e981cf8a8df215c0495e13b3e7242cfa9c4f4"
+  },
+  {
+    "path": "waves/donor/effect_3049.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3049.bin",
+    "sha256": "4e7abc2a2195b632359400f5ed3376c42963cb1c0589a62dab43e8027bad9ffb"
+  },
+  {
+    "path": "waves/donor/effect_3050.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3050.bin",
+    "sha256": "44a6270bd779411b65087c655bedeb2528c21911a6c35915a251cdcd3bcbbc98"
+  },
+  {
+    "path": "waves/donor/effect_3051.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3051.bin",
+    "sha256": "5a2e4f1a6884da40311444b5a6b5c450fbff7b31460b0bbcb4b32aa11b412697"
+  },
+  {
+    "path": "waves/donor/effect_3052.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3052.bin",
+    "sha256": "172328aa943d036414a2e03573aba296a75510d03601db4cae849d9053e339a6"
+  },
+  {
+    "path": "waves/donor/effect_3053.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3053.bin",
+    "sha256": "aef2d3ed1d9ba114bdebbc5f8a05e7d9f6277de7add794e86dd81a557a45519a"
+  },
+  {
+    "path": "waves/donor/effect_3054.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3054.bin",
+    "sha256": "04c90915bbaa23545eb07c8d916b41555f23efeb04802bb432854a8fd9f55d30"
+  },
+  {
+    "path": "waves/donor/effect_3055.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3055.bin",
+    "sha256": "240b4012e8143bbfa2eb492f0258a1ba48b5dc3ca69e93b04b3ecbe46b08191d"
+  },
+  {
+    "path": "waves/donor/effect_3056.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3056.bin",
+    "sha256": "82f972af09c62197cdbeee7c7a058e63fc359c16c5db88d242554328e8807292"
+  },
+  {
+    "path": "waves/donor/effect_3057.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3057.bin",
+    "sha256": "ecb972939c044802469c43a3296a2649ae57728d5ecf1b638118181017b7c17f"
+  },
+  {
+    "path": "waves/donor/effect_3058.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3058.bin",
+    "sha256": "b6521933c527d138f50a81ab6a92187a17c3da949dbccb0377b7d4d2c2fe7b7e"
+  },
+  {
+    "path": "waves/donor/effect_3059.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3059.bin",
+    "sha256": "4c8e2e51bd2b937156827dd0a134fd9b67b953729e6ecec674917ab18f92a95f"
+  },
+  {
+    "path": "waves/donor/effect_3060.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3060.bin",
+    "sha256": "6ff34bce4994eeaaac371dcb6109699690fe7df98a73531ad6f438ce5869b1a7"
+  },
+  {
+    "path": "waves/donor/effect_3061.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3061.bin",
+    "sha256": "97e3364adcf42ea24c45f9ea810087b7cb623642ae26baa2287624d8f9f4b4b8"
+  },
+  {
+    "path": "waves/donor/effect_3062.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3062.bin",
+    "sha256": "708ef7cfeb71eb77dafe34526a08bdd0e1bedde46355e7c7671a651cc381ebea"
+  },
+  {
+    "path": "waves/donor/effect_3063.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3063.bin",
+    "sha256": "c1f47415bf265ff19e4fc7a8c37871ef8e67c4e0e84406cc6a276d94db014af4"
+  },
+  {
+    "path": "waves/donor/effect_3064.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3064.bin",
+    "sha256": "f4b07d3137a9eca29b232f7539365ae82c8ac9e2ae8cd177b9bda9c401badb81"
+  },
+  {
+    "path": "waves/donor/effect_3065.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3065.bin",
+    "sha256": "01c6c99e82eb63d17fda5964dae597ea3adf79405d011e1579d5c93540361617"
+  },
+  {
+    "path": "waves/donor/effect_3067.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3067.bin",
+    "sha256": "4ac5b84186b1a73303bd360a083958d85daf85360845a3016e9e530885e15ca0"
+  },
+  {
+    "path": "waves/donor/effect_3068.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3068.bin",
+    "sha256": "e68ddef56aae741d2a89f5021304f26504c5185fcafc898835625d7b7251cf50"
+  },
+  {
+    "path": "waves/donor/effect_3069.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3069.bin",
+    "sha256": "85df9652b5983e3e489fea1dab6df1f6ed0a6690f40157880cdb670130c688e0"
+  },
+  {
+    "path": "waves/donor/effect_3070.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_367.bin",
+    "sha256": "b1dea9d9c33bc06faf7a111281345e5a28a2c72b35892e02e34b382213238844"
+  },
+  {
+    "path": "waves/donor/effect_3071.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3071.bin",
+    "sha256": "f196de6c7d8c43592e433de90f72ac7e1b3229d2653c99dc1762594691f8dba7"
+  },
+  {
+    "path": "waves/donor/effect_3072.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3072.bin",
+    "sha256": "400dbff3e75fe4a6f5f4591d3a0a6c5425b062f35f7e5242c97dabec788b7501"
+  },
+  {
+    "path": "waves/donor/effect_3073.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3073.bin",
+    "sha256": "c79d279bebe8ab4c52321cddeda73bb42e40d374de57265ce1f974ba7428a687"
+  },
+  {
+    "path": "waves/donor/effect_3074.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3074.bin",
+    "sha256": "b31f0b3259f46aa0ea748973d78ead2bd9b7d6b4d9199a5059c5fba2c7e26df0"
+  },
+  {
+    "path": "waves/donor/effect_3075.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3075.bin",
+    "sha256": "0a88f2fe0ed56e1444c228bf881b61183ca497900897ca6527b95be769365bef"
+  },
+  {
+    "path": "waves/donor/effect_3076.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3076.bin",
+    "sha256": "58c95abd2f374b07f631bbc782ee3757ac220be309ad476aad44f8aa89467cc7"
+  },
+  {
+    "path": "waves/donor/effect_3077.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3077.bin",
+    "sha256": "19aef945a45eebdf2e3c41151ce4d608bd1f58ea118a191a02c1c13de5fa918e"
+  },
+  {
+    "path": "waves/donor/effect_3078.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3078.bin",
+    "sha256": "7da03b1eb291d7d6707f8a5709666f6e2fdfef2ff40242f712a36a564cdda503"
+  },
+  {
+    "path": "waves/donor/effect_3079.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3079.bin",
+    "sha256": "1005dffab252d3f20fffa5aa319cc81b6ce57207c5045573e5c81d052c253d00"
+  },
+  {
+    "path": "waves/donor/effect_3080.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3080.bin",
+    "sha256": "1ac624b343d723986ba7ad7eee1ba0d3c8779c060ba934b3f27e7b6ec7aa330e"
+  },
+  {
+    "path": "waves/donor/effect_3081.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3081.bin",
+    "sha256": "83e1f6b757c8dd9a87192c397ab628cc916801d396cfeda860219a239d129e9f"
+  },
+  {
+    "path": "waves/donor/effect_3082.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3082.bin",
+    "sha256": "7bda67edd87cf33bc91029082f698e0d5f5436edecfb2d492c2a5438ab12a68c"
+  },
+  {
+    "path": "waves/donor/effect_3083.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3083.bin",
+    "sha256": "8bb3bb02f2aa7793ec700b2b9b671f28509055d6380a8ba7fb706708e0bd6236"
+  },
+  {
+    "path": "waves/donor/effect_3084.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3084.bin",
+    "sha256": "e380b476e5b37d37d7ae875e35aa431ccd8d16f5582cffa18c4c5152a6c20cc1"
+  },
+  {
+    "path": "waves/donor/effect_3085.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3085.bin",
+    "sha256": "99216ea7bf1a64c2e22c34f11eef67b91ebeb4937f5ecd8e4b01dcbe33b51fbb"
+  },
+  {
+    "path": "waves/donor/effect_3086.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3086.bin",
+    "sha256": "813ad5303502282ef7bb0852d4f1118f3cf2a0dc8f1740804e74cddc335659e2"
+  },
+  {
+    "path": "waves/donor/effect_3087.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3087.bin",
+    "sha256": "cc7cc8d9198f9ded87c7931faf164c957584d6eec25200972bd6b8ff4bc47203"
+  },
+  {
+    "path": "waves/donor/effect_3088.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3088.bin",
+    "sha256": "9e265d53b86b2ec3005fe915f6dd3a5659aaea77dc79022f0e84dfe67e549ae5"
+  },
+  {
+    "path": "waves/donor/effect_3089.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3089.bin",
+    "sha256": "96cd9ef3d3423a33beb75ab6765312b39021259a2a17bc9e6d81e990b12d682e"
+  },
+  {
+    "path": "waves/donor/effect_3090.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3090.bin",
+    "sha256": "62caaedd666570526bc4877af7fa8d67d8473b3bc5d14498fe3f7eea0e645f70"
+  },
+  {
+    "path": "waves/donor/effect_3091.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3091.bin",
+    "sha256": "3ade4bef3f0c5998388ff9c9c92294b53841524484091237090cac95630d63d2"
+  },
+  {
+    "path": "waves/donor/effect_3092.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3092.bin",
+    "sha256": "1a26974f66c00c8b0660f4fd17fc6621562ef36a04576286bf06e39cafb348f4"
+  },
+  {
+    "path": "waves/donor/effect_3093.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3093.bin",
+    "sha256": "ec777d8aee5dba33be0071e0ed42f1cf1023c709150e16ae5c46a1bc4e3bd9d0"
+  },
+  {
+    "path": "waves/donor/effect_3094.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3094.bin",
+    "sha256": "29b2933df4165bf9a5a66b2df4cccb27d0b3439ce50c1102070e288107eb68e1"
+  },
+  {
+    "path": "waves/donor/effect_3095.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3095.bin",
+    "sha256": "4341277589f79f959184eaae06c17b14b8b1434f8f7b78412e99f607dea4078c"
+  },
+  {
+    "path": "waves/donor/effect_3096.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3096.bin",
+    "sha256": "b51486d61f935d3ee0f4c38d6e9cd435d39062b0acc33b129f6e0080576e10b6"
+  },
+  {
+    "path": "waves/donor/effect_3097.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3097.bin",
+    "sha256": "ffde29948b893a6825ea1601bdaab4d8fafd14fdc735ddbb62986c4898b00839"
+  },
+  {
+    "path": "waves/donor/effect_3098.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3098.bin",
+    "sha256": "9f0d26f6af2436c41966d85bb8bfc6c330e5434e32a2d8093230c618ef01a66c"
+  },
+  {
+    "path": "waves/donor/effect_3099.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3099.bin",
+    "sha256": "8bd55eb39bc2e1223ef08ba6a9b82256848df2790c9876fe05ad577faf209062"
+  },
+  {
+    "path": "waves/donor/effect_3100.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3100.bin",
+    "sha256": "f901b3236700cbd0e7f4f4cf99fe3b12df9ff669ac1669e81800b93883344858"
+  },
+  {
+    "path": "waves/donor/effect_3101.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3101.bin",
+    "sha256": "44c29d36074f3eed7c9f828336dd9bc03c2203c270e1c6d145c65e62afdf4428"
+  },
+  {
+    "path": "waves/donor/effect_3102.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3102.bin",
+    "sha256": "fef728af686cd3fe602b4fcd1868ce12c274f8a2fe4fc8c922fbdf6411e27051"
+  },
+  {
+    "path": "waves/donor/effect_3104.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3104.bin",
+    "sha256": "b689b2dc5aa186876696aa973e8294dcc815802933083c881f6b831e0447019f"
+  },
+  {
+    "path": "waves/donor/effect_3105.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3105.bin",
+    "sha256": "a9b00b6bec10d2d77f9c2d6153cd1a3e655c38c11be17fcaaf9cc80f3a4dd099"
+  },
+  {
+    "path": "waves/donor/effect_3106.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3106.bin",
+    "sha256": "14c7f1d779d396b13919448c3cc860a906f38502241bd2636c68fdb5a6555146"
+  },
+  {
+    "path": "waves/donor/effect_3107.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3107.bin",
+    "sha256": "a27b1dc6a24179ecb2a6a68b2e55f23b836eae5c19373c9037ec823155be5815"
+  },
+  {
+    "path": "waves/donor/effect_3108.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3108.bin",
+    "sha256": "7719247efe049fac28c43a842d9ae5c2d9fffd7ce287c699cd6adf9f8ebe6eb5"
+  },
+  {
+    "path": "waves/donor/effect_3109.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3109.bin",
+    "sha256": "019d990b073988b04febecc630f07373fa63ad53b57f65958c11ff4485f4dfe3"
+  },
+  {
+    "path": "waves/donor/effect_3110.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3110.bin",
+    "sha256": "ea412358d0559a75a3465f535588192260f8ad08bed857d905f7d79680e720ec"
+  },
+  {
+    "path": "waves/donor/effect_3111.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3111.bin",
+    "sha256": "b966e373240a2fc3d8ee55ff15132f612a1158bd12203caa4008d99c5d2d4f3d"
+  },
+  {
+    "path": "waves/donor/effect_3112.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3112.bin",
+    "sha256": "cb6061ea9ab2b486c431bee0b4b8de40ac0b41c43c5243b4187be7465111a77c"
+  },
+  {
+    "path": "waves/donor/effect_3113.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3113.bin",
+    "sha256": "121cd83b9631f35df822b242e6f235a8d74435b7f59cd2a88ace204760af4c7e"
+  },
+  {
+    "path": "waves/donor/effect_3114.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3114.bin",
+    "sha256": "9a05c69fbc239054b5934fb2b46a4e0b751ee8ffe5557e139470fa99fcf496e2"
+  },
+  {
+    "path": "waves/donor/effect_3115.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3115.bin",
+    "sha256": "60c38753d77e75d1f9e21ec6828a285565738f6310afffdceaad0bd2785b83af"
+  },
+  {
+    "path": "waves/donor/effect_3116.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3116.bin",
+    "sha256": "0e5c8e263b28b5cfb6ba9d01518038512fa0edbd70f6257326961b34f1a97d70"
+  },
+  {
+    "path": "waves/donor/effect_3117.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3117.bin",
+    "sha256": "8b8ca5c4b1903c3b400ae33c3f1c43ccb2b539ad38c1c17125ac0ba1c5ffd07f"
+  },
+  {
+    "path": "waves/donor/effect_3118.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3118.bin",
+    "sha256": "72b831d75336d5c38446f7f133f45208e62930519ad9fa01e768fa9de2bdd56d"
+  },
+  {
+    "path": "waves/donor/effect_3119.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3119.bin",
+    "sha256": "3f9b8de93b31dde5d963a22016db386fcadc94f4c0a94cd791b5a43af4e051c3"
+  },
+  {
+    "path": "waves/donor/effect_3120.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3120.bin",
+    "sha256": "225411acda7bd49f88d270f9cd18144d80e76f699ad755034891ed13d7971ddd"
+  },
+  {
+    "path": "waves/donor/effect_3121.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3121.bin",
+    "sha256": "35f98079ae7e8c751a0c36a6bc6ed94d613754a67cd63a05a2bd88a41e5e5ba1"
+  },
+  {
+    "path": "waves/donor/effect_3122.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3122.bin",
+    "sha256": "458f2f9366e6524341ba0f5293d0dd65b76a0656bfc14fde31183a38b021bcb3"
+  },
+  {
+    "path": "waves/donor/effect_3123.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3123.bin",
+    "sha256": "58419f02da1422fb78ac67e9f479a7da8a1cc8cd2cab3fa973020689f78dbadf"
+  },
+  {
+    "path": "waves/donor/effect_3124.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3124.bin",
+    "sha256": "e7c9719f47a0b6b8d7d9acf29154925b723d6f30caf3952796e4c3bef4479f48"
+  },
+  {
+    "path": "waves/donor/effect_3125.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3125.bin",
+    "sha256": "1fa61f153d954c081579db32596fb711fe186d7756b106c1947801b93abcfb01"
+  },
+  {
+    "path": "waves/donor/effect_3126.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3126.bin",
+    "sha256": "bf465063eb316bc68bce5a296a911bdea1e6922a5f4ef57ae7bb5be348684a91"
+  },
+  {
+    "path": "waves/donor/effect_3127.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3127.bin",
+    "sha256": "a0897f8720a70fe62f5c2bd29f27fdb60b2440f3544f98ad9a8b2fa2b2f21aa2"
+  },
+  {
+    "path": "waves/donor/effect_3128.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3128.bin",
+    "sha256": "011b21ab741df49964b3cc708d1f045d032fa6e054c15e3688cb5136a010570f"
+  },
+  {
+    "path": "waves/donor/effect_3129.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3129.bin",
+    "sha256": "7052c4eafd92184e282f0662396f404499f777f53acca2ba0a12c33ae6c0aabb"
+  },
+  {
+    "path": "waves/donor/effect_3130.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3130.bin",
+    "sha256": "a9288a59f6198b85b04937cd72d57da7954872c63a78ba33830e156abfcec827"
+  },
+  {
+    "path": "waves/donor/effect_3131.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3131.bin",
+    "sha256": "37ea8ef9a2454a7f888c8c6c72fd2bbfd94278fe12735fc5c3d1c1cc49dda591"
+  },
+  {
+    "path": "waves/donor/effect_3132.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3132.bin",
+    "sha256": "6047874a0b58c38ef76592d450b5d82784abfc1aca3bc1aefe1aecbd73997034"
+  },
+  {
+    "path": "waves/donor/effect_3133.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3133.bin",
+    "sha256": "0f3361caf433f74aa7f344f53b86df5729b32f4cbf69e3c63fc1ab7a2d86528e"
+  },
+  {
+    "path": "waves/donor/effect_3134.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3134.bin",
+    "sha256": "fa38fe370eabe56c5dc6716597a8ac9c60d4a1a2295aa336257f255adb23186d"
+  },
+  {
+    "path": "waves/donor/effect_3135.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3135.bin",
+    "sha256": "ef976b075edab01f80464bdad5b1ece67cc48ddc0eddd35294ab092a1ee4d4ed"
+  },
+  {
+    "path": "waves/donor/effect_3136.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3136.bin",
+    "sha256": "ed766345b8d86034cea791c949038cc35685819e597898e768c2145119290d18"
+  },
+  {
+    "path": "waves/donor/effect_3137.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3137.bin",
+    "sha256": "905cb616de58873ec96fbb2d33def14b7ea0bbc1bbdc5c31957eb649ffccde38"
+  },
+  {
+    "path": "waves/donor/effect_3138.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3138.bin",
+    "sha256": "df334d6265561c798c2ac3a0c0e05f047d6fa7a46f692d86cf482f0f405a76dc"
+  },
+  {
+    "path": "waves/donor/effect_3139.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3139.bin",
+    "sha256": "93bfa0a1a9a4a2afa8688161df0163839bbdec64ee3b5be14026baa3b628fe9d"
+  },
+  {
+    "path": "waves/donor/effect_3140.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3140.bin",
+    "sha256": "08f4990008f4387d2094ed581db478406d7ed2700c8c13e1c3d8d8c6eb26a939"
+  },
+  {
+    "path": "waves/donor/effect_3141.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3141.bin",
+    "sha256": "077ebbadc712a80ca504154b829873da64095a4f78e320391e4de07d0cd81068"
+  },
+  {
+    "path": "waves/donor/effect_3142.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3142.bin",
+    "sha256": "62caaedd666570526bc4877af7fa8d67d8473b3bc5d14498fe3f7eea0e645f70"
+  },
+  {
+    "path": "waves/donor/effect_3143.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3143.bin",
+    "sha256": "29ae3297695b55dbde1e39e251405fcd4a0abca0a7ccb998d481494896d430d7"
+  },
+  {
+    "path": "waves/donor/effect_3144.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3144.bin",
+    "sha256": "223af71d4692e0ba3accf8e5a0249c4dbd1b285e2605a69510e996c764e0fb30"
+  },
+  {
+    "path": "waves/donor/effect_3145.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3145.bin",
+    "sha256": "d1d222d1925b79f5238fc713a1e6d959f801a95584bb02af9adfec0cc2318a92"
+  },
+  {
+    "path": "waves/donor/effect_3146.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3146.bin",
+    "sha256": "a27b1dc6a24179ecb2a6a68b2e55f23b836eae5c19373c9037ec823155be5815"
+  },
+  {
+    "path": "waves/donor/effect_3201.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3201.bin",
+    "sha256": "41f28a1de56a01d32cc9567492addba7e24038c93a3b309fe756a0129248ad35"
+  },
+  {
+    "path": "waves/donor/effect_3202.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Genshin_3202.bin",
+    "sha256": "2b8d60fd9e937cb1a8a2a7cf6ed0aad68aace9920e71f5326eb8342e7085caff"
+  },
+  {
+    "path": "waves/donor/effect_4001.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_StarRail_4001.bin",
+    "sha256": "57b2565e4b7525365726691e89bbc507e31e3e710ddfd0bbcfd840424aaa33c3"
+  },
+  {
+    "path": "waves/donor/effect_4002.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_StarRail_4002.bin",
+    "sha256": "62519c2e25739b852162ec5a0de6bc697828e5905fea3b5ec479477a27e02ccd"
+  },
+  {
+    "path": "waves/donor/effect_4003.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_StarRail_4003.bin",
+    "sha256": "e8a6bdf1906e10dab06f4aa020100732ca9f47387d320953a3c7589dd4c3a9f6"
+  },
+  {
+    "path": "waves/donor/effect_4004.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_StarRail_4004.bin",
+    "sha256": "e476749e1e778ca427e7b8cd279fe4d0f66ecbd160d506940b0a9cc4bebd9ad1"
+  },
+  {
+    "path": "waves/donor/effect_4005.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_369.bin",
+    "sha256": "31d7a94495bf4dcb6f0c2927eb00cee4bac180ddc198e96d3a04c62b22df9553"
+  },
+  {
+    "path": "waves/donor/effect_4006.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_StarRail_4006.bin",
+    "sha256": "cfd0b63f3706615e2809924d51b46ec46dc0c54c0570f38cc61efe5909367fad"
+  },
+  {
+    "path": "waves/donor/effect_9001.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Share_9001.bin",
+    "sha256": "3ec327c27e32eb3481f7b40abb91051446915efdf882584bd72e69b06cd2f271"
+  },
+  {
+    "path": "waves/donor/effect_9101.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Shake_9101.bin",
+    "sha256": "a0b0e59e1396492e001371411d47fc940ca45df60e6fc646e78b1e72a8fd3d61"
+  },
+  {
+    "path": "waves/donor/effect_9201.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Charge_9201.bin",
+    "sha256": "ac456a046b39154a5935423c4b0b9cf4fb134594004277551d76065615128398"
+  },
+  {
+    "path": "waves/donor/effect_9202.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Clean_Button_9202.bin",
+    "sha256": "a11735890c0cb8c5dec3962a00972522b9130d34a28d68974af983580f82d149"
+  },
+  {
+    "path": "waves/donor/effect_9203.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Menu_Button_9203.bin",
+    "sha256": "c41693f6226ce2ff226e3c7b8c7d3d09d7cb45da5b3f3960b9e42f018672240f"
+  },
+  {
+    "path": "waves/donor/effect_9204.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_CleanNotification_Button_9204.bin",
+    "sha256": "95ba7a38f2d016c75939ace03f64379610de2c26f8bca8fd5dde077a4b1d36d6"
+  },
+  {
+    "path": "waves/donor/effect_9211.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_9211.bin",
+    "sha256": "11ef60de28a9fe67172695a7fffcb07ff3edcac1ac03a2ac677f191748684f48"
+  },
+  {
+    "path": "waves/donor/effect_9212.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_9212.bin",
+    "sha256": "3b1a23299b65c3c263b734dfc54322506089d706bb1d89f4f26a4ceb2e146413"
+  },
+  {
+    "path": "waves/donor/effect_9213.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_9213.bin",
+    "sha256": "cf12f03e0eaca1331f750ee657f8b3f136e707ecae679e91c39b61671a074c47"
+  },
+  {
+    "path": "waves/donor/effect_9214.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_9214.bin",
+    "sha256": "76c8450ac970e7812fe4dfab2ec67ff249922d7121fae72ec7d0dfd553cad7c0"
+  },
+  {
+    "path": "waves/donor/effect_9215.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_9215.bin",
+    "sha256": "2d58c526894d8c37933a9d00a6a7f696a3fbee228ac2f1b4dc03c900de063dd0"
+  },
+  {
+    "path": "waves/donor/effect_9216.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_9216.bin",
+    "sha256": "4459aa80c5f57c6feaf8c346b14459ba2aabfd7cbfb2c2578eaaebee30a3bc4d"
+  },
+  {
+    "path": "waves/donor/effect_9217.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_9217.bin",
+    "sha256": "447dbe3e51885816e56a9582acbb552f19f3f51399610797630d66be38e8b0cd"
+  },
+  {
+    "path": "waves/donor/effect_9218.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_9218.bin",
+    "sha256": "76b3ccaedca60c1fb421dd5687a8428b6256e1e978cc0550be03b35b032ab23c"
+  },
+  {
+    "path": "waves/donor/effect_9219.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_9219.bin",
+    "sha256": "8c871f1f811cb96b63cd26cb09ba1479e6edbc13182d6eb5898c22ca46834558"
+  },
+  {
+    "path": "waves/donor/effect_9220.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_9220.bin",
+    "sha256": "46b3b3d2e1f92487552e239e2e74dabd18a46e8b107b3bb45f71e6999372e58c"
+  },
+  {
+    "path": "waves/donor/effect_9221.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_9221.bin",
+    "sha256": "895633375d7f56883783db844305e35ec09fad5bed28891006629c2d7e1892ae"
+  },
+  {
+    "path": "waves/donor/effect_9222.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_9222.bin",
+    "sha256": "895d65128562acde4b71ffb64662453ae79f688eaf71a646a26eb338e91fb90c"
+  },
+  {
+    "path": "waves/donor/effect_9301.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_105.bin",
+    "sha256": "f00e336603afa41e38845e88e0c2ec5ecec05f82dc824154db639b7ece5927ab"
+  },
+  {
+    "path": "waves/donor/effect_9302.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Vibrate_Mode_9302.bin",
+    "sha256": "e7fd1a55a6550771497806d6845f2b53031d059082373f875651790df54b85ab"
+  },
+  {
+    "path": "waves/donor/effect_9303.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Silence_Mode_9303.bin",
+    "sha256": "c4dca37ae451491446140bb56fd779ff73149dc65755ac8f884db9be6c7386f8"
+  },
+  {
+    "path": "waves/donor/effect_19201.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Charge_19201.bin",
+    "sha256": "b5e6e8f37acbbc2ed181a61333330867eb00e906e9024fe6c23d0632d365329e"
+  },
+  {
+    "path": "waves/donor/effect_19202.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Clean_Button_19202.bin",
+    "sha256": "c3c50aa8c3cc0a9e7869ae43604b42431170273740552d4417a36ae76b804454"
+  },
+  {
+    "path": "waves/donor/effect_19203.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Menu_Button_19203.bin",
+    "sha256": "430aafa619d4bfe9c9624edd5badd12d9735edddadce924a40d05adab6c258df"
+  },
+  {
+    "path": "waves/donor/effect_19204.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_CleanNotification_Button_19204.bin",
+    "sha256": "0ac57906d7888c31ac8be0ae531a6d7da7d395c44814c31c6e6ab61a39fdc084"
+  },
+  {
+    "path": "waves/donor/effect_19211.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_19211.bin",
+    "sha256": "359c1789ee0449c45187e5df5aa1743b405d6a15a0af113c7a08d828e11deb5d"
+  },
+  {
+    "path": "waves/donor/effect_19212.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_19212.bin",
+    "sha256": "e929ce4c879973ff2149f6376aec24e3da550cb57c05b27999b8de952f996c73"
+  },
+  {
+    "path": "waves/donor/effect_19213.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_19213.bin",
+    "sha256": "4aca4ebf8d680e919085325ab5dbc2849770e788e4a999eb7a243c232fbab990"
+  },
+  {
+    "path": "waves/donor/effect_19214.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_19214.bin",
+    "sha256": "f3a6fe3655112de5d6599f6100f33a98f61d548257569514d401c80088b64677"
+  },
+  {
+    "path": "waves/donor/effect_19215.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_19215.bin",
+    "sha256": "ce9509e6c05b35534aef8f1a5fde08356ba503bb508943241d4297b574181091"
+  },
+  {
+    "path": "waves/donor/effect_19216.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_19216.bin",
+    "sha256": "4459aa80c5f57c6feaf8c346b14459ba2aabfd7cbfb2c2578eaaebee30a3bc4d"
+  },
+  {
+    "path": "waves/donor/effect_19217.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_19217.bin",
+    "sha256": "447dbe3e51885816e56a9582acbb552f19f3f51399610797630d66be38e8b0cd"
+  },
+  {
+    "path": "waves/donor/effect_19218.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_19218.bin",
+    "sha256": "8892b081659a47616972e28f9f39aff6941787e72b9d4571991eab3f35cb4892"
+  },
+  {
+    "path": "waves/donor/effect_19219.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_19219.bin",
+    "sha256": "8c871f1f811cb96b63cd26cb09ba1479e6edbc13182d6eb5898c22ca46834558"
+  },
+  {
+    "path": "waves/donor/effect_19220.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_19220.bin",
+    "sha256": "5531dd1480a5fd8070b3f10df8248a9083b8d306b6cbaa35ad0c9f2588fa2e61"
+  },
+  {
+    "path": "waves/donor/effect_19221.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_19221.bin",
+    "sha256": "895633375d7f56883783db844305e35ec09fad5bed28891006629c2d7e1892ae"
+  },
+  {
+    "path": "waves/donor/effect_19222.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_Touch_Preview_19222.bin",
+    "sha256": "895d65128562acde4b71ffb64662453ae79f688eaf71a646a26eb338e91fb90c"
+  },
+  {
+    "path": "waves/donor/effect_25001.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_GameSpace_25001.bin",
+    "sha256": "1d223d4ba01dead5d15ea998409c551054404ff5de52bbc0c46ff5520a8c5cc0"
+  },
+  {
+    "path": "waves/donor/effect_26001.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_GameBegin_26001.bin",
+    "sha256": "51e46f97278f05f558961a41b101ff3c8326d9d4fd21ce98cc9fccf012d415a9"
+  },
+  {
+    "path": "waves/donor/effect_26002.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_GameEnd_26002.bin",
+    "sha256": "6f603a16ba50bcc4a3d8c150a3dba405b5c41e41cb01ac81f5267938bcc2688a"
+  },
+  {
+    "path": "waves/donor/effect_26003.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_FirstBlood_26003.bin",
+    "sha256": "524fbb79ba134dfb9cc95194cbbd5c2d7c7d72638669155c8b967631208214f7"
+  },
+  {
+    "path": "waves/donor/effect_26004.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_TribleKill_26004.bin",
+    "sha256": "3f4622e6000fc1000f3e967f2296c40d807a413cb3b91f16a0e7770f82998085"
+  },
+  {
+    "path": "waves/donor/effect_26005.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_QuadraKill_26005.bin",
+    "sha256": "862df73302f9c30161cf0c9b96145e3f0aa19be3dc366d1ba39650b2a2968b7f"
+  },
+  {
+    "path": "waves/donor/effect_26006.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_PentaKill_26006.bin",
+    "sha256": "6becd218d05ab8e79351ac944a542b94f7d9b730b2be0172324534e87e171381"
+  },
+  {
+    "path": "waves/donor/effect_26011.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "G_Naraka_Bladepoint_26011.bin",
+    "sha256": "46de9550b8126368fd110158ee13398466fc48a35a622f38625137cc16aad577"
+  },
+  {
+    "path": "waves/donor/effect_26012.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_105.bin",
+    "sha256": "8a2adc8ab5b0a3f965a87a174f74ab3849818b7437414976240c9f8360af1f84"
+  },
+  {
+    "path": "waves/donor/effect_26014.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_105.bin",
+    "sha256": "8a2adc8ab5b0a3f965a87a174f74ab3849818b7437414976240c9f8360af1f84"
+  },
+  {
+    "path": "waves/donor/effect_28001.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_VibVideo_28001.bin",
+    "sha256": "0ee05eebf165fc3e15708e012bec8b56b62e4e8f350c55adb3de97fc9eeb5f42"
+  },
+  {
+    "path": "waves/donor/effect_28002.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_SetupWizard_28002.bin",
+    "sha256": "997d23a3f3fcd42136f8eb5af7e15051a7e44b049fd2eb0808f48095f51d7cfa"
+  },
+  {
+    "path": "waves/donor/effect_28003.bin",
+    "source_group": "adapted donor RTP: 170-to132Hz phase, original envelope",
+    "original_filename": "S_SetupWizard_Foreign_28003.bin",
+    "sha256": "32869cf3b07d23ef990b99d3054c403fb6caef5fe31b3d825ee5ed82acb48880"
+  },
+  {
+    "path": "waves/donor/effect_0.bin",
+    "source_group": "original pulse order; gaps fitted to declared duration, experimental",
+    "original_filename": "donor driver RAM sequencer",
+    "sha256": "0ca55ada9cbbdaba6c9cc3a0732d3c00cfa3bf4f0a30bac315b0e1d638d87f86"
+  },
+  {
+    "path": "waves/donor/effect_48.bin",
+    "source_group": "original pulse order; gaps fitted to declared duration, experimental",
+    "original_filename": "donor driver RAM sequencer",
+    "sha256": "fb821572271e81fdcb6620cc2701236c9dcad34c30a31294398431211c3b34ac"
+  },
+  {
+    "path": "waves/donor/effect_49.bin",
+    "source_group": "original pulse order; gaps fitted to declared duration, experimental",
+    "original_filename": "donor driver RAM sequencer",
+    "sha256": "0636e0964d935f77c8a05bae21079e15651d578221c7bdac32dd5e020bf49504"
+  },
+  {
+    "path": "waves/donor/effect_50.bin",
+    "source_group": "original pulse order; gaps fitted to declared duration, experimental",
+    "original_filename": "donor driver RAM sequencer",
+    "sha256": "9654c73dd5172d9dcd893eebbdbe1ec9e352d2ee8bba3e90fd881c0f3d699970"
+  },
+  {
+    "path": "waves/donor/effect_337.bin",
+    "source_group": "supplied primary waveform; preserve samples, timeline and amplitude",
+    "original_filename": "R_Decisive_Rhythm_Major.bin",
+    "sha256": "0cd5e65ff69cde67d3417587e69c16b4000d5324cc2740800b737f37ae33d1de"
+  },
+  {
+    "path": "waves/donor/effect_449.bin",
+    "source_group": "supplied primary waveform; preserve samples, timeline and amplitude",
+    "original_filename": "N_Rally.bin",
+    "sha256": "4acae3314a43b57508cce6d5b204d1af566556081f9170a0b7caa3c610f0fa90"
+  },
+  {
+    "path": "waves/donor/effect_519.bin",
+    "source_group": "supplied primary waveform; preserve samples, timeline and amplitude",
+    "original_filename": "A_Canyon_Echo.bin",
+    "sha256": "ec821df2d3bb74dfc607dbcf67c458f394aaf39ad336a0ae41ef96d20ff78607"
+  },
+  {
+    "path": "waves/donor/effect_625.bin",
+    "source_group": "stock/repository transients in supplied original two-hit timeline",
+    "original_filename": "G_Hurt_625_Major.bin",
+    "sha256": "2e835a0bb37d0299013d2ce40edfc3b66a5cf0d785d2008c71a4cb79051082fa"
+  },
+  {
+    "path": "waves/donor/effect_626.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_109.bin",
+    "sha256": "fd6636c03c1308fbd07943d3b6a09eae00953ac7fe1a4df296cbae814bd725a1"
+  },
+  {
+    "path": "waves/donor/effect_637.bin",
+    "source_group": "matched stock_odm",
+    "original_filename": "effect_4.bin",
+    "sha256": "8f3f1adb48278d0205911c608546933cc9414173ea419ad04d6e23f41bd51aad"
+  },
+  {
+    "path": "waves/donor/effect_691.bin",
+    "source_group": "supplied primary waveform; preserve samples, timeline and amplitude",
+    "original_filename": "T_Rtp_long_vibrate_4v2.bin",
+    "sha256": "ddf313be65925c51cf3795235d648872b1837e9fa729c89483ef8735884f7b31"
+  },
+  {
+    "path": "waves/donor/effect_3066.bin",
+    "source_group": "explicit compatibility fallback",
+    "original_filename": "def/effect_41.bin",
+    "reason": "原神缺失效果，保留原配置3000ms；用官方多段波形兼容",
+    "sha256": "afd152edf5af68b7c56409083c9c598ec528cfd7637650aaec35523175ae86ef"
+  },
+  {
+    "path": "waves/donor/effect_3103.bin",
+    "source_group": "explicit compatibility fallback",
+    "original_filename": "def/effect_42.bin",
+    "reason": "原神缺失效果，保留原配置2215ms；用官方多段波形兼容",
+    "sha256": "631602ec96e28460b47282c9038c1793bb93ea08bfa354fb912477100db8fe56"
+  },
+  {
+    "path": "waves/donor/effect_26007.bin",
+    "source_group": "explicit compatibility fallback",
+    "original_filename": "def/effect_103.bin",
+    "reason": "原场景动作与时长未知；用官方短节奏兼容，不冒充原始击杀事件",
+    "sha256": "8d842bc3d0bd1d2519aed2968cab45ada68f68765056f5618cddd4c8ae2f7e66"
+  }
+]

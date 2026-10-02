@@ -1,0 +1,6 @@
+id=originos_0916t_demo
+name=OriginOS OnePlus 0916T Haptics
+version=0.2.0
+versionCode=20
+author=Maga-King
+description=OriginOS震动适配：765个编号，内含明确标记的兼容波形。保留已调好的输入法和AI唤醒。

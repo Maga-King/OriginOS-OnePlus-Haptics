@@ -1,0 +1,4604 @@
+{
+  "supported_ids": 765,
+  "original_donor_ids": 761,
+  "captured_extra_ids": [
+    138,
+    139,
+    10138,
+    10139
+  ],
+  "incomplete_originals": [
+    65,
+    691,
+    3066,
+    3103,
+    26007
+  ],
+  "notes": "编号全部有输出，不等于所有原厂波形、HAL接口或双马达定位都已复刻。",
+  "original_scenes": [
+    {
+      "scene_id": 0,
+      "effect_id": 1,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1,
+      "effect_id": 0,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 2,
+      "effect_id": 3,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 3,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 4,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 5,
+      "effect_id": 5,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 21,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 50,
+      "effect_id": 50,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 51,
+      "effect_id": 50,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 52,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 53,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 54,
+      "effect_id": 50,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 55,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 56,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 57,
+      "effect_id": 50,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 58,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 60,
+      "effect_id": 1,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 61,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 62,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 63,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 64,
+      "effect_id": 5,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 71,
+      "effect_id": 3,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 72,
+      "effect_id": 3,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 73,
+      "effect_id": 3,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 74,
+      "effect_id": 3,
+      "vmax_mv": 2500,
+      "pcm_gain": 0.3125
+    },
+    {
+      "scene_id": 75,
+      "effect_id": 4,
+      "vmax_mv": 3000,
+      "pcm_gain": 0.375
+    },
+    {
+      "scene_id": 76,
+      "effect_id": 3,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 77,
+      "effect_id": 3,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 79,
+      "effect_id": 3,
+      "vmax_mv": 2500,
+      "pcm_gain": 0.3125
+    },
+    {
+      "scene_id": 81,
+      "effect_id": 3,
+      "vmax_mv": 600,
+      "pcm_gain": 0.075
+    },
+    {
+      "scene_id": 82,
+      "effect_id": 3,
+      "vmax_mv": 900,
+      "pcm_gain": 0.1125
+    },
+    {
+      "scene_id": 83,
+      "effect_id": 3,
+      "vmax_mv": 1200,
+      "pcm_gain": 0.15
+    },
+    {
+      "scene_id": 84,
+      "effect_id": 3,
+      "vmax_mv": 1500,
+      "pcm_gain": 0.1875
+    },
+    {
+      "scene_id": 85,
+      "effect_id": 3,
+      "vmax_mv": 1800,
+      "pcm_gain": 0.225
+    },
+    {
+      "scene_id": 86,
+      "effect_id": 3,
+      "vmax_mv": 2100,
+      "pcm_gain": 0.2625
+    },
+    {
+      "scene_id": 87,
+      "effect_id": 3,
+      "vmax_mv": 2400,
+      "pcm_gain": 0.3
+    },
+    {
+      "scene_id": 88,
+      "effect_id": 3,
+      "vmax_mv": 2700,
+      "pcm_gain": 0.3375
+    },
+    {
+      "scene_id": 91,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 92,
+      "effect_id": 1,
+      "vmax_mv": 3000,
+      "pcm_gain": 0.375
+    },
+    {
+      "scene_id": 93,
+      "effect_id": 3,
+      "vmax_mv": 3000,
+      "pcm_gain": 0.375
+    },
+    {
+      "scene_id": 94,
+      "effect_id": 1,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 95,
+      "effect_id": 1,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 96,
+      "effect_id": 3,
+      "vmax_mv": 3000,
+      "pcm_gain": 0.375
+    },
+    {
+      "scene_id": 97,
+      "effect_id": 3,
+      "vmax_mv": 3000,
+      "pcm_gain": 0.375
+    },
+    {
+      "scene_id": 98,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 101,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 102,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 103,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 104,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 105,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 106,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 107,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 108,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 109,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 110,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 111,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 112,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 113,
+      "effect_id": 1,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 114,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 115,
+      "effect_id": 1,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 116,
+      "effect_id": 1,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 121,
+      "effect_id": 1,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 122,
+      "effect_id": 1,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 123,
+      "effect_id": 1,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 124,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 125,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 126,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 127,
+      "effect_id": 5,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 128,
+      "effect_id": 5,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 129,
+      "effect_id": 5,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 130,
+      "effect_id": 5,
+      "vmax_mv": 7000,
+      "pcm_gain": 0.875
+    },
+    {
+      "scene_id": 131,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 132,
+      "effect_id": 1,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 133,
+      "effect_id": 1,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 134,
+      "effect_id": 1,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 135,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 136,
+      "effect_id": 5,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 137,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 141,
+      "effect_id": 3,
+      "vmax_mv": 3000,
+      "pcm_gain": 0.375
+    },
+    {
+      "scene_id": 142,
+      "effect_id": 3,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 143,
+      "effect_id": 3,
+      "vmax_mv": 5000,
+      "pcm_gain": 0.625
+    },
+    {
+      "scene_id": 144,
+      "effect_id": 3,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 145,
+      "effect_id": 3,
+      "vmax_mv": 7000,
+      "pcm_gain": 0.875
+    },
+    {
+      "scene_id": 146,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 147,
+      "effect_id": 1,
+      "vmax_mv": 7000,
+      "pcm_gain": 0.875
+    },
+    {
+      "scene_id": 148,
+      "effect_id": 1,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 149,
+      "effect_id": 5,
+      "vmax_mv": 7000,
+      "pcm_gain": 0.875
+    },
+    {
+      "scene_id": 150,
+      "effect_id": 5,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 170,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 171,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 180,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 181,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 191,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 192,
+      "effect_id": 1,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 193,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 201,
+      "effect_id": 5,
+      "vmax_mv": 3500,
+      "pcm_gain": 0.4375
+    },
+    {
+      "scene_id": 202,
+      "effect_id": 5,
+      "vmax_mv": 3500,
+      "pcm_gain": 0.4375
+    },
+    {
+      "scene_id": 203,
+      "effect_id": 5,
+      "vmax_mv": 5500,
+      "pcm_gain": 0.6875
+    },
+    {
+      "scene_id": 204,
+      "effect_id": 5,
+      "vmax_mv": 5500,
+      "pcm_gain": 0.6875
+    },
+    {
+      "scene_id": 205,
+      "effect_id": 5,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 206,
+      "effect_id": 5,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 207,
+      "effect_id": 4,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 208,
+      "effect_id": 1,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 209,
+      "effect_id": 4,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 210,
+      "effect_id": 1,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 211,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 212,
+      "effect_id": 1,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 213,
+      "effect_id": 3,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 214,
+      "effect_id": 3,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 215,
+      "effect_id": 3,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 216,
+      "effect_id": 3,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 217,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 218,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 219,
+      "effect_id": 4,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 220,
+      "effect_id": 1,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 221,
+      "effect_id": 4,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 222,
+      "effect_id": 1,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 223,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 224,
+      "effect_id": 1,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 225,
+      "effect_id": 3,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 226,
+      "effect_id": 3,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 227,
+      "effect_id": 3,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 228,
+      "effect_id": 3,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 229,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 230,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 231,
+      "effect_id": 5,
+      "vmax_mv": 3500,
+      "pcm_gain": 0.4375
+    },
+    {
+      "scene_id": 232,
+      "effect_id": 5,
+      "vmax_mv": 3500,
+      "pcm_gain": 0.4375
+    },
+    {
+      "scene_id": 233,
+      "effect_id": 5,
+      "vmax_mv": 5500,
+      "pcm_gain": 0.6875
+    },
+    {
+      "scene_id": 234,
+      "effect_id": 5,
+      "vmax_mv": 5500,
+      "pcm_gain": 0.6875
+    },
+    {
+      "scene_id": 235,
+      "effect_id": 5,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 236,
+      "effect_id": 5,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 237,
+      "effect_id": 3,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 238,
+      "effect_id": 3,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 239,
+      "effect_id": 3,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 240,
+      "effect_id": 3,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 241,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 242,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 243,
+      "effect_id": 4,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 244,
+      "effect_id": 1,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 245,
+      "effect_id": 4,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 246,
+      "effect_id": 1,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 247,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 248,
+      "effect_id": 1,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 249,
+      "effect_id": 3,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 250,
+      "effect_id": 3,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 251,
+      "effect_id": 3,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 252,
+      "effect_id": 3,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 253,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 254,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 255,
+      "effect_id": 1,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 256,
+      "effect_id": 1,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 257,
+      "effect_id": 1,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 258,
+      "effect_id": 1,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 259,
+      "effect_id": 1,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 260,
+      "effect_id": 1,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 301,
+      "effect_id": 301,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 302,
+      "effect_id": 302,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 303,
+      "effect_id": 303,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 304,
+      "effect_id": 304,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 305,
+      "effect_id": 305,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 306,
+      "effect_id": 306,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 307,
+      "effect_id": 307,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 308,
+      "effect_id": 308,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 309,
+      "effect_id": 309,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 310,
+      "effect_id": 310,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 311,
+      "effect_id": 311,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 312,
+      "effect_id": 312,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 313,
+      "effect_id": 313,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 314,
+      "effect_id": 314,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 315,
+      "effect_id": 315,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 316,
+      "effect_id": 316,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 317,
+      "effect_id": 317,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 318,
+      "effect_id": 318,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 319,
+      "effect_id": 319,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 320,
+      "effect_id": 320,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 321,
+      "effect_id": 321,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 322,
+      "effect_id": 322,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 323,
+      "effect_id": 323,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 324,
+      "effect_id": 324,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 325,
+      "effect_id": 325,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 326,
+      "effect_id": 326,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 327,
+      "effect_id": 327,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 328,
+      "effect_id": 328,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 329,
+      "effect_id": 329,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 330,
+      "effect_id": 330,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 331,
+      "effect_id": 331,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 332,
+      "effect_id": 332,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 333,
+      "effect_id": 333,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 334,
+      "effect_id": 334,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 335,
+      "effect_id": 335,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 336,
+      "effect_id": 336,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 401,
+      "effect_id": 401,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 402,
+      "effect_id": 402,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 403,
+      "effect_id": 403,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 404,
+      "effect_id": 404,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 405,
+      "effect_id": 405,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 406,
+      "effect_id": 406,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 407,
+      "effect_id": 407,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 408,
+      "effect_id": 408,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 409,
+      "effect_id": 409,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 410,
+      "effect_id": 410,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 411,
+      "effect_id": 411,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 412,
+      "effect_id": 412,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 413,
+      "effect_id": 413,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 414,
+      "effect_id": 414,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 415,
+      "effect_id": 415,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 416,
+      "effect_id": 416,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 417,
+      "effect_id": 417,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 418,
+      "effect_id": 418,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 419,
+      "effect_id": 419,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 420,
+      "effect_id": 420,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 421,
+      "effect_id": 421,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 422,
+      "effect_id": 422,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 423,
+      "effect_id": 423,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 424,
+      "effect_id": 424,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 425,
+      "effect_id": 425,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 426,
+      "effect_id": 426,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 427,
+      "effect_id": 427,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 428,
+      "effect_id": 428,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 429,
+      "effect_id": 429,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 430,
+      "effect_id": 430,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 431,
+      "effect_id": 431,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 432,
+      "effect_id": 432,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 433,
+      "effect_id": 433,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 434,
+      "effect_id": 434,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 435,
+      "effect_id": 435,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 436,
+      "effect_id": 436,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 437,
+      "effect_id": 437,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 438,
+      "effect_id": 438,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 439,
+      "effect_id": 439,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 440,
+      "effect_id": 440,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 441,
+      "effect_id": 441,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 442,
+      "effect_id": 442,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 443,
+      "effect_id": 443,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 444,
+      "effect_id": 444,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 445,
+      "effect_id": 445,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 446,
+      "effect_id": 446,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 447,
+      "effect_id": 447,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 448,
+      "effect_id": 448,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 501,
+      "effect_id": 501,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 502,
+      "effect_id": 502,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 503,
+      "effect_id": 503,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 504,
+      "effect_id": 504,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 505,
+      "effect_id": 505,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 506,
+      "effect_id": 506,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 507,
+      "effect_id": 507,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 508,
+      "effect_id": 508,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 509,
+      "effect_id": 509,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 510,
+      "effect_id": 510,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 511,
+      "effect_id": 511,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 512,
+      "effect_id": 512,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 513,
+      "effect_id": 513,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 514,
+      "effect_id": 514,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 515,
+      "effect_id": 515,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 516,
+      "effect_id": 516,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 517,
+      "effect_id": 517,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 518,
+      "effect_id": 518,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 601,
+      "effect_id": 601,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 602,
+      "effect_id": 602,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 603,
+      "effect_id": 603,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 604,
+      "effect_id": 604,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 605,
+      "effect_id": 605,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 606,
+      "effect_id": 606,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 607,
+      "effect_id": 607,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 608,
+      "effect_id": 608,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 609,
+      "effect_id": 609,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 610,
+      "effect_id": 610,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 611,
+      "effect_id": 611,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 612,
+      "effect_id": 611,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 613,
+      "effect_id": 611,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 614,
+      "effect_id": 611,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 620,
+      "effect_id": 604,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 621,
+      "effect_id": 602,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 622,
+      "effect_id": 608,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 623,
+      "effect_id": 610,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 624,
+      "effect_id": 606,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 641,
+      "effect_id": 641,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 642,
+      "effect_id": 642,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 643,
+      "effect_id": 643,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 644,
+      "effect_id": 644,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 645,
+      "effect_id": 645,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 690,
+      "effect_id": 690,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 901,
+      "effect_id": 901,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 902,
+      "effect_id": 902,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 903,
+      "effect_id": 903,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 904,
+      "effect_id": 904,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 905,
+      "effect_id": 905,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 906,
+      "effect_id": 906,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 907,
+      "effect_id": 907,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 908,
+      "effect_id": 908,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 909,
+      "effect_id": 909,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 910,
+      "effect_id": 910,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 911,
+      "effect_id": 911,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 912,
+      "effect_id": 912,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 913,
+      "effect_id": 913,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 914,
+      "effect_id": 914,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 915,
+      "effect_id": 915,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1001,
+      "effect_id": 1001,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1002,
+      "effect_id": 1002,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1003,
+      "effect_id": 1003,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1004,
+      "effect_id": 1004,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1005,
+      "effect_id": 1005,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1006,
+      "effect_id": 1006,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1007,
+      "effect_id": 1007,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1008,
+      "effect_id": 1008,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1009,
+      "effect_id": 1009,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1010,
+      "effect_id": 1010,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1011,
+      "effect_id": 1011,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1012,
+      "effect_id": 1012,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1013,
+      "effect_id": 1013,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1014,
+      "effect_id": 1014,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1015,
+      "effect_id": 1015,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1016,
+      "effect_id": 1016,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1017,
+      "effect_id": 1017,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1018,
+      "effect_id": 1018,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1020,
+      "effect_id": 1020,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1021,
+      "effect_id": 1021,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1022,
+      "effect_id": 1022,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1024,
+      "effect_id": 1024,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1025,
+      "effect_id": 1025,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1026,
+      "effect_id": 1026,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1027,
+      "effect_id": 1027,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1028,
+      "effect_id": 1028,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1029,
+      "effect_id": 1029,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1030,
+      "effect_id": 1030,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1031,
+      "effect_id": 1031,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1032,
+      "effect_id": 1032,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1033,
+      "effect_id": 1033,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1038,
+      "effect_id": 1038,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1039,
+      "effect_id": 1039,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1044,
+      "effect_id": 1044,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1045,
+      "effect_id": 1045,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1046,
+      "effect_id": 1046,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1047,
+      "effect_id": 1047,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1048,
+      "effect_id": 1048,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1052,
+      "effect_id": 1052,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1053,
+      "effect_id": 1053,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1054,
+      "effect_id": 1054,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1055,
+      "effect_id": 1055,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1056,
+      "effect_id": 1056,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1057,
+      "effect_id": 1057,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1058,
+      "effect_id": 1058,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1059,
+      "effect_id": 1059,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1060,
+      "effect_id": 1060,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1061,
+      "effect_id": 1061,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1062,
+      "effect_id": 1062,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1066,
+      "effect_id": 1066,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1067,
+      "effect_id": 1067,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1068,
+      "effect_id": 1068,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1069,
+      "effect_id": 1069,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1070,
+      "effect_id": 1070,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1071,
+      "effect_id": 1071,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1076,
+      "effect_id": 1076,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1077,
+      "effect_id": 1077,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1078,
+      "effect_id": 1078,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1079,
+      "effect_id": 1079,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1080,
+      "effect_id": 1080,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1201,
+      "effect_id": 1201,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1202,
+      "effect_id": 1202,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1203,
+      "effect_id": 1203,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1204,
+      "effect_id": 1204,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1205,
+      "effect_id": 1205,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1206,
+      "effect_id": 1206,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1207,
+      "effect_id": 1207,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1208,
+      "effect_id": 1208,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1209,
+      "effect_id": 1209,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1210,
+      "effect_id": 1210,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1211,
+      "effect_id": 1211,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1212,
+      "effect_id": 1212,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1213,
+      "effect_id": 1213,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1214,
+      "effect_id": 1214,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1215,
+      "effect_id": 1215,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1216,
+      "effect_id": 1216,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1217,
+      "effect_id": 1217,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1218,
+      "effect_id": 1218,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1219,
+      "effect_id": 1219,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1220,
+      "effect_id": 1220,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1221,
+      "effect_id": 1221,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1222,
+      "effect_id": 1222,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1223,
+      "effect_id": 1223,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1224,
+      "effect_id": 1224,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1225,
+      "effect_id": 1225,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1226,
+      "effect_id": 1226,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1227,
+      "effect_id": 1227,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1228,
+      "effect_id": 1228,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1230,
+      "effect_id": 1230,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1231,
+      "effect_id": 1231,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1232,
+      "effect_id": 1232,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1233,
+      "effect_id": 1233,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1234,
+      "effect_id": 1234,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1235,
+      "effect_id": 1235,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1236,
+      "effect_id": 1236,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1237,
+      "effect_id": 1237,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1238,
+      "effect_id": 1238,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1239,
+      "effect_id": 1239,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1240,
+      "effect_id": 1240,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1241,
+      "effect_id": 1241,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1242,
+      "effect_id": 1242,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1243,
+      "effect_id": 1243,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1244,
+      "effect_id": 1244,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1245,
+      "effect_id": 1245,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1246,
+      "effect_id": 1246,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1248,
+      "effect_id": 1248,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1249,
+      "effect_id": 1249,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1250,
+      "effect_id": 1250,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1251,
+      "effect_id": 1251,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1252,
+      "effect_id": 1252,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1253,
+      "effect_id": 1253,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1254,
+      "effect_id": 1254,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1255,
+      "effect_id": 1255,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1256,
+      "effect_id": 1256,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1257,
+      "effect_id": 1257,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1258,
+      "effect_id": 1258,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1259,
+      "effect_id": 1259,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1260,
+      "effect_id": 1260,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1261,
+      "effect_id": 1261,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1262,
+      "effect_id": 1262,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1263,
+      "effect_id": 1263,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1264,
+      "effect_id": 1264,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1265,
+      "effect_id": 1265,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1266,
+      "effect_id": 1266,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1267,
+      "effect_id": 1267,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1268,
+      "effect_id": 1268,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1272,
+      "effect_id": 1272,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1273,
+      "effect_id": 1273,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1274,
+      "effect_id": 1274,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1275,
+      "effect_id": 1275,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1276,
+      "effect_id": 1276,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1277,
+      "effect_id": 1277,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1278,
+      "effect_id": 1278,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1279,
+      "effect_id": 1279,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1280,
+      "effect_id": 1280,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1281,
+      "effect_id": 1281,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1282,
+      "effect_id": 1282,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1283,
+      "effect_id": 1283,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1284,
+      "effect_id": 1284,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1400,
+      "effect_id": 1400,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1401,
+      "effect_id": 1401,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1402,
+      "effect_id": 1402,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1403,
+      "effect_id": 1403,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1404,
+      "effect_id": 1404,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1405,
+      "effect_id": 1405,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1406,
+      "effect_id": 1406,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1407,
+      "effect_id": 1407,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1408,
+      "effect_id": 1408,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1409,
+      "effect_id": 1409,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1410,
+      "effect_id": 1410,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1411,
+      "effect_id": 1411,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1412,
+      "effect_id": 1412,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1413,
+      "effect_id": 1413,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1414,
+      "effect_id": 1414,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1415,
+      "effect_id": 1415,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1416,
+      "effect_id": 1416,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1417,
+      "effect_id": 1417,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1418,
+      "effect_id": 1418,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1419,
+      "effect_id": 1419,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1420,
+      "effect_id": 1420,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1421,
+      "effect_id": 1421,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1422,
+      "effect_id": 1422,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 1423,
+      "effect_id": 1423,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3001,
+      "effect_id": 3001,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3002,
+      "effect_id": 3002,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3003,
+      "effect_id": 3003,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3004,
+      "effect_id": 3004,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3005,
+      "effect_id": 3005,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3006,
+      "effect_id": 3006,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3007,
+      "effect_id": 3007,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3008,
+      "effect_id": 3008,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3009,
+      "effect_id": 3009,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3010,
+      "effect_id": 3010,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3011,
+      "effect_id": 3011,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3012,
+      "effect_id": 3012,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3013,
+      "effect_id": 3013,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3014,
+      "effect_id": 3014,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3015,
+      "effect_id": 3015,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3016,
+      "effect_id": 3016,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3017,
+      "effect_id": 3017,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3018,
+      "effect_id": 3018,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3019,
+      "effect_id": 3019,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3020,
+      "effect_id": 3020,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3021,
+      "effect_id": 3021,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3022,
+      "effect_id": 3022,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3023,
+      "effect_id": 3023,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3024,
+      "effect_id": 3024,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3025,
+      "effect_id": 3025,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3026,
+      "effect_id": 3026,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3027,
+      "effect_id": 3027,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3028,
+      "effect_id": 3028,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3029,
+      "effect_id": 3029,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3030,
+      "effect_id": 3030,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3031,
+      "effect_id": 3031,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3032,
+      "effect_id": 3032,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3033,
+      "effect_id": 3033,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3034,
+      "effect_id": 3034,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3035,
+      "effect_id": 3035,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3036,
+      "effect_id": 3036,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3037,
+      "effect_id": 3037,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3038,
+      "effect_id": 3038,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3039,
+      "effect_id": 3039,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3040,
+      "effect_id": 3040,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3041,
+      "effect_id": 3041,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3042,
+      "effect_id": 3042,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3043,
+      "effect_id": 3043,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3044,
+      "effect_id": 3044,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3045,
+      "effect_id": 3045,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3046,
+      "effect_id": 3046,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3047,
+      "effect_id": 3047,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3048,
+      "effect_id": 3048,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3049,
+      "effect_id": 3049,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3050,
+      "effect_id": 3050,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3051,
+      "effect_id": 3051,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3052,
+      "effect_id": 3052,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3053,
+      "effect_id": 3053,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3054,
+      "effect_id": 3054,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3055,
+      "effect_id": 3055,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3056,
+      "effect_id": 3056,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3057,
+      "effect_id": 3057,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3058,
+      "effect_id": 3058,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3059,
+      "effect_id": 3059,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3060,
+      "effect_id": 3060,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3061,
+      "effect_id": 3061,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3062,
+      "effect_id": 3062,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3063,
+      "effect_id": 3063,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3064,
+      "effect_id": 3064,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3065,
+      "effect_id": 3065,
+      "vmax_mv": 8000,
+      "pcm_gain": 0.276875
+    },
+    {
+      "scene_id": 3067,
+      "effect_id": 3067,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3068,
+      "effect_id": 3068,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3069,
+      "effect_id": 3069,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3070,
+      "effect_id": 3070,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3071,
+      "effect_id": 3071,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3072,
+      "effect_id": 3072,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3073,
+      "effect_id": 3073,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3074,
+      "effect_id": 3074,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3075,
+      "effect_id": 3075,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3076,
+      "effect_id": 3076,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3077,
+      "effect_id": 3077,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3078,
+      "effect_id": 3078,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3079,
+      "effect_id": 3079,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3080,
+      "effect_id": 3080,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3081,
+      "effect_id": 3081,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3082,
+      "effect_id": 3082,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3083,
+      "effect_id": 3083,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3084,
+      "effect_id": 3084,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3085,
+      "effect_id": 3085,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3086,
+      "effect_id": 3086,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3087,
+      "effect_id": 3087,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3088,
+      "effect_id": 3088,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3089,
+      "effect_id": 3089,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3090,
+      "effect_id": 3090,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3091,
+      "effect_id": 3091,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3092,
+      "effect_id": 3092,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3093,
+      "effect_id": 3093,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3094,
+      "effect_id": 3094,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3095,
+      "effect_id": 3095,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3096,
+      "effect_id": 3096,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3097,
+      "effect_id": 3097,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3098,
+      "effect_id": 3098,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3099,
+      "effect_id": 3099,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3100,
+      "effect_id": 3100,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3101,
+      "effect_id": 3101,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3102,
+      "effect_id": 3102,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3104,
+      "effect_id": 3104,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3105,
+      "effect_id": 3105,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3106,
+      "effect_id": 3106,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3107,
+      "effect_id": 3107,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3108,
+      "effect_id": 3108,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3109,
+      "effect_id": 3109,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3110,
+      "effect_id": 3110,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3111,
+      "effect_id": 3111,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3112,
+      "effect_id": 3112,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3113,
+      "effect_id": 3113,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3114,
+      "effect_id": 3114,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3115,
+      "effect_id": 3115,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3116,
+      "effect_id": 3116,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3117,
+      "effect_id": 3117,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3118,
+      "effect_id": 3118,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3119,
+      "effect_id": 3119,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3120,
+      "effect_id": 3120,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3121,
+      "effect_id": 3121,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3122,
+      "effect_id": 3122,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3123,
+      "effect_id": 3123,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3124,
+      "effect_id": 3124,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3125,
+      "effect_id": 3125,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3126,
+      "effect_id": 3126,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3127,
+      "effect_id": 3127,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3128,
+      "effect_id": 3128,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3129,
+      "effect_id": 3129,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3130,
+      "effect_id": 3130,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3131,
+      "effect_id": 3131,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3132,
+      "effect_id": 3132,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3133,
+      "effect_id": 3133,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3134,
+      "effect_id": 3134,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3135,
+      "effect_id": 3135,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3136,
+      "effect_id": 3136,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3137,
+      "effect_id": 3137,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3138,
+      "effect_id": 3138,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3139,
+      "effect_id": 3139,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3140,
+      "effect_id": 3140,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3141,
+      "effect_id": 3141,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3142,
+      "effect_id": 3142,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3143,
+      "effect_id": 3143,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3144,
+      "effect_id": 3144,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3145,
+      "effect_id": 3145,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3146,
+      "effect_id": 3146,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3201,
+      "effect_id": 3201,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 3202,
+      "effect_id": 3202,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 4001,
+      "effect_id": 4001,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 4002,
+      "effect_id": 4002,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 4003,
+      "effect_id": 4003,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 4004,
+      "effect_id": 4004,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 4005,
+      "effect_id": 4005,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 4006,
+      "effect_id": 4006,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9001,
+      "effect_id": 9001,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9101,
+      "effect_id": 9101,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9151,
+      "effect_id": 1,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9201,
+      "effect_id": 9201,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9202,
+      "effect_id": 9202,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9203,
+      "effect_id": 9203,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9204,
+      "effect_id": 9204,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9211,
+      "effect_id": 9211,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9212,
+      "effect_id": 9212,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9213,
+      "effect_id": 9213,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9214,
+      "effect_id": 9214,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9215,
+      "effect_id": 9215,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9216,
+      "effect_id": 9216,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9217,
+      "effect_id": 9217,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9218,
+      "effect_id": 9218,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9219,
+      "effect_id": 9219,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9220,
+      "effect_id": 9220,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9221,
+      "effect_id": 9221,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9222,
+      "effect_id": 9222,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9301,
+      "effect_id": 9301,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9302,
+      "effect_id": 9302,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 9303,
+      "effect_id": 9303,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10000,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10001,
+      "effect_id": 48,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10002,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10003,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10004,
+      "effect_id": 4,
+      "vmax_mv": 7000,
+      "pcm_gain": 0.875
+    },
+    {
+      "scene_id": 10005,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10021,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10050,
+      "effect_id": 49,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10051,
+      "effect_id": 49,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10052,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10053,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10054,
+      "effect_id": 49,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10055,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10056,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10057,
+      "effect_id": 49,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10058,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10060,
+      "effect_id": 1,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10061,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10062,
+      "effect_id": 3,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10063,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10064,
+      "effect_id": 5,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10065,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10066,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10071,
+      "effect_id": 2,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 10072,
+      "effect_id": 2,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 10073,
+      "effect_id": 2,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 10074,
+      "effect_id": 2,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 10075,
+      "effect_id": 2,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 10076,
+      "effect_id": 2,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 10077,
+      "effect_id": 2,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 10079,
+      "effect_id": 2,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 10081,
+      "effect_id": 2,
+      "vmax_mv": 600,
+      "pcm_gain": 0.075
+    },
+    {
+      "scene_id": 10082,
+      "effect_id": 2,
+      "vmax_mv": 900,
+      "pcm_gain": 0.1125
+    },
+    {
+      "scene_id": 10083,
+      "effect_id": 2,
+      "vmax_mv": 1200,
+      "pcm_gain": 0.15
+    },
+    {
+      "scene_id": 10084,
+      "effect_id": 2,
+      "vmax_mv": 1500,
+      "pcm_gain": 0.1875
+    },
+    {
+      "scene_id": 10085,
+      "effect_id": 2,
+      "vmax_mv": 1800,
+      "pcm_gain": 0.225
+    },
+    {
+      "scene_id": 10086,
+      "effect_id": 2,
+      "vmax_mv": 2100,
+      "pcm_gain": 0.2625
+    },
+    {
+      "scene_id": 10087,
+      "effect_id": 2,
+      "vmax_mv": 2400,
+      "pcm_gain": 0.3
+    },
+    {
+      "scene_id": 10088,
+      "effect_id": 2,
+      "vmax_mv": 2700,
+      "pcm_gain": 0.3375
+    },
+    {
+      "scene_id": 10091,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10092,
+      "effect_id": 2,
+      "vmax_mv": 3000,
+      "pcm_gain": 0.375
+    },
+    {
+      "scene_id": 10093,
+      "effect_id": 2,
+      "vmax_mv": 3000,
+      "pcm_gain": 0.375
+    },
+    {
+      "scene_id": 10094,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10095,
+      "effect_id": 4,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 10096,
+      "effect_id": 2,
+      "vmax_mv": 3000,
+      "pcm_gain": 0.375
+    },
+    {
+      "scene_id": 10097,
+      "effect_id": 2,
+      "vmax_mv": 3000,
+      "pcm_gain": 0.375
+    },
+    {
+      "scene_id": 10098,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10101,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10102,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10103,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10104,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10105,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10106,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10107,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10108,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10109,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10110,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10111,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10112,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10113,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10114,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10115,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10116,
+      "effect_id": 2,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 10121,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10122,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10123,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10124,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10125,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10126,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10127,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10128,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10129,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10130,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10131,
+      "effect_id": 2,
+      "vmax_mv": 3000,
+      "pcm_gain": 0.375
+    },
+    {
+      "scene_id": 10132,
+      "effect_id": 2,
+      "vmax_mv": 4000,
+      "pcm_gain": 0.5
+    },
+    {
+      "scene_id": 10133,
+      "effect_id": 2,
+      "vmax_mv": 6000,
+      "pcm_gain": 0.75
+    },
+    {
+      "scene_id": 10134,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10135,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10136,
+      "effect_id": 4,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 10137,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 19151,
+      "effect_id": 2,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 19201,
+      "effect_id": 19201,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 19202,
+      "effect_id": 19202,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 19203,
+      "effect_id": 19203,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 19204,
+      "effect_id": 19204,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 19211,
+      "effect_id": 19211,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 19212,
+      "effect_id": 19212,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 19213,
+      "effect_id": 19213,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 19214,
+      "effect_id": 19214,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 19215,
+      "effect_id": 19215,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 19216,
+      "effect_id": 19216,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 19217,
+      "effect_id": 19217,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 19218,
+      "effect_id": 19218,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 19219,
+      "effect_id": 19219,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 19220,
+      "effect_id": 19220,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 19221,
+      "effect_id": 19221,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 19222,
+      "effect_id": 19222,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 25001,
+      "effect_id": 25001,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 26001,
+      "effect_id": 26001,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 26002,
+      "effect_id": 26002,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 26003,
+      "effect_id": 26003,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 26004,
+      "effect_id": 26004,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 26005,
+      "effect_id": 26005,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 26006,
+      "effect_id": 26006,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 26011,
+      "effect_id": 26011,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 26012,
+      "effect_id": 26012,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 26014,
+      "effect_id": 26014,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 28001,
+      "effect_id": 28001,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 28002,
+      "effect_id": 28002,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    },
+    {
+      "scene_id": 28003,
+      "effect_id": 28003,
+      "vmax_mv": 8000,
+      "pcm_gain": 1.0
+    }
+  ],
+  "supplemental_scenes": [
+    {
+      "scene_id": 65,
+      "effect_id": 2,
+      "original_effect_id": 9,
+      "pcm_gain": 1,
+      "basis": "same-scene soft10065 compatibility fallback; missing crisp effect9 is NOT reconstructed"
+    },
+    {
+      "scene_id": 337,
+      "effect_id": 337,
+      "original_effect_id": 337,
+      "pcm_gain": 1.0,
+      "basis": "supplied archive file + framework title mapping; primary/Major channel selected for one motor; secondary/Minor not mixed"
+    },
+    {
+      "scene_id": 449,
+      "effect_id": 449,
+      "original_effect_id": 449,
+      "pcm_gain": 1.0,
+      "basis": "supplied archive file + framework title mapping"
+    },
+    {
+      "scene_id": 519,
+      "effect_id": 519,
+      "original_effect_id": 519,
+      "pcm_gain": 1.0,
+      "basis": "supplied archive file + framework title mapping"
+    },
+    {
+      "scene_id": 625,
+      "effect_id": 625,
+      "original_effect_id": 625,
+      "pcm_gain": 1.0,
+      "basis": "supplied directional injury primary channel; preserve both hits; single-motor has no spatial direction"
+    },
+    {
+      "scene_id": 626,
+      "effect_id": 626,
+      "original_effect_id": 626,
+      "pcm_gain": 1,
+      "basis": "original scene relationship; stock PCM matched to existing donor firmware"
+    },
+    {
+      "scene_id": 631,
+      "effect_id": 637,
+      "original_effect_id": 637,
+      "pcm_gain": 0.3375,
+      "basis": "original scene relationship; stock PCM matched to existing donor firmware"
+    },
+    {
+      "scene_id": 632,
+      "effect_id": 637,
+      "original_effect_id": 637,
+      "pcm_gain": 0.5625,
+      "basis": "original scene relationship; stock PCM matched to existing donor firmware"
+    },
+    {
+      "scene_id": 633,
+      "effect_id": 637,
+      "original_effect_id": 637,
+      "pcm_gain": 0.75,
+      "basis": "original scene relationship; stock PCM matched to existing donor firmware"
+    },
+    {
+      "scene_id": 634,
+      "effect_id": 637,
+      "original_effect_id": 637,
+      "pcm_gain": 0.875,
+      "basis": "original scene relationship; stock PCM matched to existing donor firmware"
+    },
+    {
+      "scene_id": 635,
+      "effect_id": 637,
+      "original_effect_id": 637,
+      "pcm_gain": 0.9375,
+      "basis": "original scene relationship; stock PCM matched to existing donor firmware"
+    },
+    {
+      "scene_id": 636,
+      "effect_id": 637,
+      "original_effect_id": 637,
+      "pcm_gain": 0.975,
+      "basis": "original scene relationship; stock PCM matched to existing donor firmware"
+    },
+    {
+      "scene_id": 637,
+      "effect_id": 637,
+      "original_effect_id": 637,
+      "pcm_gain": 1,
+      "basis": "original scene relationship; stock PCM matched to existing donor firmware"
+    },
+    {
+      "scene_id": 691,
+      "effect_id": 691,
+      "original_effect_id": 691,
+      "pcm_gain": 0.525,
+      "basis": "explicit experimental low-level long-vibration fallback:4v2 filename matches DT4200; original file binding unconfirmed"
+    },
+    {
+      "scene_id": 3066,
+      "effect_id": 3066,
+      "pcm_gain": 1.0,
+      "basis": "原神缺失效果，保留原配置3000ms；用官方多段波形兼容"
+    },
+    {
+      "scene_id": 3103,
+      "effect_id": 3103,
+      "pcm_gain": 1.0,
+      "basis": "原神缺失效果，保留原配置2215ms；用官方多段波形兼容"
+    },
+    {
+      "scene_id": 26007,
+      "effect_id": 26007,
+      "pcm_gain": 1.0,
+      "basis": "原场景动作与时长未知；用官方短节奏兼容，不冒充原始击杀事件"
+    }
+  ],
+  "ime_override": "141..150 -> OnePlus def/effect_2.bin,17ms,10levels",
+  "assistant_override": "5/10005 -> official def/soft effect109; HErenderer unchanged"
+}

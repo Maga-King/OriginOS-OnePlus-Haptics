@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "hash": "ea8742d6993e1a82917da38b9938e537aa7fcb54",
+  "files": [
+    {
+      "file": "android/hardware/vibrator/ActivePwle.aidl",
+      "url": "https://android.googlesource.com/platform/hardware/interfaces/+/refs/heads/main/vibrator/aidl/aidl_api/android.hardware.vibrator/2/android/hardware/vibrator/ActivePwle.aidl?format=TEXT",
+      "sha256": "06056a74ac1e6fead3ad6c5ed3d19f6c2a85534ea39d011048c4c7b7fad66d0b"
+    },
+    {
+      "file": "android/hardware/vibrator/Braking.aidl",
+      "url": "https://android.googlesource.com/platform/hardware/interfaces/+/refs/heads/main/vibrator/aidl/aidl_api/android.hardware.vibrator/2/android/hardware/vibrator/Braking.aidl?format=TEXT",
+      "sha256": "d09b0adfd75a14b488a8b555312d80bdc12a824653db8c4ff6b7dc6e94c71294"
+    },
+    {
+      "file": "android/hardware/vibrator/BrakingPwle.aidl",
+      "url": "https://android.googlesource.com/platform/hardware/interfaces/+/refs/heads/main/vibrator/aidl/aidl_api/android.hardware.vibrator/2/android/hardware/vibrator/BrakingPwle.aidl?format=TEXT",
+      "sha256": "09df2c16cbdaf9af7c877a0b48f21abefae05f74ba3a872490dfa565a62fba80"
+    },
+    {
+      "file": "android/hardware/vibrator/CompositeEffect.aidl",
+      "url": "https://android.googlesource.com/platform/hardware/interfaces/+/refs/heads/main/vibrator/aidl/aidl_api/android.hardware.vibrator/2/android/hardware/vibrator/CompositeEffect.aidl?format=TEXT",
+      "sha256": "815e466d146da215a6b3c7cf8cf3901adb79047d8c9966a9d1739cd64f6fc939"
+    },
+    {
+      "file": "android/hardware/vibrator/CompositePrimitive.aidl",
+      "url": "https://android.googlesource.com/platform/hardware/interfaces/+/refs/heads/main/vibrator/aidl/aidl_api/android.hardware.vibrator/2/android/hardware/vibrator/CompositePrimitive.aidl?format=TEXT",
+      "sha256": "84607cd13ddf5c690797f227f0f5173d755677a27b60bb565427f2fa5c57769b"
+    },
+    {
+      "file": "android/hardware/vibrator/Effect.aidl",
+      "url": "https://android.googlesource.com/platform/hardware/interfaces/+/refs/heads/main/vibrator/aidl/aidl_api/android.hardware.vibrator/2/android/hardware/vibrator/Effect.aidl?format=TEXT",
+      "sha256": "81ace5d9309c38215e41f5b99e01da681bd783051ad12fc89bacf77a18435e91"
+    },
+    {
+      "file": "android/hardware/vibrator/EffectStrength.aidl",
+      "url": "https://android.googlesource.com/platform/hardware/interfaces/+/refs/heads/main/vibrator/aidl/aidl_api/android.hardware.vibrator/2/android/hardware/vibrator/EffectStrength.aidl?format=TEXT",
+      "sha256": "f5f38f6b028c9b531044d88bff6b3e59f734ea08de677f717789e6244937769f"
+    },
+    {
+      "file": "android/hardware/vibrator/IVibrator.aidl",
+      "url": "https://android.googlesource.com/platform/hardware/interfaces/+/refs/heads/main/vibrator/aidl/aidl_api/android.hardware.vibrator/2/android/hardware/vibrator/IVibrator.aidl?format=TEXT",
+      "sha256": "51161792eba95aee28a92723a1430b235e57e75751c24db04d84f7d83cca318e"
+    },
+    {
+      "file": "android/hardware/vibrator/IVibratorCallback.aidl",
+      "url": "https://android.googlesource.com/platform/hardware/interfaces/+/refs/heads/main/vibrator/aidl/aidl_api/android.hardware.vibrator/2/android/hardware/vibrator/IVibratorCallback.aidl?format=TEXT",
+      "sha256": "7f7a3f87207923fa5a2f85480c039772ec61b9d8fa9e95fffd9dc9e5dac58544"
+    },
+    {
+      "file": "android/hardware/vibrator/IVibratorManager.aidl",
+      "url": "https://android.googlesource.com/platform/hardware/interfaces/+/refs/heads/main/vibrator/aidl/aidl_api/android.hardware.vibrator/2/android/hardware/vibrator/IVibratorManager.aidl?format=TEXT",
+      "sha256": "c6f4223a08073b4c35560f0f6abf1f65afb3bf5acdad0635463dd217c87b6fb3"
+    },
+    {
+      "file": "android/hardware/vibrator/PrimitivePwle.aidl",
+      "url": "https://android.googlesource.com/platform/hardware/interfaces/+/refs/heads/main/vibrator/aidl/aidl_api/android.hardware.vibrator/2/android/hardware/vibrator/PrimitivePwle.aidl?format=TEXT",
+      "sha256": "af2871535b58e159e7dfe678d7e44ecf25f0c98a445b5ee344c9d94ed9f5907e"
+    }
+  ]
+}
