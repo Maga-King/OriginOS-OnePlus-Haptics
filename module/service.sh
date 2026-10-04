@@ -11,7 +11,7 @@ if own_pid "$previous"; then echo 'Demo already running.'; exit 0; fi
 # Keep one previous log, with bounded total storage across reboots.
 [ ! -f "$STATE/service.log" ] || mv -f "$STATE/service.log" "$STATE/service.previous.log"
 exec >> "$STATE/service.log" 2>&1
-echo 'Starting OriginOS 0916T demo 0.3.0-demo1 PCM concurrency self-mount'
+echo 'Starting OriginOS 0916T demo 0.3.0-demo2 PCM concurrency self-mount'
 date
 if [ -f "$MODDIR/disable" ] || [ -f "$MODDIR/remove" ]; then
   # A crash can create disable before ksud regenerates its cached initrc.

@@ -99,7 +99,7 @@ int main(int argc,char** argv){
         if(argc!=4||std::strcmp(argv[1],"--serve")){std::fprintf(stderr,"usage: nyako-vibrator --serve WAVE_ROOT READY_FILE | --check-service\n");return 2;}
         waveRoot=argv[2];
         auto backend=std::make_shared<PhoneBackend>(true,true);physical=backend;
-        std::fprintf(stderr,"NYAKO demo0.3.0-demo1 PCM concurrency ready; frequency=%g source=%s; transport_scale=1.00 strength_range=0.20..1.00; donor previews experimental\n",backend->measuredHz(),backend->liveCalibration()?"live":"recorded-stock");
+        std::fprintf(stderr,"NYAKO demo0.3.0-demo2 PCM concurrency ready; frequency=%g source=%s; transport_scale=1.00 strength_range=0.20..1.00; donor previews experimental\n",backend->measuredHz(),backend->liveCalibration()?"live":"recorded-stock");
         frontend=ndk::SharedRefBase::make<VibratorFrontend>(waveRoot,backend,backend->measuredHz(),backend->liveCalibration());
         ndk::SpAIBinder ext(AIBinder_new(AIBinder_Class_define("vendor.aac.hardware.richtap.vibrator.IRichtapVibrator",create,destroy,extension),nullptr));
         auto binder=frontend->asBinder();mark(binder.get());mark(ext.get());
@@ -108,7 +108,7 @@ int main(int argc,char** argv){
         int r=symbol<int(*)(AIBinder*,const char*)>("AServiceManager_addService")(binder.get(),"android.hardware.vibrator.IVibrator/default");
         if(r)throw std::runtime_error("cannot register IVibrator/default");
         {std::ofstream f(argv[3]);f<<getpid()<<'\n';if(!f)throw std::runtime_error("cannot write ready marker");}
-        std::fprintf(stderr,"NYAKO default Binder registered; demo0.3.0-demo1\n");
+        std::fprintf(stderr,"NYAKO default Binder registered; demo0.3.0-demo2\n");
         symbol<void(*)()>("ABinderProcess_joinThreadPool")();return 1;
     }catch(const std::exception& e){std::fprintf(stderr,"NYAKO demo stopped: %s\n",e.what());return 1;}
 }

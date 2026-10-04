@@ -24,6 +24,7 @@ private:
     bool liveCalibration_=true;
     std::unique_ptr<PcmMixer> mixer_;
     int updateGain();
+    int playDirect(const Wave&,PlaybackState&);
     static int command(void*,unsigned,uintptr_t);
     static int64_t now(void*);
     static void sleep(void*,unsigned);

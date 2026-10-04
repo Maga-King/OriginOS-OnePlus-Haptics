@@ -47,7 +47,8 @@ PhoneBackend::PhoneBackend(bool allowRecordedProfile,bool concurrent){
         int f=open(path,O_RDWR|O_CLOEXEC);if(f<0)continue;
         if(ioctl(f,EVIOCGNAME(sizeof(name)),name)>=0&&!strcmp(name,"qcom-hv-haptics")){input_=f;break;}close(f);
     }
-    if(concurrent)mixer_=std::make_unique<PcmMixer>(RtpTransport{this,command,now,sleep,cancelled,slots_});
+    if(concurrent)mixer_=std::make_unique<PcmMixer>(RtpTransport{this,command,now,sleep,cancelled,slots_},
+        [this](const Wave& wave,PlaybackState& state){return playDirect(wave,state);});
 }
 PhoneBackend::~PhoneBackend(){
     mixer_.reset();
@@ -79,6 +80,9 @@ int PhoneBackend::cancelled(void* ctx){auto& b=*static_cast<PhoneBackend*>(ctx);
 int PhoneBackend::play(const Wave& wave,PlaybackState& state){
     if(wave.size()>static_cast<size_t>(WaveModel::maxMs)*24)return -E2BIG;
     if(mixer_)return mixer_->play(wave,state);
+    return playDirect(wave,state);
+}
+int PhoneBackend::playDirect(const Wave& wave,PlaybackState& state){
     state_=&state;gainError_=0;applied_=-1;
     RtpTransport t{this,command,now,sleep,cancelled,slots_};
 #ifdef NYAKO_DEMO

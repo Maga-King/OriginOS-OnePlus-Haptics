@@ -21,7 +21,7 @@ except urllib.error.HTTPError as e:
     if e.code!=404:raise
     release=request(base+'/releases','POST',dict(tag_name=tag,target_commitish=os.environ['GITHUB_SHA'],name=tag+' · Nyako OriginOS 一加震动 HAL',body=body,draft=False,prerelease='-' in version))
 else:request(base+'/releases/'+str(release['id']),'PATCH',dict(body=body))
-out=ROOT/'out';names=[f'Nyako-OriginOS-Haptics-v{version}.zip',f'Nyako-OriginOS-Haptics-Builtin-v{version}.zip','nyako-vibrator','driver_query','source.zip','waveforms.zip','build-info.json','SHA256SUMS','BUILTIN-SHA256SUMS']
+out=ROOT/'out';names=[f'Nyako-OriginOS-Haptics-v{version}.zip',f'Nyako-OriginOS-Haptics-Builtin-v{version}.zip',f'Nyako-OriginOS-Haptics-Metamodule-v{version}.zip','nyako-vibrator','driver_query','source.zip','waveforms.zip','build-info.json','SHA256SUMS','BUILTIN-SHA256SUMS']
 existing={a['name']:a for a in release.get('assets',[])}
 for name in names:
     if name in existing:request(base+'/releases/assets/'+str(existing[name]['id']),'DELETE')

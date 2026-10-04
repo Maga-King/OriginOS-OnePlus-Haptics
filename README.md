@@ -2,7 +2,9 @@
 
 这是给一加移植 OriginOS 做的震动适配。
 
-`0.3.0-demo1` 是通知与短触感并发的试用版。HAL 单独使用兼容原来的普通震动；配合 [Nyako 短触感插件](plugin/haptics_concurrency/README.md)，可以补发被通知优先级挡住的单个预设触感。插件需要已安装的 Nyako 框架，并在系统作用域完整重启后生效。当前不是全场景并发，实际触感仍需复核；稳定版 `0.2.1` 保留在 Release 中。
+`0.3.0-demo2` 是并发修正版：普通短震动恢复直接播放，长波形混合补齐驱动预填充和结束标记。`demo1` 有短震动无输出的问题，已经撤回。HAL 单独使用兼容普通震动；[Nyako 短触感插件](plugin/haptics_concurrency/README.md) 补发被通知挡住的单个预设触感。当前不是全场景并发，稳定版 `0.2.1` 继续保留。
+
+本机已有元模块时，使用 `Nyako-OriginOS-Haptics-Metamodule-v版本号.zip`。它交给现有元模块挂载，HAL 覆盖 ODM 原服务路径，插件放在 `/system/lib64/`；不使用自挂载、额外监督进程或早期 initrc 注入。详细步骤见 [元模块版说明](docs/METAMODULE.md)。
 
 现在用自己的 HAL 接收系统请求，再通过这台一加原有的驱动播放波形。输入法固定用一加 effect 2；连续点击会打断上一段，长波形也能取消。
 

@@ -1,6 +1,6 @@
 """Build our plugin only, using an existing Nyako checkout/core as dependencies."""
 from pathlib import Path
-import argparse,os,subprocess,sys,tempfile,zipfile
+import argparse,os,re,subprocess,sys,tempfile,zipfile
 ROOT=Path(__file__).resolve().parent
 p=argparse.ArgumentParser(__doc__)
 for name in ['repo','sdk','java','ndk','core']:p.add_argument('--'+name,type=Path,required=True)
@@ -31,7 +31,8 @@ run(llvm/('clang++'+exe),'--target=aarch64-linux-android28','-std=c++17','-O2','
     '-Wl,-z,max-page-size=16384','-Wl,-soname,'+so.name,'-I'+str(a.repo/'include'),
     '-DCONCURRENCY_DEX_FILE="'+(dex/'classes.dex').as_posix()+'"',
     ROOT/'native/plugin.cpp',ROOT/'native/payload.S',a.core,'-llog','-ldl','-o',so)
-archive=out/'Nyako-Haptics-Concurrency-0.1.0.zip'
+version=re.search(r'^version=(.+)$',(ROOT/'haptics_concurrency.conf').read_text(encoding='utf-8'),re.M).group(1)
+archive=out/f'Nyako-Haptics-Concurrency-{version}.zip'
 with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:
     z.write(so,so.name);z.write(ROOT/'haptics_concurrency.conf','haptics_concurrency.conf')
 print(archive)

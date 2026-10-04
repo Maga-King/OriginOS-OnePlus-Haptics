@@ -49,7 +49,7 @@ def main():
         run([tools/('llvm-strip'+exe),'--strip-debug',out/name])
     # Generated AIDL is committed: no Android SDK generator or local ROM dump needed.
     source=[]
-    for folder in ['src','tests','tools','module','assets','aidl','generated','licenses','docs','.github','builtin','plugin']:
+    for folder in ['src','tests','tools','module','metamodule','assets','aidl','generated','licenses','docs','.github','builtin','plugin']:
         for p in sorted((ROOT/folder).rglob('*')):
             if p.is_file() and '__pycache__' not in p.parts and 'out' not in p.parts:
                 source.append((p.relative_to(ROOT).as_posix(),p.read_bytes(),p.suffix in ['.sh','.py']))
@@ -86,7 +86,9 @@ def main():
     shutil.copyfile(ROOT/'assets/waveforms.zip',out/'waveforms.zip')
     from package_builtin import package_builtin
     builtin=package_builtin(package,out)
-    release=[package,builtin,out/'nyako-vibrator',out/'driver_query',out/'source.zip',out/'waveforms.zip',out/'build-info.json']
+    from package_metamodule import package_metamodule
+    metamodule=package_metamodule(package,out,ROOT/'assets/plugins/libNyako_hook_haptics_concurrency.so')
+    release=[package,builtin,metamodule,out/'nyako-vibrator',out/'driver_query',out/'source.zip',out/'waveforms.zip',out/'build-info.json']
     (out/'SHA256SUMS').write_text(''.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.name+'\n' for p in release),encoding='utf-8',newline='\n')
     print(json.dumps(info,ensure_ascii=False));print('Built:',package)
 if __name__=='__main__':main()

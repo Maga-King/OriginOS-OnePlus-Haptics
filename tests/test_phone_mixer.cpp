@@ -9,6 +9,8 @@ int main(int argc,char** argv){
     if(argc!=2)return 2;
     auto backend=std::make_shared<PhoneBackend>(true,true);
     WaveModel model(argv[1]);
+    {PlaybackState key;int r=backend->play(model.effect(148),key);
+        std::printf("physical key-direct result=%d\n",r);if(r)return 5;}
     for(int i=0;i<3;i++){
         PlaybackState state;
         Wave normal=WaveModel::ramp({{.15f,132,.15f,132,180}},.15f);

@@ -5,6 +5,7 @@ import android.os.Binder;
 import android.os.IBinder;
 import android.os.Parcel;
 import android.util.Log;
+import android.util.SparseArray;
 import com.nyako.api.*;
 import java.lang.reflect.*;
 import java.util.*;
@@ -75,8 +76,12 @@ public final class Entry implements NyakoModule {
         int usage=(Integer)invoke(attrs,"getUsage");
         if(usage!=18&&usage!=50&&usage!=82&&usage!=98)return;
         Object combined=invoke(invoke(session,"getVibration"),"getEffectToPlay");
-        if(!combined.getClass().getName().equals("android.os.CombinedVibration$Mono"))return;
-        Object effect=invoke(combined,"getEffect");
+        Object effect;
+        if(combined.getClass().getName().equals("android.os.CombinedVibration$Mono"))effect=invoke(combined,"getEffect");
+        else if(combined.getClass().getName().equals("android.os.CombinedVibration$Stereo")){
+            SparseArray<?> effects=(SparseArray<?>)invoke(combined,"getEffects");
+            if(effects.size()!=1)return;effect=effects.valueAt(0);
+        }else return;
         if((Integer)invoke(effect,"getRepeatIndex")!=-1)return;
         List<?> segments=(List<?>)invoke(effect,"getSegments");
         if(segments.size()!=1){Log.d(TAG,"unsupported short composition segments="+segments.size());return;}

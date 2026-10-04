@@ -32,6 +32,9 @@ struct FakeStream {
                 {std::lock_guard<std::mutex> l(f.mutex);f.samples.insert(f.samples.end(),s.data,s.data+s.length);}
                 __atomic_store_n(&s.status,RTP_INVALID,__ATOMIC_RELEASE);
                 f.reader=(f.reader+1)%4;f.next=now(p)+10000;
+            }else if(__atomic_load_n(&s.status,__ATOMIC_ACQUIRE)==RTP_FINISHED){
+                for(auto& slot:f.slots)__atomic_store_n(&slot.status,RTP_FINISHED,__ATOMIC_RELEASE);
+                f.streaming=false;
             }
         }
         std::this_thread::sleep_for(std::chrono::microseconds(us));
@@ -41,6 +44,14 @@ struct FakeStream {
     bool has(int8_t value){std::lock_guard<std::mutex> l(mutex);return std::find(samples.begin(),samples.end(),value)!=samples.end();}
 };
 int main(){
+    {
+        FakeStream f;int directCalls=0;
+        PcmMixer mixer(f.transport(),[&](const Wave& wave,PlaybackState& state){
+            directCalls++;assert(wave.size()==264);state.started();return 0;
+        });
+        PlaybackState state;assert(mixer.play(Wave(264,20),state)==0);
+        assert(directCalls==1&&f.starts==0); // A key click must not enter stream prefill.
+    }
     {
         FakeStream f;PcmMixer mixer(f.transport());PlaybackState state;
         assert(mixer.play(Wave(24*50,20),state)==0);
