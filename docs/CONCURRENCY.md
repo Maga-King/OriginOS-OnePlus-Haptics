@@ -67,3 +67,29 @@ vivo 官方工具库存在 `VivoRichtapAlgo::get_mix_wave_data()`，输入是一
 官方包也有同样的优先级拒绝；不能把差别解释成移植包额外加了这条限制。相同入口、usage 和会话重叠条件下，这段代码同样会拒绝。用户在官方机上感受到并发顺畅，仍可能来自不同请求入口、通知波形与占用时序，或其他机型/版本的实现；没有官方机同场景运行日志，暂时不能确定是哪一个原因。
 
 当前手机的 QQ 通知是普通 Step 波形 `[100ms 静默, 200ms 震动, 200ms 静默, 100ms 震动]`，框架将整段作为通知会话管理。官方包与当前系统的 `persist.vivo.support.lra` 都是 1，`ro.vivo.lra.audioToHaptic.support` 都是 false；没有证据支持仅靠把这两项改成其他值来解决。
+
+## OPPO／一加的进一步对照
+
+底层来自此前提取的本机一加官方 AAC 库；框架来自工作区已有的 ColorOS 16 反编译样本。框架样本没有在这次调查中与本机最新官方 `services.jar` 做字节比对，下面的框架行为不能泛化到所有 OPPO 版本。
+
+### 底层是真正的样本混合
+
+`MixController::stream_mix_data()` 不只是名称带 mix：反编译中可以看到按两路流的样本进度对齐，将输入的 double 样本累加到已有缓冲区。混合结果随后进入动态保护、驱动缓冲区输出等步骤。`VibratorPerformer::write_mmap_buf()` 包含 ThermalCtrl 处理、数值缩放和转换为有符号 8 位样本时的边界限制。
+
+`VibratorMixer::get_performer_dimension()` 先检查命令是否属于已有队列，再寻找空队列。两组队列都占用或不满足混合条件时会返回失败；代码也包含流模式和长 pattern 的限制。因此它不是无限并发，也不是两个线程不加协调地各自写马达。
+
+### 框架有按来源保留效果的规则
+
+样本中的 `VibratorCustomizedManager` 从 `/my_product/etc/vibrator/vibrator_customized_etc.json` 读取 `richtap_mix_wave_pkg_rule`，包括 `rule_on` 和 `package_list`。相关功能还受 `oplus.software.vibrator_luxunvibrator` 控制，默认规则为关闭。
+
+`LinearMotorVibratorController.startRichtapVibratorImplLocked()` 对命中规则的应用检查发送者，对 HE2 检查此前 pattern 数据；根据判断决定是否调用 RichTap stop，并记录当前 SenderId。它没有把所有 RichTap 请求都无条件先停掉。HE2 的 SenderId 从 pattern 中提取 PID 和序列信息。
+
+这条规则主要描述 RichTap pattern 的保留与停止，不能当成放行所有普通通知和按键的开关。把 JSON 复制到 vivo ROM 不会产生效果，vivo 当前框架没有这套配置读取路径。
+
+### 普通框架仲裁仍然存在
+
+ColorOS 样本的 `shouldIgnoreForOngoingLocked()` 先运行原有优先级判断。如果已被原判断拒绝，会直接返回，不进入扩展判断。`VibratorManagerServiceExtImpl.shouldIgnoreVibrationForOngoing()` 是附加限制，不是强制放行：其中还会忽略某些正在播放较长 OplusPrebakedSegment 时到来的更短请求。
+
+标准 HAL `Vibrator::perform()` 与 Oplus／AAC 私有 `perform` 也使用不同路径：前者调用 InputFFDevice::playEffect，后者进入 AAC prebaked／pattern 调度。具体场景走哪条路径仍需运行日志确认。
+
+可以借鉴的是来源识别、两路调度、同一时间轴上的样本混合、幅度保护，以及有条件的取消；不能把“OPPO 有 mixer”解释成“HAL 自动解决所有框架拒绝”。无 HOOK 修复仍需要目标 vivo 框架的静态补丁与 HAL 配套。
