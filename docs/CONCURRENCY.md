@@ -8,7 +8,7 @@
 
 因此，不能把这次现象简单归因于 HAL 在等通知播放完。框架已经丢掉的请求，HAL 收不到；即使 HAL 支持叠加，也无法直接补回。
 
-目标框架的 `VibratorManagerService.shouldIgnoreForOngoing()` 比较新旧会话的重要程度：正在运行的会话优先级更高时，直接拒绝新会话。`getVibrationImportance()` 把通知设为 3，把 TOUCH 设为 1。这与本机记录一致。[AOSP 同类调度代码](https://android.googlesource.com/platform/frameworks/base/+/refs/heads/main/services/core/java/com/android/server/vibrator/VibratorManagerService.java)也有这个仲裁步骤；具体结论以本机日志和目标 ROM 反编译结果为准。
+目标框架的 `VibratorManagerService.shouldIgnoreForOngoing()` 比较新旧会话的重要程度：正在运行的会话优先级更高时，直接拒绝新会话。`getVibrationImportance()` 把通知设为 3；TOUCH（usage 18）落到默认分支，为 0。此前把 TOUCH 写成 1，是与 HARDWARE_FEEDBACK 混淆了，现已更正。这与本机记录一致。[AOSP 同类调度代码](https://android.googlesource.com/platform/frameworks/base/+/refs/heads/main/services/core/java/com/android/server/vibrator/VibratorManagerService.java)也有这个仲裁步骤；具体结论以本机日志和目标 ROM 反编译结果为准。
 
 该判断按 usage 执行，不按某个波形编号执行。所以问题有可能影响其他低优先级触感，但尚未逐项实测，不能说所有场景都已确认受影响。当前输入法使用的是 148，不能继续只按早期观察到的 146 排查。
 
@@ -46,3 +46,24 @@ vivo 官方工具库存在 `VivoRichtapAlgo::get_mix_wave_data()`，输入是一
 验证应覆盖通知加按键、通知加手势、长触感加短触感、快速连按、标准接口与 RichTap 相互取消，以及各自的回调。修复前后要对照框架接受记录、HAL 接收记录和实际输出时序；当前尚未完成这些修复和测试。
 
 原始手机日志包含应用信息，只保存在本地，没有上传到公开仓库。
+
+## 不使用 HOOK 能不能做
+
+可以直接修改目标 ROM 的 `services.jar`，内置框架补丁，不依赖 LSPosed 或运行时方法拦截。不过，仅放行优先级判断不等于并发：后面的会话调度仍可能取消通知。真正的修复需要在普通设置和权限检查通过后，把独立短触感交给单独的执行路径，让它不替换正在进行的通知会话；HAL 再负责混合、分路取消和各自的完成回调。这是框架与 HAL 的配套改动，尚未实现或刷入。
+
+目前检查到的这个优先级判断不读取 property、设备能力或 FeatureConfig，因此没有发现通过改某个属性直接开启并发的开关。HAL 能力、HE 支持和输入法配置可能改变请求路径，但不能反过来让这个函数放行已经进入该路径的低优先级请求。
+
+## 为什么不能直接说 vivo 官方没有这条限制
+
+进一步对提供的两个 `services.jar` 分别重新反编译：
+
+| 来源 | JAR SHA256 |
+| --- | --- |
+| vivo 官方包 | `54d80b9bfe3b6b3779fe8c5c4c91dd2e84e2a12df3209c0fc09e7d9dc062588b` |
+| HybridTrash 包 | `9a0cef55419739dd291385d4e1ac87a4e78a2277950677656054c4a07259be71` |
+
+手机当前的 JAR 与第二行一致。分别用同一版 JADX 提取的 `VibratorManagerService` 整个类文本一致，SHA256 都为 `268611c27692f688d2db43421758c31db37c54551f33a93cc7dbf9417a4a04fd`。这只证明这个类一致，不代表整个框架一致。
+
+官方包也有同样的优先级拒绝；不能把差别解释成移植包额外加了这条限制。相同入口、usage 和会话重叠条件下，这段代码同样会拒绝。用户在官方机上感受到并发顺畅，仍可能来自不同请求入口、通知波形与占用时序，或其他机型/版本的实现；没有官方机同场景运行日志，暂时不能确定是哪一个原因。
+
+当前手机的 QQ 通知是普通 Step 波形 `[100ms 静默, 200ms 震动, 200ms 静默, 100ms 震动]`，框架将整段作为通知会话管理。官方包与当前系统的 `persist.vivo.support.lra` 都是 1，`ro.vivo.lra.audioToHaptic.support` 都是 false；没有证据支持仅靠把这两项改成其他值来解决。
