@@ -34,7 +34,7 @@ float PhoneBackend::preflight(bool allow,bool& live){
     if(fd<0)throw std::runtime_error("cannot open physical haptic device");
     try{float hz=readProfile(fd,allow,live);close(fd);return hz;}catch(...){close(fd);throw;}
 }
-PhoneBackend::PhoneBackend(bool allowRecordedProfile){
+PhoneBackend::PhoneBackend(bool allowRecordedProfile,bool concurrent){
     fd_=open("/dev/awinic_haptic",O_RDWR|O_CLOEXEC);
     if(fd_<0)throw std::runtime_error("cannot open physical haptic device");
     try{hz_=readProfile(fd_,allowRecordedProfile,liveCalibration_);}catch(...){close(fd_);fd_=-1;throw;}
@@ -47,12 +47,15 @@ PhoneBackend::PhoneBackend(bool allowRecordedProfile){
         int f=open(path,O_RDWR|O_CLOEXEC);if(f<0)continue;
         if(ioctl(f,EVIOCGNAME(sizeof(name)),name)>=0&&!strcmp(name,"qcom-hv-haptics")){input_=f;break;}close(f);
     }
+    if(concurrent)mixer_=std::make_unique<PcmMixer>(RtpTransport{this,command,now,sleep,cancelled,slots_});
 }
 PhoneBackend::~PhoneBackend(){
+    mixer_.reset();
     if(input_>=0)close(input_);if(slots_)munmap(slots_,16384);if(fd_>=0)close(fd_);
 }
+int PhoneBackend::overlay(Wave wave,uint64_t owner){return mixer_?mixer_->overlay(std::move(wave),owner):-ENOTSUP;}
 int PhoneBackend::updateGain(){
-    float value=state_->amplitude.load();if(value==applied_)return 0;
+    float value=state_?state_->amplitude.load():1.f;if(value==applied_)return 0;
     if(input_<0)return value==1?0:-ENOTSUP;
     input_event event{};event.type=EV_FF;event.code=FF_GAIN;
     // Same floor/range as the stock InputFFDevice::setAmplitude; no sysfs writes.
@@ -64,7 +67,7 @@ int PhoneBackend::updateGain(){
 int PhoneBackend::command(void* ctx,unsigned op,uintptr_t arg){
     auto& b=*static_cast<PhoneBackend*>(ctx);int r=ioctl(b.fd_,op,arg);
     if(r<0)return -errno;
-    if(op==RTP_DIRECT||op==RTP_STREAM){b.applied_=-1;r=b.updateGain();b.state_->started(r);return r;}
+    if(op==RTP_DIRECT||op==RTP_STREAM){b.applied_=-1;r=b.updateGain();if(b.state_)b.state_->started(r);return r;}
     return 0;
 }
 int64_t PhoneBackend::now(void*){timespec t{};clock_gettime(CLOCK_MONOTONIC,&t);return static_cast<int64_t>(t.tv_sec)*1000000+t.tv_nsec/1000;}
@@ -72,9 +75,10 @@ void PhoneBackend::sleep(void* ctx,unsigned us){
     auto& b=*static_cast<PhoneBackend*>(ctx);int r=b.updateGain();if(r)b.gainError_=r;
     timespec t{us/1000000,static_cast<long>(us%1000000)*1000};nanosleep(&t,nullptr);
 }
-int PhoneBackend::cancelled(void* ctx){auto& b=*static_cast<PhoneBackend*>(ctx);return b.state_->cancel||b.gainError_;}
+int PhoneBackend::cancelled(void* ctx){auto& b=*static_cast<PhoneBackend*>(ctx);return (b.state_&&b.state_->cancel)||b.gainError_;}
 int PhoneBackend::play(const Wave& wave,PlaybackState& state){
     if(wave.size()>static_cast<size_t>(WaveModel::maxMs)*24)return -E2BIG;
+    if(mixer_)return mixer_->play(wave,state);
     state_=&state;gainError_=0;applied_=-1;
     RtpTransport t{this,command,now,sleep,cancelled,slots_};
 #ifdef NYAKO_DEMO

@@ -15,6 +15,7 @@ using namespace nyako;
 namespace {
 template<class T>T symbol(const char* name){auto p=reinterpret_cast<T>(dlsym(RTLD_DEFAULT,name));if(!p)throw std::runtime_error(name);return p;}
 std::shared_ptr<VibratorFrontend> frontend;
+std::shared_ptr<PhoneBackend> physical;
 std::string waveRoot;
 int header(AParcel* out,int exception=0){
     ndk::ScopedAStatus s(exception?AStatus_fromExceptionCode(exception):AStatus_newOk());
@@ -25,6 +26,24 @@ void destroy(void*){}
 int extension(AIBinder*,transaction_code_t code,const AParcel* in,AParcel* out){
     int32_t a=0,b=0;int r=0;
     switch(code){
+    case 10001:{ // Nyako rejected-feedback side channel: id, strength, owner.
+        if(AIBinder_getCallingUid()!=1000)return header(out,EX_SECURITY);
+        int64_t owner=0;r=AParcel_readInt32(in,&a);
+        if(!r)r=AParcel_readInt32(in,&b);if(!r)r=AParcel_readInt64(in,&owner);if(r)return r;
+        int duration=0,result=-EINVAL;
+        try{
+            Wave wave;WaveModel::append(wave,WaveModel(waveRoot).effect(a),WaveModel::strength(b));
+            duration=WaveModel::duration(wave);
+            result=physical->overlay(std::move(wave),static_cast<uint64_t>(owner));
+        }catch(...){result=-EINVAL;}
+        std::fprintf(stderr,"NYAKO parallel effect=%d strength=%d owner=%lld duration=%d result=%d\n",a,b,static_cast<long long>(owner),duration,result);
+        r=header(out);return r?r:AParcel_writeInt32(out,result?result:duration);
+    }
+    case 10002:{
+        if(AIBinder_getCallingUid()!=1000)return header(out,EX_SECURITY);
+        int64_t owner=0;r=AParcel_readInt64(in,&owner);if(r)return r;
+        physical->cancelOverlay(static_cast<uint64_t>(owner));return header(out);
+    }
     case 1: // init(int,int), oneway: initialization has no hardware side effects.
         r=AParcel_readInt32(in,&a);return r?r:AParcel_readInt32(in,&b);
     case 5: frontend->off();return STATUS_OK; // oneway
@@ -79,8 +98,8 @@ int main(int argc,char** argv){
         if(argc==2&&!std::strcmp(argv[1],"--check-service"))return inspect();
         if(argc!=4||std::strcmp(argv[1],"--serve")){std::fprintf(stderr,"usage: nyako-vibrator --serve WAVE_ROOT READY_FILE | --check-service\n");return 2;}
         waveRoot=argv[2];
-        auto backend=std::make_shared<PhoneBackend>(true);
-        std::fprintf(stderr,"NYAKO demo0.2.1 ready for hardware; frequency=%g source=%s; transport_scale=1.00 strength_range=0.20..1.00; donor previews experimental\n",backend->measuredHz(),backend->liveCalibration()?"live":"recorded-stock");
+        auto backend=std::make_shared<PhoneBackend>(true,true);physical=backend;
+        std::fprintf(stderr,"NYAKO demo0.3.0-demo1 PCM concurrency ready; frequency=%g source=%s; transport_scale=1.00 strength_range=0.20..1.00; donor previews experimental\n",backend->measuredHz(),backend->liveCalibration()?"live":"recorded-stock");
         frontend=ndk::SharedRefBase::make<VibratorFrontend>(waveRoot,backend,backend->measuredHz(),backend->liveCalibration());
         ndk::SpAIBinder ext(AIBinder_new(AIBinder_Class_define("vendor.aac.hardware.richtap.vibrator.IRichtapVibrator",create,destroy,extension),nullptr));
         auto binder=frontend->asBinder();mark(binder.get());mark(ext.get());
@@ -89,7 +108,7 @@ int main(int argc,char** argv){
         int r=symbol<int(*)(AIBinder*,const char*)>("AServiceManager_addService")(binder.get(),"android.hardware.vibrator.IVibrator/default");
         if(r)throw std::runtime_error("cannot register IVibrator/default");
         {std::ofstream f(argv[3]);f<<getpid()<<'\n';if(!f)throw std::runtime_error("cannot write ready marker");}
-        std::fprintf(stderr,"NYAKO default Binder registered; demo0.2.1\n");
+        std::fprintf(stderr,"NYAKO default Binder registered; demo0.3.0-demo1\n");
         symbol<void(*)()>("ABinderProcess_joinThreadPool")();return 1;
     }catch(const std::exception& e){std::fprintf(stderr,"NYAKO demo stopped: %s\n",e.what());return 1;}
 }

@@ -10,7 +10,8 @@ with tempfile.TemporaryDirectory(prefix='haptics-tests-') as folder:
     flags=['-std=c++17','-O1','-g','-fsanitize=address,undefined','-fno-omit-frame-pointer','-I'+str(ROOT/'src')]
     cases=[('model',['tests/test_wave_model.cpp','src/wave_model.cpp'],True),
            ('he',['tests/test_he_model.cpp','src/he_model.cpp','src/wave_model.cpp'],True),
-           ('queue',['tests/test_playback_queue.cpp','src/playback_queue.cpp','src/wave_model.cpp'],False)]
+           ('queue',['tests/test_playback_queue.cpp','src/playback_queue.cpp','src/wave_model.cpp'],False),
+           ('mixer',['tests/test_pcm_mixer.cpp','src/pcm_mixer.cpp','src/playback_queue.cpp','src/wave_model.cpp'],False)]
     for name,sources,waves in cases:
         run(['g++',*flags,*[ROOT/p for p in sources],'-pthread','-o',tmp/name])
         run([tmp/name,*([tmp/'waves'] if waves else [])])

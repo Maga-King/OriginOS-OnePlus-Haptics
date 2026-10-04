@@ -1,5 +1,6 @@
 #!/system/bin/sh
-ui_print '- OriginOS / OnePlus 0916T: Demo 0.2.1 self-mount'
+ui_print '- OriginOS / OnePlus 0916T: Demo 0.3.0-demo1 self-mount'
+ui_print '- PCM concurrency; rejected short feedback needs the separate Nyako plugin.'
 ui_print '- Removed demo 20% cap; 49 strength steps cover 20% to 100% waveform amplitude.'
 ui_print '- KernelSU: register HAL before system_server caches supported effects; reboot needed.'
 ui_print '- Keyboard141-150 now uses official effect2; heavy click uses official effect109.'

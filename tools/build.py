@@ -35,19 +35,23 @@ def main():
            '-fmacro-prefix-map='+str(ROOT)+'=.','-I'+str(ROOT/'src'),'-I'+str(ROOT/'generated/include')]
     obj=out/'rtp_backend.o'
     run([cc,*flags,'-std=c11','-c',ROOT/'src/rtp_backend.c','-o',obj])
-    names=['wave_model.cpp','playback_queue.cpp','vibrator_frontend.cpp','phone_backend.cpp','he_model.cpp','he_extension.cpp']
+    names=['wave_model.cpp','playback_queue.cpp','pcm_mixer.cpp','vibrator_frontend.cpp','phone_backend.cpp','he_model.cpp','he_extension.cpp']
     shared=[ROOT/'src'/name for name in names]+sorted((ROOT/'generated/src').rglob('*.cpp'))
     link=['-lbinder_ndk','-ldl','-static-libstdc++','-Wl,--build-id=none']
     run([cxx,*flags,'-std=c++17',*shared,ROOT/'src/demo_service.cpp',obj,*link,'-o',out/'nyako-vibrator'])
     run([cc,*flags,'-std=c11',ROOT/'src/driver_query.c','-Wl,--build-id=none','-o',out/'driver_query'])
     run([cxx,*flags,'-std=c++17',*shared,ROOT/'tests/test_frontend.cpp',obj,*link,'-o',out/'test_frontend'])
+    run([cxx,*flags,'-std=c++17',ROOT/'src/pcm_mixer.cpp',ROOT/'src/playback_queue.cpp',ROOT/'src/wave_model.cpp',
+         ROOT/'tests/test_pcm_mixer.cpp',obj,*link,'-o',out/'test_pcm_mixer'])
+    run([cxx,*flags,'-std=c++17',ROOT/'src/pcm_mixer.cpp',ROOT/'src/playback_queue.cpp',ROOT/'src/wave_model.cpp',
+         ROOT/'src/phone_backend.cpp',ROOT/'tests/test_phone_mixer.cpp',obj,*link,'-o',out/'test_phone_mixer'])
     for name in ['nyako-vibrator','driver_query','test_frontend']:
         run([tools/('llvm-strip'+exe),'--strip-debug',out/name])
     # Generated AIDL is committed: no Android SDK generator or local ROM dump needed.
     source=[]
-    for folder in ['src','tests','tools','module','assets','aidl','generated','licenses','docs','.github','builtin']:
+    for folder in ['src','tests','tools','module','assets','aidl','generated','licenses','docs','.github','builtin','plugin']:
         for p in sorted((ROOT/folder).rglob('*')):
-            if p.is_file() and '__pycache__' not in p.parts:
+            if p.is_file() and '__pycache__' not in p.parts and 'out' not in p.parts:
                 source.append((p.relative_to(ROOT).as_posix(),p.read_bytes(),p.suffix in ['.sh','.py']))
     for name in ['README.md','NOTICE.md','VERSION','.gitattributes','.gitignore']:
         source.append((name,(ROOT/name).read_bytes(),False))

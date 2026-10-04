@@ -1,19 +1,13 @@
-Nyako v0.2.1：统一 HAL 文件名、日志和源码前缀，保留已有震动调校。
+Nyako v0.3.0-demo1：通知与短触感并发试用版。
 
-**回一加主系统前必须先停用 Magisk／KernelSU 模块，否则会卡在第二屏（卡二）。** KernelSU 使用早期 initrc 注入时，停用后执行 `ksud initrc refresh` 再切换。
+HAL 由一个线程输出两路 PCM，正常会话与短触感分别取消。单路保留原波形，叠加可能溢出时降低通知分量。不装插件也可以正常使用 HAL；被 Vivo 框架优先级挡住的请求，需要另外安装 Nyako 短触感插件。
 
-- `Nyako-OriginOS-Haptics-v0.2.1.zip`：Magisk／KernelSU 模块。
-- `Nyako-OriginOS-Haptics-Builtin-v0.2.1.zip`：手动配置包，保留 `odm/` 相对目录，不带自动安装脚本。详细操作见包内 `README_CN.md` 和仓库的 [手动内置步骤](https://github.com/Maga-King/OriginOS-OnePlus-Haptics/blob/main/docs/BUILTIN.md)。
+这次只补发通知期间的非循环、单个预设短触感，覆盖 TOUCH、硬件反馈、输入法反馈和手势反馈，最长 120 ms。多段组合、HE、外部控制和铃声冲突尚未接入补发，实际延迟和触感还需要复核。输入法 effect 2、AI 唤醒以及 765 个场景的既有波形保持不变。
 
-两种包和单独的 `nyako-vibrator` 使用同一次 Action 编译的 HAL。
+- 模块 ZIP：Magisk／KernelSU 安装；手动内置 ZIP：按包内中文说明合并 ODM 文件和 config。
+- 插件独立构建步骤见 [Nyako 短触感插件](https://github.com/Maga-King/OriginOS-OnePlus-Haptics/tree/main/plugin/haptics_concurrency)。需要有访问权限的 Nyako API 和现有核心，公开仓库不包含私有核心。
+- 主机并发、取消、卡住驱动和既有场景回归已通过；目标手机三组底层物理输出测试返回正常。完整重启后的插件补发链路仍待实测。
 
-- 一加 0916T / OriginOS，765 个可调用编号，615 个波形文件。
-- 保留已调好的输入法 effect 2、AI 唤醒、密码短反馈和强度调节。
-- 补入三首铃声的震动文件、受击和赛车效果；3066、3103、26007 用明确标注的兼容波形补齐请求。
-- 完整模块 ZIP 可在 Magisk / KernelSU 安装，包含官方 Magisk recovery 安装入口。
-- 内置源码 ZIP、波形 ZIP，都保留相对目录。无需本地 ROM 和私人路径即可重新构建。
-- 固定 NDK r27d，在两个不同目录重新编译并比较所有正式产物；正式产物来自这次 Action。
+**从 DSU 回一加主系统前，必须停用 Magisk／KernelSU HAL 模块，否则会卡二。使用早期 initrc 注入时，停用后执行 `ksud initrc refresh`。插件安装或开关改变后，需要完整重启回 DSU。**
 
-安装后重启，让系统刷新能力列表。当前实机以 KernelSU DSU 为主；Magisk 早期能力缓存仍待实测。
-
-三首原始音频仍缺。HE/FMQ 等未完成项和兼容波形的边界详见 README，不宣称完整原厂复刻。
+这是预发布试用版本。稳定版 0.2.1 继续保留。HE/FMQ、部分原始音频和性能适配等原有未完成项不在本次完成范围内。
