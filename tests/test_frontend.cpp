@@ -7,14 +7,17 @@
 #include <chrono>
 #include <iostream>
 #include <limits>
+#include <algorithm>
+#include <cstdlib>
 using namespace nyako;
 using namespace std::chrono_literals;
 class DryBackend final:public PlaybackBackend {
 public:
-    std::atomic<int> jobs{0};std::atomic<float> amplitude{1};
+    std::atomic<int> jobs{0},pcmPeak{0};std::atomic<float> amplitude{1};
     bool amplitudeControl() const override{return true;}
     int play(const Wave& w,PlaybackState& state) override{
-        jobs++;state.started();auto end=std::chrono::steady_clock::now()+std::chrono::milliseconds(WaveModel::duration(w));
+        int peak=0;for(int8_t sample:w)peak=std::max(peak,std::abs(static_cast<int>(sample)));
+        pcmPeak=peak;jobs++;state.started();auto end=std::chrono::steady_clock::now()+std::chrono::milliseconds(WaveModel::duration(w));
         while(std::chrono::steady_clock::now()<end){if(state.cancel)return -ECANCELED;amplitude=state.amplitude.load();std::this_thread::sleep_for(500us);}return 0;
     }
 };
@@ -56,7 +59,7 @@ int main(int argc,char** argv){
     unsupported(api->perform(static_cast<av::Effect>(123456),av::EffectStrength::LIGHT,cb,&ms));
     invalid(api->perform(av::Effect::CLICK,static_cast<av::EffectStrength>(60),cb,&ms));
     invalid(api->on(-1,cb));invalid(api->on(120001,cb));invalid(api->setAmplitude(0));invalid(api->setAmplitude(std::numeric_limits<float>::quiet_NaN()));
-    ok(api->on(200,cb));until([&]{return dry->jobs>0;});ok(api->setAmplitude(.25f));until([&]{return dry->amplitude==.25f;});ok(api->off());until([&]{return cb->calls==9;});
+    ok(api->on(200,cb));until([&]{return dry->jobs>0;});assert(dry->pcmPeak==43);ok(api->setAmplitude(.25f));until([&]{return dry->amplitude==.25f;});ok(api->off());until([&]{return cb->calls==9;});
     std::vector<av::CompositePrimitive> primitives;ok(api->getSupportedPrimitives(&primitives));assert(primitives.size()==9);
     for(auto p:primitives){ok(api->getPrimitiveDuration(p,&ms));assert(ms>=0&&ms<200);}
     ok(api->getCompositionDelayMax(&v));assert(v==1000);ok(api->getCompositionSizeMax(&v));assert(v==256);

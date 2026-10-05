@@ -41,7 +41,7 @@ Status VibratorFrontend::off(){
 }
 Status VibratorFrontend::on(int32_t ms,const Callback& cb){
     if(ms<=0||ms>WaveModel::maxMs)return invalid();
-    try{return start(WaveModel::ramp({{1,measuredHz_,1,measuredHz_,ms}},.18f),cb,true);}catch(...){return failure();}
+    try{return start(WaveModel::ramp({{1,measuredHz_,1,measuredHz_,ms}},.34f),cb,true);}catch(...){return failure();}
 }
 Status VibratorFrontend::perform(av::Effect effect,av::EffectStrength strength,const Callback& cb,int32_t* duration){
     *duration=0;float gain;
