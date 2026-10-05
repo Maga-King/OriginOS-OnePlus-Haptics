@@ -70,8 +70,12 @@ public final class Entry implements NyakoModule {
         if(!session.getClass().getName().endsWith(".SingleVibrationSession"))return;
         if((Boolean)invoke(session,"isRepeating"))return;
         Object current=field(call.receiver,"mCurrentSession");if(current==null)return;
+        // Keep vendor/external ownership under the original framework. Only
+        // ordinary sessions backed by our normal PCM lane can be mixed.
+        if(!current.getClass().getName().endsWith(".SingleVibrationSession"))return;
+        if((Boolean)invoke(current,"wasEndRequested"))return;
         Object currentAttrs=field(invoke(current,"getCallerInfo"),"attrs");
-        if((Integer)invoke(currentAttrs,"getUsage")!=49)return;
+        int currentUsage=(Integer)invoke(currentAttrs,"getUsage");
         Object caller=invoke(session,"getCallerInfo"),attrs=field(caller,"attrs");
         int usage=(Integer)invoke(attrs,"getUsage");
         if(usage!=18&&usage!=50&&usage!=82&&usage!=98)return;
@@ -97,7 +101,8 @@ public final class Entry implements NyakoModule {
         long owner=sequence.incrementAndGet();
         int result=send(id,strength,owner);
         if(result>0){synchronized(owners){owners.put(token,new Owner(owner,usage));}}
-        Log.i(TAG,"parallel effect="+id+" usage="+usage+" owner="+owner+" result="+result);
+        Log.i(TAG,"parallel effect="+id+" usage="+usage+" currentUsage="+currentUsage+
+            " package="+field(caller,"opPkg")+" owner="+owner+" result="+result);
         // Preserve the original EndInfo. Framework accounting remains honest:
         // the original session was rejected; this is a separate HAL feedback.
     }
@@ -106,7 +111,7 @@ public final class Entry implements NyakoModule {
         Class<?> service=Class.forName("com.android.server.vibrator.VibratorManagerService",false,context.classLoader);
         Class<?> session=Class.forName("com.android.server.vibrator.VibrationSession",false,context.classLoader);
         Method priority=service.getDeclaredMethod("shouldIgnoreForOngoingLocked",session);priority.setAccessible(true);
-        context.hookOnce("notification-short-feedback",priority,0,new HookCallback(){
+        context.hookOnce("ongoing-short-feedback",priority,0,new HookCallback(){
             @Override public void after(HookCall call){
                 try{supplement(call);}catch(Exception e){Log.w(TAG,"parallel dispatch failed",e);}
             }
@@ -131,6 +136,6 @@ public final class Entry implements NyakoModule {
                 }
             }
         });
-        Log.i(TAG,"installed notification feedback and owner cancellation hooks");
+        Log.i(TAG,"installed ongoing-session feedback and owner cancellation hooks");
     }
 }

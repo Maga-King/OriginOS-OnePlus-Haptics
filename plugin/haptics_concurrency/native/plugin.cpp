@@ -9,4 +9,4 @@ int nyako_plugin_main(const char* process){
 }
 NYAKO_PLUGIN_REGISTER()
 NYAKO_EXPORT int nyako_plugin_unload(){return -1;}
-NYAKO_PLUGIN_DEFINE("Nyako 短触感并发",2,"android","通知期间补发短触感；配合并发版 HAL，完整重启生效")
+NYAKO_PLUGIN_DEFINE("Nyako 短触感并发",3,"android","普通会话期间混入短触感；配合并发版 HAL，完整重启生效")

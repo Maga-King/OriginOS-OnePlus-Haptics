@@ -1,10 +1,12 @@
 # Nyako · OriginOS 一加 0916T 震动 HAL
 
+当前试用版为 `0.3.0-demo4`：包含长波形输出修复，并配套 `0.1.2` 插件，把部分短触感混入通知、铃声、闹钟等已有普通会话。实现和边界见 [混音规则](docs/MIX_RULES.md) 与 [长震动修复记录](docs/STREAM_FIX.md)。
+
+`demo1` 有普通短震动无输出的问题；`demo2` 有长波形提前停止的问题，均不再推荐。`demo3` 已修复长波形输出，插件仍限通知。稳定版 `0.2.1` 继续保留。当前试用版仍不是框架原生的全场景多会话调度。
+
 这是给一加移植 OriginOS 做的震动适配。
 
-`0.3.0-demo3`: [STREAM_FIX](docs/STREAM_FIX.md)
 
-`0.3.0-demo2` 是并发修正版：普通短震动恢复直接播放，长波形混合补齐驱动预填充和结束标记。`demo1` 有短震动无输出的问题，已经撤回。HAL 单独使用兼容普通震动；[Nyako 短触感插件](plugin/haptics_concurrency/README.md) 补发被通知挡住的单个预设触感。当前不是全场景并发，稳定版 `0.2.1` 继续保留。
 
 本机已有元模块时，使用 `Nyako-OriginOS-Haptics-Metamodule-v版本号.zip`。它交给现有元模块挂载，HAL 覆盖 ODM 原服务路径，插件放在 `/system/lib64/`；不使用自挂载、额外监督进程或早期 initrc 注入。详细步骤见 [元模块版说明](docs/METAMODULE.md)。
 
