@@ -14,7 +14,8 @@ static int check(RtpTransport *t,int64_t deadline) {
 static int wait_slot(RtpTransport *t,RtpSlot *s,uint8_t status,int64_t deadline) {
     for(;;){
         int r=check(t,deadline);if(r)return r;
-        if(__atomic_load_n(&s->status,__ATOMIC_ACQUIRE)==status)return 0;
+        if(__atomic_load_n(&s->status,__ATOMIC_ACQUIRE)==status&&
+           (status!=RTP_INVALID||__atomic_load_n(&s->length,__ATOMIC_ACQUIRE)==0))return 0;
         t->sleep_us(t->ctx,500);
     }
 }

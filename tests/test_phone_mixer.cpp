@@ -13,7 +13,7 @@ int main(int argc,char** argv){
         std::printf("physical key-direct result=%d\n",r);if(r)return 5;}
     for(int i=0;i<3;i++){
         PlaybackState state;
-        Wave normal=WaveModel::ramp({{.15f,132,.15f,132,180}},.15f);
+        Wave normal=WaveModel::ramp({{.15f,132,.15f,132,i==0?3000:300}},.15f);
         auto start=std::chrono::steady_clock::now();
         auto result=std::async(std::launch::async,[&]{return backend->play(normal,state);});
         int begun=state.waitStarted();if(begun){std::fprintf(stderr,"start failed=%d\n",begun);return 3;}

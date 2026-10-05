@@ -18,7 +18,7 @@ struct FakeStream {
         auto& f=*static_cast<FakeStream*>(p);
         if(op==RTP_STOP){f.streaming=false;f.stops++;}
         if(op==RTP_STREAM){
-            for(auto& s:f.slots)__atomic_store_n(&s.status,RTP_INVALID,__ATOMIC_RELEASE);
+            for(auto& s:f.slots){s.length=0;__atomic_store_n(&s.status,RTP_INVALID,__ATOMIC_RELEASE);}
             f.reader=0;f.streaming=true;f.starts++;f.next=now(p);
         }
         return 0;
@@ -31,6 +31,10 @@ struct FakeStream {
                 assert(s.length==240);
                 {std::lock_guard<std::mutex> l(f.mutex);f.samples.insert(f.samples.end(),s.data,s.data+s.length);}
                 __atomic_store_n(&s.status,RTP_INVALID,__ATOMIC_RELEASE);
+                // Qualcomm's actual order: INVALID first, then length=0.
+                std::this_thread::sleep_for(std::chrono::microseconds(100));
+                assert(__atomic_load_n(&s.status,__ATOMIC_ACQUIRE)==RTP_INVALID);
+                __atomic_store_n(&s.length,0,__ATOMIC_RELEASE);
                 f.reader=(f.reader+1)%4;f.next=now(p)+10000;
             }else if(__atomic_load_n(&s.status,__ATOMIC_ACQUIRE)==RTP_FINISHED){
                 for(auto& slot:f.slots)__atomic_store_n(&slot.status,RTP_FINISHED,__ATOMIC_RELEASE);

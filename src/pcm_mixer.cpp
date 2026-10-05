@@ -103,14 +103,15 @@ void PcmMixer::run(){
         for(;;){
             {std::lock_guard<std::mutex> l(mutex_);if(closing_){r=-ECANCELED;break;}}
             int64_t now=t_.now_us(t_.ctx);
-            bool active;
-            {std::lock_guard<std::mutex> l(mutex_);active=bool(base_||overlay_);}
-            // Qualcomm first collects 1000 bytes before enabling the motor.
-            // Five frames satisfy that threshold; then retain enough data for
-            // the FIFO IRQ's three-slot refill. Never pace the end marker.
-            if(active&&sequence>=5&&now<started+static_cast<int64_t>(sequence-3)*10000){t_.sleep_us(t_.ctx,500);continue;}
             auto* s=&t_.slots[index];
-            if(__atomic_load_n(&s->status,__ATOMIC_ACQUIRE)!=RTP_INVALID){
+            // The IRQ frees status BEFORE clearing length. Reusing the slot
+            // between those stores lets the IRQ erase our newly published
+            // length. Wait for both parts of the consumer handoff.
+            // Keep the ring supplied: the driver checks length before status
+            // and schedules erase immediately when an empty slot is reached.
+            // A userspace sample-clock delay can therefore terminate playback.
+            if(__atomic_load_n(&s->status,__ATOMIC_ACQUIRE)!=RTP_INVALID||
+               __atomic_load_n(&s->length,__ATOMIC_ACQUIRE)!=0){
                 if(now-progress>250000){r=-ETIMEDOUT;break;}
                 t_.sleep_us(t_.ctx,500);continue;
             }

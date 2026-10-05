@@ -24,7 +24,7 @@ static void sleep_us(void *ctx,unsigned us){
     Fake *f=ctx;f->now+=us;
     if(!f->stream||f->stuck)return;
     RtpSlot *s=&f->slots[f->index];
-    if(s->status==RTP_VALID){assert(s->length>0&&s->length<=1000&&s->length%4==0);memcpy(f->captured+f->n,s->data,s->length);f->n+=s->length;s->status=RTP_INVALID;f->index=(f->index+1)%4;}
+    if(s->status==RTP_VALID){assert(s->length>0&&s->length<=1000&&s->length%4==0);memcpy(f->captured+f->n,s->data,s->length);f->n+=s->length;s->status=RTP_INVALID;s->length=0;f->index=(f->index+1)%4;}
     else if(s->status==RTP_FINISHED){for(int i=0;i<4;i++)f->slots[i].status=RTP_FINISHED;f->stream=0;}
 }
 static void test(size_t len,int cancel,int stuck,int expected){
